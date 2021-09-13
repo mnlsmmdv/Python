@@ -7,8 +7,10 @@
 #              using special characters.       #
 ################################################
 
+# Program start
 # Prints out a triangle using special characters
 print("   /|")
 print("  / |")
 print(" /  |")
 print("/___|")
+# Program end
