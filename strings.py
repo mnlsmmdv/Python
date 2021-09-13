@@ -72,4 +72,9 @@ print(phrase.index("h"))
 # The answer will be "6"
 print(phrase.index("Affa"))
 
+# Replaces items in string variable in print statement
+# First quotation specifies what needs to changed
+# Second quotation mark is what will be replaced with as
+print(phrase.replace("Ahmed", "LOL"))
+
 # Program end
