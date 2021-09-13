@@ -8,7 +8,13 @@
 #################################################
 
 # String manipulation
-print("There was once a man named George, ")
-print("he was 70 years old. ")
+
+# Variable declaration
+character_name = "Affaan"
+character_age = 15
+
+# Print statements where modifications will happen
+print("There was once a man named" + character_name +",")
+print("he was" + character_age + " years old. ")
 print("He really liked the name George, ")
 print("but didn't like being 70.")
