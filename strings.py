@@ -35,7 +35,7 @@ print(phrase + " is bald.")
 # Code below makes code lower case
 print(phrase.lower())
 
-# Code below maes code uppercase
+# Code below makes code uppercase
 print(phrase.upper())
 
 # Code below checks if all characters are lower
