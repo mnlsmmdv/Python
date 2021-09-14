@@ -1,7 +1,7 @@
 ##################################################
 # Name: Ahmed Affaan                             #
 # Title: strings.py                              #
-# Date: 14/09/2021                               #
+# Date: 15/09/2021                               #
 # Country: Maldives                              #
 # Description: String creation and manipulation. #
 # Note: Uncomment codes to execute and comment   #
@@ -30,9 +30,11 @@ print(phrase)
 # String concatenation
 print(phrase + " is bald.")
 
-# String functions
-# Add "." after adding string variable
-# Code below makes code lower case
+"""
+String functions.
+Add "." after adding string variable.
+Code below makes code lower case
+"""
 print(phrase.lower())
 
 # Code below makes code uppercase
@@ -54,27 +56,41 @@ print(phrase.upper().isupper())
 # If it has been changed to lowercase it will come as True (T) if not False (F)
 print(phrase.lower().islower())
 
-# Checks the length of a given function
-# Counts the number of characters inside a string variable
-# The answer will be "12"
+"""
+Checks the length of a given function.
+Counts the number of characters inside a string variable.
+The answer will be "12".
+"""
 print(len(phrase))
 
 # Character location (Index)
 # Checks string character location and states what it is
 print(phrase[0])
 
-# Finds exact index
-# The answer will be "1"
-# Note that empty spaces also hold the index
+"""
+Finds exact index.
+The answer will be "1".
+Note that empty spaces also hold the index.
+"""
 print(phrase.index("h"))
 
 # Finding exact index (Words)
 # The answer will be "6"
 print(phrase.index("Affa"))
 
-# Replaces items in string variable in print statement
-# First quotation specifies what needs to changed
-# Second quotation mark is what will be replaced with as
+"""
+Replaces items in string variable in print statement.
+First quotation specifies what needs to changed
+Second quotation mark is what will be replaced with as.
+"""
 print(phrase.replace("Ahmed", "LOL"))
+
+
+"""
+Checks for character index.
+Gives back an error cause the string character does not exist.
+Uncomment code to execute.
+"""
+#print(phrase.index("z"))
 
 # Program end
