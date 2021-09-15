@@ -9,5 +9,5 @@
 ##################################################
 
 # Program start
-
+print("Test")
 # Program end
