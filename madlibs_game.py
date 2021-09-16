@@ -10,4 +10,18 @@
 
 # Program start
 
+# Base print statements
+# Variables declaration
+color = input("Enter a Color: ")
+plural_noun = input("Enter a Pural Noun: ")
+celebrity = input("Enter a Celebrity: ")
+
+# Empty print statement to give one line spacing
+print("--------------------------------------------------")
+
+# Final print statements
+print("Roses are " + color + ".")
+print(plural_noun + " are blue.")
+print("I love " + celebrity + ".")
+
 # Program end
