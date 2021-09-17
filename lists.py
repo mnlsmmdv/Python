@@ -14,7 +14,7 @@
 # Note: Booleans can be placed inside lists as well
 friends = ["Karen", "Karen", "Jim"]
 
-# Code below accesses the whole list
+# Code below prints the whole list as declared above in square brackets
 print(friends)
 
 """
