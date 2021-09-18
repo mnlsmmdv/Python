@@ -27,9 +27,41 @@ print(friends)
 
 # Adding individual elements to a list
 # Using the ".append()" function to add a new item to the list
-print(friends.append("Mary"))
+friends.append("Mary")
+print(friends)
 # Now when you print "Mary" will be added to the most end of the list
 # The list will now be printed whole with a new appended item
 print(friends)
+
+"""
+Inserting new item to specific index in a list
+Two parameters will be needed to change this new insert. The index you want to change + the item to be added
+As seen below the code will insert the new element to index 1 of the list
+"""
+friends.insert(1, "bobo")
+print(friends)
+
+"""
+Removing an element - Remove Function
+Removing a function in a specific index
+To remove a specific index we will define ".remove()" and add the index which you want to remove
+Code below will remove "bobo"
+"""
+friends.remove("bobo")
+print(friends)
+
+# To fully clear a list uncomment the code below
+# This deletes all the elements inside the list
+#print(friends.clear())
+
+
+"""
+Pop Function
+Removes the most last element off a list
+Doing this if the code is correct it will remove "Mary" from the list
+"""
+friends.pop()
+print(friends)
+
 
 # Program end
