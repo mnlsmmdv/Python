@@ -56,12 +56,21 @@ print(friends)
 
 
 """
+Clear Function -Removing all elements inside a list
+To remove all elements from a specific list define list name + ".clear()"
+This will clear all the elements inside the whole list.
+Uncomment codes to execute and comment it again when not in use.
+"""
+#friends.clear()
+#print(friends)
+
+"""
 Pop Function
 Removes the most last element off a list
 Doing this if the code is correct it will remove "Mary" from the list
 """
-friends.pop()
-print(friends)
+#friends.pop()
+#print(friends)
 
 
 # Program end
