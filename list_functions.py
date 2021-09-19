@@ -12,7 +12,7 @@
 
 # Variable declaration for lists
 lucky_numbers = [4, 8, 15, 16, 23, 42]
-friends = ["Karen", "Karen", "Jim", "Oscar", "Toby"]
+friends = ["Affaan", "Karen", "Jim", "Oscar", "Toby", "Affaan"]
 # Printing the list
 print(friends)
 
@@ -21,7 +21,7 @@ Extend function
 Adding a list to another to append
 List the default list name + ".extend()" and place the list to add in the brackets (parentheses)
 """
-friends.extend(lucky_numbers)
+#friends.extend(lucky_numbers)
 # Now when you print it will have values from the list you added in the default list
 print(friends)
 
@@ -69,8 +69,31 @@ Pop Function
 Removes the most last element off a list
 Doing this if the code is correct it will remove "Mary" from the list
 """
-#friends.pop()
-#print(friends)
+friends.pop()
+print(friends)
 
+# Find index number of list item
+# If code correct will give off as index "1"
+print(friends.index("Karen"))
+
+# When we insert to check index of an unknown list item will give off an error
+# Uncomment code to execute and comment after execution check
+#print(friends.index("Bobo"))
+
+# Counting same elements inside list
+#print(friends.count("Affaan"))
+
+# Sort and Reverse Function
+# Sorts and reverses list items
+friends.sort()
+lucky_numbers.reverse()
+print(friends)
+print(lucky_numbers)
+
+# Copy Function
+# Now we have created a brand new list as a copy of the old one referenced
+# Uncomment code to execute
+friends2 = friends.copy()
+print(friends2)
 
 # Program end
