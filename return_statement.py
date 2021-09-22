@@ -11,9 +11,19 @@
 # Program start
 # Returning functions (Return Statements)
 
-# Function declaration
-def cube(num):
-    return num * num * num
+# Functions declaration
+# Functions declared for each basic Arithmetic Operations
+def cube(cube):
+    return cube * cube * cube
+
+def add(add):
+    return add + add + add
+
+def subtract(subtract):
+    return subtract - subtract
+
+def divide(divide):
+    return divide / divide
 
 # Executing the function (Calling the Function)
 # Examples of code that won't work
@@ -22,7 +32,21 @@ def cube(num):
 #print(cube(3))
 
 # Another variation
-result = cube(4)
-print(result)
+print("the answers are!: ".isupper())
+# Finding the cube value
+result_cube = cube(4)
+print("The cube value is: " + str(result_cube))
+
+# Finding the add value
+result_add = add(4)
+print("The added value is: " + str(result_add))
+
+# Finding the subtract value
+result_subtract = subtract(2)
+print("The subtract value is: " + str(result_subtract))
+
+# Finding the divide value
+result_divide = divide(2)
+print("The divide value is: " + str(result_divide))
 
 # Program end
