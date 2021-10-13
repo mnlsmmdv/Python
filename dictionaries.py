@@ -32,30 +32,5 @@ monthConversions = {
 
 # Printing the dictionary values
 # The code below will print the correct dictionary value
-
-getKey = input("Input the value you want: ")
-if getKey == "Jan" or "January":
-    print(monthConversions["Jan"])
-elif getKey == "Feb" or "February":
-    print(monthConversions["Feb"])
-elif getKey == "Mar" or "March":
-    print(monthConversions["Mar"])
-elif getKey == "Apr" or "April":
-    print(monthConversions["Apr"])
-elif getKey == "May" or "May":
-    print(monthConversions["May"])
-elif getKey == "Jun" or "June":
-    print(monthConversions["June"])
-elif getKey == "Jul" or "July":
-    print(monthConversions["Jul"])
-elif getKey == "Aug" or "August":
-    print(monthConversions["Aug"])
-elif getKey == "Sept" or "September":
-    print(monthConversions["Sept"])
-elif getKey == "Nov" or "November":
-    print(monthConversions["Nov"])
-elif getKey == "Dec" or "December":
-    print(monthConversions["Dec"])
-else:
-    print("Incorrect value or not found!!!")
+print(monthConversions["Jan"])
 # Program end
