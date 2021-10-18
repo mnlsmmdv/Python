@@ -18,7 +18,7 @@ window = digital_clock.Tk()
 window.title("hehe")
 
 # Update clock function to display time in 24hrs format
-def update_clock():
+def update_digital_clock():
     # Display the hour
     hours = time.strftime("%I")
     # Display the minute
@@ -32,7 +32,7 @@ def update_clock():
     # Digital clock basic configurations
     digital_clock_label.config(text = time_text, background = "black", foreground = "red")
     # Configuration to update the clock after each second
-    digital_clock_label.after(1000, update_clock)
+    digital_clock_label.after(1000, update_digital_clock)
 
 # The default time for the clock and the font is set
 digital_clock_label = digital_clock.Label(window, text = "00:00:00", font = "Monospace 72 ")
@@ -40,7 +40,7 @@ digital_clock_label = digital_clock.Label(window, text = "00:00:00", font = "Mon
 digital_clock_label.pack()
 
 # Calling the update clock function
-update_clock()
+update_digital_clock()
 
 # Calling the main window of the program so that it executes as a GUI
 window.mainloop()
