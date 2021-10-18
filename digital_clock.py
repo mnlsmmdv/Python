@@ -9,11 +9,15 @@
 #######################################################
 
 # Program start
+# Importing tkinter GUI module & setting a variable name
 import tkinter as digital_clock
+
+# Importing time module
 import time
 
 # Giving the window a variable
 window = digital_clock.Tk()
+
 # Main window's title
 window.title("hehe")
 
@@ -21,21 +25,28 @@ window.title("hehe")
 def update_digital_clock():
     # Display the hour
     hours = time.strftime("%I")
+
     # Display the minute
     minutes = time.strftime("%M")
+
     # Display the second
     seconds = time.strftime("%S")
+
     # Display the current time format
     am_or_pm = time.strftime("%p")
+
     # Time layout in the digital clock
     time_text = hours + ":" + minutes + ":" + seconds + " " + am_or_pm
+
     # Digital clock basic configurations
     digital_clock_label.config(text = time_text, background = "black", foreground = "red")
+
     # Configuration to update the clock after each second
     digital_clock_label.after(1000, update_digital_clock)
 
 # The default time for the clock and the font is set
 digital_clock_label = digital_clock.Label(window, text = "00:00:00", font = "Monospace 72 ")
+
 # Packing the label configuration to execute
 digital_clock_label.pack()
 
