@@ -3,7 +3,7 @@
 # Title: digital_clock.py                             #
 # Date: 19/10/2021                                    #
 # Country: Maldives                                   #
-# Description: Simple digital clock                   #
+# Description: Simple digital GUI clock               #
 # Note: Uncomment codes to execute and comment        #
 #       them when not in use.                         #
 #######################################################
