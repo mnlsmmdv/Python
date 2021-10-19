@@ -11,7 +11,6 @@
 # Program start
 # Importing tkinter GUI module & setting a variable name
 import tkinter as digital_clock
-
 # Importing time module
 import time
 
