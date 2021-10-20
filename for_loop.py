@@ -17,4 +17,11 @@ for letters in "Giraffe Academy":
     # Empty print statement given for one line spacing
     print("")
 
+# For loop implemented to print each word from an array
+# Array created to store the values of friends for the for loop below
+friends = ["Jim", "Karen", "Kevin"]
+
+for friend in friends:
+    print(friend)
+
 # Program end
