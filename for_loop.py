@@ -10,4 +10,11 @@
 
 # Program start
 
+# For loop implemented to print each letter during each iteration
+for letters in "Giraffe Academy":
+    # Printing out the letters one by one as it is included with the space
+    print(letters)
+    # Empty print statement given for one line spacing
+    print("")
+
 # Program end
