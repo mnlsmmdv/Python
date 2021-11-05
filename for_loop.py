@@ -50,8 +50,18 @@ for index in range(3, 10):
 
 """
 
+"""
 # For loop implemented to print out the values using range and length function
 for index in range(len(friends)):
     print(friends[index])
+"""
+
+#
+for index in range(5):
+    if index == 0:
+        print("First Iteration")
+    else:
+        print("Not first")
+
 
 # Program end
