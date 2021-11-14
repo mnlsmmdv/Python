@@ -12,7 +12,8 @@
 
 # Defining a translate function
 def translate(phrase):
-
-
+    # Variable declared that will return the translation
+    # Variable kept empty cause no values are passed
+    translation = ""
 
 # Program end
