@@ -21,10 +21,14 @@ def translate(phrase):
     for letter in phrase:
 
         # If there is a specified letter as shown below it is a vowel and will add a "g" where ever the letter is.
-        # Checks parameters within upper and lower case letters
-        if letter in "AEIOUaeiou":
-            # Validating if the translation variable passed has a vowel. If it does passes a "g"
-            translation = translation + "g"
+        # Checks parameters lower case letters
+        if letter.lower() in "aeiou":
+            if letter.isupper():
+                # Validating if the translation variable passed has a vowel. If it does passes a "G"
+                translation = translation + "G"
+            else:
+                # Validating if the translation variable passed has a vowel. If it does passes a "g"
+                translation = translation + "g"
 
         # If the input phrase is not a vowel it will print out as normal
         else:
@@ -35,6 +39,7 @@ def translate(phrase):
     return translation
 
 # Print statement will accept the input phrase and print out the translation right after it below
+# The printed phrase will be printed by adding a capital letter if the passed phrase started out as a capital letter
 print(translate(input("Enter a phrase: ")))
 
 # Program end
