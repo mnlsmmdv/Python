@@ -10,4 +10,9 @@
 
 # Program start
 
+# Creation of a basic list
+number_grid = [
+
+]
+
 # Program end
