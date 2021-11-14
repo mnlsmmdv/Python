@@ -10,4 +10,9 @@
 
 # Program start
 
+# Defining a translate function
+def translate(phrase):
+
+
+
 # Program end
