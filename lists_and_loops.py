@@ -17,12 +17,17 @@ number_grid = [
 ]
 """
 
-# Creation of basic list with nested lists
+# Creation of basic list with nested lists (2D List)
 number_grid = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9],
     [0]
 ]
+
+# Printing an individual element from the number grid
+# First [] is for row and second [] is for column
+print(number_grid[0][0])
+print(number_grid[2][1])
 
 # Program end
