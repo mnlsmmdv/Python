@@ -23,6 +23,7 @@ def translate(phrase):
         # If there is a specified letter as shown below it is a vowel and will add a "g" where ever the letter is.
         # Checks parameters lower case letters
         if letter.lower() in "aeiou":
+
             # If the passed phrase's starting letter is upper it will change it a capital "G"
             if letter.isupper():
                 # Validating if the translation variable passed has a vowel. If it does passes a "G"
