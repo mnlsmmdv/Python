@@ -34,5 +34,6 @@ print(number_grid)
 # First [] is for row and second [] is for column
 print(number_grid[0][0])
 print(number_grid[2][1])
+print(number_grid[3][0])
 
 # Program end
