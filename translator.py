@@ -19,6 +19,7 @@ def translate(phrase):
 
     # For Loop declared to loop through. If it's a vowel it will translate, if it's not it will be kept the same.
     for letter in phrase:
+
         # If there is a specified letter as shown below it is a vowel and will add a "g" where ever the letter is.
         # Checks parameters within upper and lower case letters
         if letter in "AEIOUaeiou":
