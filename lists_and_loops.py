@@ -10,9 +10,9 @@
 
 # Program start
 
-# Creation of a basic list
+# Creation of a basic list with elements
 number_grid = [
-
+    1, 2, 3, 4
 ]
 
 # Program end
