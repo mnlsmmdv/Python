@@ -10,7 +10,7 @@
 
 # Program start
 
-# Defining a translate function
+# Defining a translate function with a parameter called "phrase"
 def translate(phrase):
 
     # Variable declared that will return the translation
