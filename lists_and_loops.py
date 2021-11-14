@@ -25,6 +25,10 @@ number_grid = [
     [0]
 ]
 
+# This will print the whole number grid
+print(number_grid)
+
+
 # Printing an individual element from the number grid
 # First [] is for row and second [] is for column
 print(number_grid[0][0])
