@@ -3,7 +3,7 @@
 # Title: translator.py                                #
 # Date: 14/11/2021                                    #
 # Country: Maldives                                   #
-# Description: -                                      #
+# Description: Basic translator in Python             #
 # Note: Uncomment codes to execute and comment        #
 #       them when not in use.                         #
 #######################################################
