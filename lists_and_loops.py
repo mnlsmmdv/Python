@@ -38,5 +38,11 @@ print(number_grid[2][1])
 print(number_grid[3][0])
 """
 
+# For Loop implemented to print out all the elements of the 2D List
+for row in number_grid:
+    # Doing this it will print out the 2D List as defined above
+    #print(row)
+    for col in row:
+        print(col)
 
 # Program end
