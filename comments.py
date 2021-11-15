@@ -10,4 +10,7 @@
 
 # Program start
 
+# This program is cool
+print("Comments are fun")
+
 # Program end
