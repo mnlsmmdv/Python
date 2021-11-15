@@ -32,7 +32,7 @@ def to_the_power(base_number, power_number):
     return result
 
 # Printing the answer
-print(to_the_power(3, 2))
+print(to_the_power(3, 4))
 # Test comment
 
 
