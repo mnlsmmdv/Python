@@ -24,5 +24,4 @@ except:
     # This will print out a statement if the user does not enters a float
     print("The input you gave is invalid!")
 
-
 # Program end
