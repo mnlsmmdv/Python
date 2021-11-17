@@ -22,7 +22,7 @@ except:
     # Empty print statement given before the invalid input statement to give spacing
     print("")
     # This will print out a statement if the user does not enters a float
-    print("Invalid Input")
+    print("The input you gave is invalid!")
 
 
 # Program end
