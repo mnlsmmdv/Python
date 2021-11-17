@@ -10,6 +10,8 @@
 
 # Program start
 
+# Creating a variable that accepts an integer input
+number = int(input("Enter a number: "))
 
 
 # Program end
