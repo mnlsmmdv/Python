@@ -10,11 +10,17 @@
 
 # Program start
 
-# Creating a variable that accepts an integer input from the user
-number = int(input("Enter a number: "))
+try:
+    # Creating a variable that accepts an integer input from the user
+    number = float(int(input("Enter a number: ")))
 
-# This print function will print out the integer number that was recieved.
-# The print function is executed with a quoted statement with spacing.
-print("The number is: " + number)
+    # This print function will print out the integer number that was recieved.
+    # The print function is executed with a quoted statement with spacing.
+    print(number)
+
+except:
+    # This will print out a statement if the user does not enters a float
+    print("Invalid Input")
+
 
 # Program end
