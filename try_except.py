@@ -44,20 +44,26 @@ try:
     print(number)
 
 # This except block is for the "ZeroDivisionError"
-except ZeroDivisionError as zderr:
+except ZeroDivisionError as err:
     # Empty print statement given before the print statement to give spacing.
     print("")
 
     # Print statement for the error.
     print("Zero Division Error!")
 
+    # Print statement which directly prints out error type.
+    print(err)
+
 # This except block is for the "ValueError"
-except ValueError as verr:
+except ValueError as err:
     # Empty print statement given before the print statement to give spacing.
     print("")
 
     # Print statement for the error.
     print("Value Error!")
+
+    # Print statement which directly prints out error type.
+    print(err)
 """
 
 # Program end
