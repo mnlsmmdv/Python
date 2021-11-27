@@ -10,6 +10,8 @@
 
 # Program start
 
+"""
+
 try:
     # Creating a variable that accepts an integer input from the user
     number = float(int(input("Enter a number: ")))
@@ -23,5 +25,8 @@ except:
     print("")
     # This will print out a statement if the user does not enters a float
     print("The input you gave is invalid!")
+
+"""
+
 
 # Program end
