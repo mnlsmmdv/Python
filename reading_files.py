@@ -10,6 +10,4 @@
 
 # Program start
 
-
-
 # Program end
