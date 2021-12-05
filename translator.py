@@ -2,7 +2,8 @@
 # Name: Ahmed Affaan                                  #
 # Title: translator.py                                #
 # Date: 14/11/2021                                    #
-# Country: Maldives                                   #
+# Country: Reublic of Maldives                        #
+# Code version: 3.8.10                                #
 # Description: Basic translator in Python             #
 # Note: Uncomment codes to execute and comment        #
 #       them when not in use.                         #

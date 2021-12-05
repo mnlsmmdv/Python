@@ -2,7 +2,8 @@
 # Name: Ahmed Affaan                            #
 # Title: variables_datatypes.py                 #
 # Date: 14/09/2021                              #
-# Country: Maldives                             #
+# Country: Reublic of Maldives                  #
+# Code version: 3.8.10                          #
 # Description: Variables creation and data type #
 #              manipulation                     #
 #              using special characters.        #

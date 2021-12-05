@@ -2,7 +2,8 @@
 # Name: Ahmed Affaan                                  #
 # Title: exponent_function.py                         #
 # Date: 09/11/2021                                    #
-# Country: Maldives                                   #
+# Country: Reublic of Maldives                        #
+# Code version: 3.8.10                                #
 # Description: Exponent Function in Python            #
 # Note: Uncomment codes to execute and comment        #
 #       them when not in use.                         #

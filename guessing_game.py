@@ -2,7 +2,8 @@
 # Name: Ahmed Affaan                                  #
 # Title: guessing_game.py                             #
 # Date: 17/10/2021                                    #
-# Country: Maldives                                   #
+# Country: Reublic of Maldives                        #
+# Code version: 3.8.10                                #
 # Description: While Loop basics                      #
 # Note: Uncomment codes to execute and comment        #
 #       them when not in use.                         #

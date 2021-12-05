@@ -2,7 +2,8 @@
 # Name: Ahmed Affaan                                  #
 # Title: twitter_bot.py                               #
 # Date: 17/10/2021                                    #
-# Country: Maldives                                   #
+# Country: Reublic of Maldives                        #
+# Code version: 3.8.10                                #
 # Description: Twitter bot version 01                 #
 # Note: Uncomment codes to execute and comment        #
 #       them when not in use.                         #

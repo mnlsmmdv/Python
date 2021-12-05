@@ -2,7 +2,8 @@
 # Name: Ahmed Affaan                                  #
 # Title: reading_files.py                             #
 # Date: 18/11/2021                                    #
-# Country: Maldives                                   #
+# Country: Reublic of Maldives                        #
+# Code version: 3.8.10                                #
 # Description: Understanding how to read file content #
 # Note: Uncomment codes to execute and comment        #
 #       them when not in use.                         #
