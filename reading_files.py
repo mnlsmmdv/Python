@@ -30,4 +30,9 @@ print(employee_file.readline())
 # Empty print statement given for spacing.
 print("")
 
+# Print statement that will read and arrange data in an array.
+print(employee_file.readlines())
+# Print statement given for spacing.
+print("")
+
 # Program end
