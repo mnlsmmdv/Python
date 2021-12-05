@@ -35,4 +35,7 @@ print(employee_file.readlines())
 # Print statement given for spacing.
 print("")
 
+# Closing the variable created generally to read/write the file.
+employee_file.close()
+
 # Program end
