@@ -19,4 +19,9 @@ print(employee_file.readable())
 # Empty print statement given for spacing.
 print("")
 
+# Print statement that will read the contents of the file and display it.
+#print(employee_file.read())
+# Empty print statement given for spacing.
+#print("")
+
 # Program end
