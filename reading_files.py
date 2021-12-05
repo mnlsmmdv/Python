@@ -24,4 +24,10 @@ print("")
 # Empty print statement given for spacing.
 #print("")
 
+# Print statement that will read specific lines and will display them.
+# By default this will read the contents of the first line of a file.
+print(employee_file.readline())
+# Empty print statement given for spacing.
+print("")
+
 # Program end
