@@ -10,4 +10,7 @@
 
 # Program start
 
+# "r" is defined because we only want to read contents of the file and not modify it.
+employee_file = open("employees.txt", "r")
+
 # Program end
