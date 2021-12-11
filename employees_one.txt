@@ -1,2 +1,5 @@
 Toby - Human Resources
 Kelly - Public Relations
+Mohamed - DevOps
+Hashim - Designer
+Micheal - CTO
