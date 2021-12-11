@@ -26,6 +26,7 @@ employee_file.write("\nHashim - Designer")
 # This will add a fifth line to our new file.
 employee_file.write("\nMicheal - CTO")
 
-
+# Closing the variable created generally to read/write the file.
+employee_file.close()
 
 # Program end.
