@@ -15,6 +15,10 @@
 # Giving an unknown file name will generate that new file in the program folder.
 employee_file = open("employees_two.txt", "a")
 
+# Print statements declared to append new data to files.
+employee_file.write("\nAhmed Affaan - CTO")
+employee_file.write("\nAhmed Affaan - Designer") 
+
 # Closing the variable created generally to read/write and append the file.
 employee_file.close()
 
