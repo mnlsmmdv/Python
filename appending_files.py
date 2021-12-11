@@ -11,6 +11,10 @@
 
 # Program start.
 
+# "a" is defined because we only want to append contents to a new/current file.
+# Giving an unknown file name will generate that new file in the program folder.
+employee_file = open("employees_two.txt", "a")
+
 
 
 # Program end.
