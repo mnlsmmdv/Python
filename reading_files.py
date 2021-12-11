@@ -12,7 +12,7 @@
 # Program start
 
 # "r" is defined because we only want to read contents of the file and not modify it.
-employee_file = open("employees.txt", "r")
+#employee_file = open("employees.txt", "r")
 
 # Empty print statement given for one line spacing.
 #print("")
@@ -42,7 +42,6 @@ employee_file = open("employees.txt", "r")
 #print(employee_file.readlines())
 # Print statement given for spacing.
 #print("")
-
 
 
 
