@@ -16,9 +16,9 @@ employee_file = open("employees.txt", "r")
 
 
 # Empty print statement given for one line spacing.
-print("")
+#print("")
 # Print statement which displays all of the file's contents how it is.
-print(employee_file.read())
+#print(employee_file.read())
 
 # Print statement which a functionality that will verify if the file is readable.
 # If readable True and if not readable it will be False.
