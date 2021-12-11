@@ -19,5 +19,13 @@ employee_file = open("employees_one.txt", "w")
 employee_file.write("Toby - Human Resources")
 # This will add a second line to our new file.
 employee_file.write("\nKelly - Public Relations")
+# This will add a third line to our new file.
+employee_file.write("\nMohamed - DevOps")
+# This will add a fourth line to our new file.
+employee_file.write("\nHashim - Designer")
+# This will add a fifth line to our new file.
+employee_file.write("\nMicheal - CTO")
+
+
 
 # Program end.
