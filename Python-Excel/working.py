@@ -11,6 +11,10 @@
 
 # Program start.
 
+# Importing "workbook" and "load_workbook" from "openpyxl" module.
+# These modules help manipulate excel files. Only (.xlsx) files.
+from openpyxl import Workbook, load_workbook
+
 
 
 # Program end.
