@@ -18,5 +18,8 @@ import useful_tools
 # Getting input from user (File Type)
 user_input = input("Enter file type: ")
 
+# Printing the file type.
+
+
 
 # Program end.
