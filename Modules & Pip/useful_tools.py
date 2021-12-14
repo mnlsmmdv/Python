@@ -15,7 +15,7 @@
 # Importing "random" module.
 import random
 
-feet_in_mile = 5280
+feet_in_miles = 5280
 meters_in_kilometers = 1000
 
 
