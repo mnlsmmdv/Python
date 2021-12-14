@@ -15,7 +15,7 @@
 # Importing "random" module.
 import random
 
-# How many feet are in a mile.
+# How many Feet are in a Mile.
 feet_in_miles = 5280
 # How many Meters are in a Kilometer.
 meters_in_kilometers = 1000
