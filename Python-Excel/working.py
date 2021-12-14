@@ -15,6 +15,8 @@
 # These modules help manipulate excel files. Only (.xlsx) files.
 from openpyxl import Workbook, load_workbook
 
-
+# Loading an existing Workbook.
+# This only works with Excel version 10 and above.
+wb = load_workbook('Grades.xlsx')
 
 # Program end.
