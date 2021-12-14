@@ -27,6 +27,7 @@ def get_file_ext(filename):
     return filename[filename.index(".") + 1:]
 
 # This function simulates rolling a dice when given a random number to roll.
+# For example: A 10 sided dice.
 def roll_dice(num):
     return random.randint(1, num)
 
