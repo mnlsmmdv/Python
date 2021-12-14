@@ -17,6 +17,6 @@ import random
 
 feet_in_miles = 5280
 meters_in_kilometers = 1000
-
+beatles = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Star"]
 
 # Program end.
