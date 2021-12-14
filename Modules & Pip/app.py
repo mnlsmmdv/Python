@@ -15,4 +15,8 @@
 # Importing file as a module.
 import useful_tools
 
+# Getting input from user (File Type)
+user_input = input("Enter file type: ")
+
+
 # Program end.
