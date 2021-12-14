@@ -22,6 +22,7 @@ meters_in_kilometers = 1000
 # List declared with names of Beatles band member names.
 beatles = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Star"]
 
+# This function gives back the file extension type.
 def get_file_ext(filename):
     return filename[filename.index(".") + 1:]
 
