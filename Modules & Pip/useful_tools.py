@@ -17,6 +17,7 @@ import random
 
 # How many feet are in a mile.
 feet_in_miles = 5280
+# How many Meters are in a Kilometer.
 meters_in_kilometers = 1000
 beatles = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Star"]
 
