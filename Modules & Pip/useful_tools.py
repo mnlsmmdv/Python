@@ -26,6 +26,7 @@ beatles = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Star"]
 def get_file_ext(filename):
     return filename[filename.index(".") + 1:]
 
+# This function simulates rolling a dice when given a random number to roll.
 def roll_dice(num):
     return random.randint(1, num)
 
