@@ -1,6 +1,6 @@
 #######################################################
 # Name: Ahmed Affaan                                  #
-# Title: app.py                                       #
+# Title: file_extension_getter.py                     #
 # Folder: Modules & Pip                               #
 # Date: 14/11/2021                                    #
 # Country: Reublic of Maldives                        #
