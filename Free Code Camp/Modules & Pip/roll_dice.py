@@ -15,6 +15,10 @@
 # Importing module.
 import useful_tools
 
+# Variable declared asking for user input.
+# Initial user input will be a String value.
+user_input = str(input("Enter a number: "))
+
 
 
 # Program end.
