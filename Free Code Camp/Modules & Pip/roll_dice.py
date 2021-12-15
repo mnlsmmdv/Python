@@ -12,6 +12,9 @@
 
 # Program start.
 
+# Importing module.
+import useful_tools
+
 
 
 # Program end.
