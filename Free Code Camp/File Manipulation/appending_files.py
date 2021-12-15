@@ -1,6 +1,7 @@
 #######################################################
 # Name: Ahmed Affaan                                  #
 # Title: appending_files.py                           #
+# Folder: File Manipulation                           #
 # Date: 12/12/2021                                    #
 # Country: Reublic of Maldives                        #
 # Code version: 3.8.10                                #
