@@ -15,6 +15,10 @@
 # Importing file as a module.
 import useful_tools
 
+# Declaring variables.
+miles_in_feet = 5280
+kilometers_in_meters = 1000
+
 # Getting input from user.
 # Initial user input will be a String value. Changed to Integer using concatenation.
 user_input = int(input("Enter a number: "))
