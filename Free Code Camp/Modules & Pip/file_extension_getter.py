@@ -21,5 +21,4 @@ user_input = input("Enter file type: ")
 # Printing the file type extension
 print("The file type extension is: " + useful_tools.get_file_ext(user_input))
 
-
 # Program end.
