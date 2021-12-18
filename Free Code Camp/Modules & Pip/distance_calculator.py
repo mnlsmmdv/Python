@@ -15,6 +15,8 @@
 # Importing file as a module.
 import useful_tools
 
+# Getting input from user.
+user_input = int(input("Enter a number: "))
 
 
 # Program end.
