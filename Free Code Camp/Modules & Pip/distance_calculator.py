@@ -16,7 +16,9 @@
 import useful_tools
 
 # Getting input from user.
+# Initial user input will be a String value. Changed to Integer using concatenation.
 user_input = int(input("Enter a number: "))
+
 
 
 # Program end.
