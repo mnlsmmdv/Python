@@ -20,7 +20,7 @@ miles_in_feet = 5280
 kilometers_in_meters = 1000
 
 # Function declared to calculate Miles to Feet.
-def miles_to_feet (user_input, miles_in_feet):
+def miles_to_feet(user_input, miles_in_feet):
     return user_input * miles_in_feet
 
 # Function declared to calculate Kilometers to Meters.
