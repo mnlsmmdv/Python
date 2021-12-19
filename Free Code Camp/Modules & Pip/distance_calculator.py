@@ -34,8 +34,10 @@ user_input = float(input("Enter Number: "))
 if user_choice in ('1', '2'):
     if user_choice == '1':
         print(str(user_input) + " Miles in Feet is: " + str(user_input * miles_in_feet) + " Feet")
+
     elif user_choice == '2':
         print(str(user_input) + "Kilometers in Meters is: " + str(user_input * kilometers_in_meters) + " Meters")
+        
     else:
         print("Invalid Input")
         
