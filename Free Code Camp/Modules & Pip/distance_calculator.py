@@ -34,6 +34,7 @@ print("1. Miles to Feet")
 print("2. Kilometers to Meters")
 print("--------------------------------")
 
+user_choice = float(input("Choose one choice: "))
 
 
 
