@@ -23,6 +23,10 @@ kilometers_in_meters = 1000
 # Initial user input will be a String value. Changed to Integer using concatenation.
 user_input = int(input("Enter a number: "))
 
+# Function declared to calculate Miles to Feet.
+def miles_to_feet (user_input, miles_in_feet):
+    return user_input * miles_in_feet
+
 
 
 # Program end.
