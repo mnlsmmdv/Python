@@ -27,10 +27,6 @@ def miles_to_feet (user_input, miles_in_feet):
 def kilometeres_to_meters(user_input, kilometers_in_meters):
     return user_input * kilometers_in_meters
 
-# Getting input from user.
-# Initial user input will be a String value. Changed to Integer using concatenation.
-user_input = int(input("Enter a number: "))
-
 
 
 # Program end.
