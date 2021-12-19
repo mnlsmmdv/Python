@@ -34,6 +34,9 @@ print("1. Miles to Feet")
 print("2. Kilometers to Meters")
 print("--------------------------------")
 
-
+# Taking specific choice input from the user.
+while True:
+    # Taking user input.
+    user_choice = input("Enter Choice(1/2): ")
 
 # Program end.
