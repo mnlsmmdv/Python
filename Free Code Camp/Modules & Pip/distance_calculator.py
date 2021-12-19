@@ -17,6 +17,7 @@ import useful_tools
 
 # Declaring variables.
 miles_in_feet = 5280
+# Variable declaration KM - M
 kilometers_in_meters = 1000
 
 # Giving user broad choices.
@@ -32,7 +33,7 @@ user_input = float(input("Enter Number: "))
 
 # Check if choice is suitable.
 if user_choice in ('1', '2'):
-    
+
     if user_choice == '1':
         print(str(user_input) + " Miles in Feet is: " + str(user_input * miles_in_feet) + " Feet")
 
