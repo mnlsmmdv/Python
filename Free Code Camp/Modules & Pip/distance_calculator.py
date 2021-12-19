@@ -27,6 +27,13 @@ def miles_to_feet (user_input, miles_in_feet):
 def kilometeres_to_meters(user_input, kilometers_in_meters):
     return user_input * kilometers_in_meters
 
+# Giving user broad choices.
+print("Please select desired operation!")
+print("--------------------------------")
+print("1. Miles to Feet")
+print("2. Kilometers to Meters")
+print("--------------------------------")
+
 
 
 # Program end.
