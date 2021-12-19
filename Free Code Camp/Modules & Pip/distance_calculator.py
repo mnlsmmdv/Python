@@ -17,7 +17,7 @@ import useful_tools
 
 # Variable declaration Miles in Feet.
 miles_in_feet = 5280
-# Variable declaration KM - M
+# Variable declaration Kilometers in Meters.
 kilometers_in_meters = 1000
 
 # Giving user broad choices.
