@@ -19,10 +19,6 @@ import useful_tools
 miles_in_feet = 5280
 kilometers_in_meters = 1000
 
-# Getting input from user.
-# Initial user input will be a String value. Changed to Integer using concatenation.
-user_input = int(input("Enter a number: "))
-
 # Function declared to calculate Miles to Feet.
 def miles_to_feet (user_input, miles_in_feet):
     return user_input * miles_in_feet
@@ -30,5 +26,11 @@ def miles_to_feet (user_input, miles_in_feet):
 # Function declared to calculate Kilometers to Meters.
 def kilometeres_to_meters(user_input, kilometers_in_meters):
     return user_input * kilometers_in_meters
+
+# Getting input from user.
+# Initial user input will be a String value. Changed to Integer using concatenation.
+user_input = int(input("Enter a number: "))
+
+
 
 # Program end.
