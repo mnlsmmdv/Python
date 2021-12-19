@@ -15,7 +15,7 @@
 # Importing file as a module.
 import useful_tools
 
-# Declaring variables.
+# Variable declaration Miles in Feet.
 miles_in_feet = 5280
 # Variable declaration KM - M
 kilometers_in_meters = 1000
