@@ -27,6 +27,8 @@ user_input = int(input("Enter a number: "))
 def miles_to_feet (user_input, miles_in_feet):
     return user_input * miles_in_feet
 
-
+# Function declared to calculate Kilometers to Meters.
+def kilometeres_to_meters(user_input, kilometers_in_meters):
+    return user_input * kilometers_in_meters
 
 # Program end.
