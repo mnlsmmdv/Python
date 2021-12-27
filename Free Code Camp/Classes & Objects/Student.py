@@ -12,6 +12,8 @@
 
 # Program start.
 
-
+# Creating specific class.
+class Student:
+    
 
 # Program end.
