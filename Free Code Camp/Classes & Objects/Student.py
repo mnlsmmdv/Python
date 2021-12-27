@@ -15,7 +15,8 @@
 # Creating specific class.
 class Student:
     # Creating the initialised function.
-    def __init__(self):
-        
+    # After comma in self are variable names.
+    def __init__(self, name, major, gpa, is_on_probation):
+
 
 # Program end.
