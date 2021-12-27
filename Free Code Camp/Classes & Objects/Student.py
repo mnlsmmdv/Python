@@ -14,6 +14,8 @@
 
 # Creating specific class.
 class Student:
-    
+    # Creating the initialised function.
+    def __init__(self):
+        
 
 # Program end.
