@@ -1,6 +1,6 @@
 #######################################################
 # Name: Ahmed Affaan                                  #
-# Title: students.py                                  #
+# Title: Student.py                                   #
 # Folder: Classes & Objects                           #
 # Date: 25/12/2021                                    #
 # Country: Reublic of Maldives                        #
