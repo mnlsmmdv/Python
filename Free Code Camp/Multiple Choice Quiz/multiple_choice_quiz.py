@@ -2,7 +2,7 @@
 # Name: Ahmed Affaan                                  #
 # Title: multiple_choice_quiz.py                      #
 # Folder: Multiple Choice Quiz                        #
-# Date: 25/12/2021                                    #
+# Date: 29/12/2021                                    #
 # Country: Reublic of Maldives                        #
 # Code version: 3.8.10                                #
 # Description:                                        #
