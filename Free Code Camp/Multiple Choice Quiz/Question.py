@@ -14,6 +14,9 @@
 
 # This will store question prompts and the answer.
 class Question:
-    
+    # Initialise function.
+    def __init__(self, prompt, answer):
+        
+
 
 # Program end.
