@@ -31,5 +31,4 @@ print(student_3.gpa)
 # Prints student_4's probation status.
 print(student_4.is_on_probation)
 
-
 # Program end.
