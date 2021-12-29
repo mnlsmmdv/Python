@@ -27,7 +27,7 @@ questions = [
     # This will be the question index and answer for the first question.
     Question(question_prompts[0], "a"),
     # This will be the question index and answer for the second question.
-    Question(question_prompts[1], "c")
+    Question(question_prompts[1], "c"),
     # This will be the question index and answer for the third question.
     Question(question_prompts[2], "b")
 ]
