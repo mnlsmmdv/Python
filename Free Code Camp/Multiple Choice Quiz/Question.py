@@ -12,6 +12,8 @@
 
 # Program start.
 
-
+# This will store question prompts and the answer.
+class Question:
+    
 
 # Program end.
