@@ -16,7 +16,9 @@
 class Question:
     # Initialise function.
     def __init__(self, prompt, answer):
-        
+        # This will assign values to the class object.
+        self.prompt = prompt
+        self.answer = answer
 
 
 # Program end.
