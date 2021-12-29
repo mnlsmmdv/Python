@@ -21,7 +21,9 @@ question_prompts = [
 
 # This will create question objects.
 questions = [
-    
+    # This will be the answer for the first question.
+    Question(question_prompts[0], "a"),
+    Question(question_prompts[1], "c")
 ]
 
 # Program end.
