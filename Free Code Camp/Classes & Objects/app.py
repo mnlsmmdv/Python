@@ -23,6 +23,7 @@ student_4 = Student("Nashath", "Computer Science", 3.7, True)
 
 # Testing output
 print(student_1.name)
+print(student_2.major)
 
 
 # Program end.
