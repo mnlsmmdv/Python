@@ -19,6 +19,7 @@ question_prompts = [
     "What color are strawberries?\n(a) Yellow\n(b) Red\n(c) Blue\n\n"
 ]
 
+# This will create question objects.
 questions = [
     
 ]
