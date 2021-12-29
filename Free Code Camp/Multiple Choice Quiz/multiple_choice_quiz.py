@@ -19,6 +19,8 @@ question_prompts = [
     "What color are strawberries?\n(a) Yellow\n(b) Red\n(c) Blue\n\n"
 ]
 
-
+questions = [
+    
+]
 
 # Program end.
