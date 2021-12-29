@@ -17,6 +17,10 @@ class Student:
     # Creating the initialised function.
     # After comma in self are variable names.
     def __init__(self, name, major, gpa, is_on_probation):
-
-
+        # Assigning values to the function.
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+        self.is_on_probation = is_on_probation
+        
 # Program end.
