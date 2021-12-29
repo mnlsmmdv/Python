@@ -26,6 +26,7 @@ student_4 = Student("Nashath", "Computer Science", 3.7, True)
 print(student_1.name)
 # Prints student_2's major.
 print(student_2.major)
+# Prints student_3's gpa.
 print(student_3.gpa)
 print(student_4.is_on_probation)
 
