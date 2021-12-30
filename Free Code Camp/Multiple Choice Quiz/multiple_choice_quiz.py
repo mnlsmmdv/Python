@@ -42,5 +42,7 @@ def run_test(question):
         answer = input(question.prompt)
         # This IF Loop will check if the user's answer is correct.
         if answer == question.answer:
+            # If the answer is true it will increment the score.
+            score += 1
 
 # Program end.
