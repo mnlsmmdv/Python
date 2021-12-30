@@ -34,6 +34,7 @@ questions = [
 
 # This will loop through all the questions.
 def run_test(question):
-    
+    # This variable will increment user's correct answers.
+    score = 0
 
 # Program end.
