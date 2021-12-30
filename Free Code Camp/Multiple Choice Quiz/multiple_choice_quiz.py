@@ -45,7 +45,7 @@ def run_test(question):
             # If the answer is true it will increment the score.
             score += 1
     # If the user's answer is correct it will display how many questions got right.
-    print("You got " + str(score) + "/" + str(len(questions)) + "Correct")
+    print("You got " + str(score) + "/" + str(len(questions)) + " Correct")
 
 # Calling the run_test function to run the program.
 run_test(questions)
