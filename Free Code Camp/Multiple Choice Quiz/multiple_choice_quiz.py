@@ -38,6 +38,8 @@ def run_test(question):
     score = 0
     # This For Loop will loop through each question in the questions object.
     for question in questions:
-        
+        # This variable will store the user's given answers.
+        answer = input(question.prompt)
+
 
 # Program end.
