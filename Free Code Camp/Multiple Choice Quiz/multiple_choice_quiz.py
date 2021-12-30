@@ -40,6 +40,7 @@ def run_test(question):
     for question in questions:
         # This variable will store the user's given answers.
         answer = input(question.prompt)
-
+        # This IF Loop will check if the user's answer is correct.
+        if answer == question.answer:
 
 # Program end.
