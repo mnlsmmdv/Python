@@ -32,4 +32,8 @@ questions = [
     Question(question_prompts[2], "b")
 ]
 
+# This will loop through all the questions.
+def run_test(question):
+    
+
 # Program end.
