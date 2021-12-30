@@ -36,5 +36,8 @@ questions = [
 def run_test(question):
     # This variable will increment user's correct answers.
     score = 0
+    # This For Loop will loop through each question in the questions object.
+    for question in questions:
+        
 
 # Program end.
