@@ -23,7 +23,7 @@ class Student:
         self.gpa = gpa
     
     # Function to validate student is on the honor roll.
-    
+    # Honor roll eligible only for gpa's 3.5 and above.
 
 
 # Program end.
