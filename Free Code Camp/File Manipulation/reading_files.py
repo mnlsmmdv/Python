@@ -3,7 +3,7 @@
 # Title: reading_files.py                             #
 # Folder: File Manipulation                           #
 # Date: 18/11/2021                                    #
-# Country: Reublic of Maldives                        #
+# Country: Republic of Maldives                       #
 # Code version: 3.8.10                                #
 # Description: Understanding how to read file content #
 # Note: Uncomment codes to execute and comment        #

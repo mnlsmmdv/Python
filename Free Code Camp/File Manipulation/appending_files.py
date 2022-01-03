@@ -3,7 +3,7 @@
 # Title: appending_files.py                           #
 # Folder: File Manipulation                           #
 # Date: 12/12/2021                                    #
-# Country: Reublic of Maldives                        #
+# Country: Republic of Maldives                       #
 # Code version: 3.8.10                                #
 # Description: Understanding how to append to files   #
 # Note: Uncomment codes to execute and comment        #
