@@ -24,6 +24,7 @@ class Student:
     
     # Function to validate student is on the honor roll.
     # Honor roll eligible only for gpa's 3.5 and above.
-
+    def on_honor_roll(self):
+        
 
 # Program end.
