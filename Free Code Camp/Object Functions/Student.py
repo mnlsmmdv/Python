@@ -23,7 +23,7 @@ class Student:
         self.gpa = gpa
     
     # Function to validate whether student is eligible for honor roll.
-    # Honor roll eligible only for gpa's 3.5 and above.
+    # Honor roll eligible only for students with gpa's 3.5 and above.
     def on_honor_roll(self):
         # This will check the validity of the student's gpa.
         if self.gpa >= 3.5:
