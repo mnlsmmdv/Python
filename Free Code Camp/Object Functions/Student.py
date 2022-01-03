@@ -29,5 +29,8 @@ class Student:
         if self.gpa >= 3.5:
             # If the gpa is 3.5 or above honor status is True.
             return True
-
+        # Applied when student is not eligible for honor roll.
+        else:
+            # If the gpa is not equal to 3.5 or above honor status becomes False.
+            return False
 # Program end.
