@@ -21,5 +21,9 @@ class Student:
         self.name = name
         self.major = major
         self.gpa = gpa
+    
+    # Function to validate student is on the honor roll.
+    
+
 
 # Program end.
