@@ -31,4 +31,8 @@ print(student_3.gpa)
 print(student_4.is_on_probation)
 """
 
+# Testing output.
+# Checks student's honor roll status.
+
+
 # Program end.
