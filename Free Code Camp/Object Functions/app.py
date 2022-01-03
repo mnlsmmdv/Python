@@ -16,8 +16,8 @@
 from Student import Student
 
 # Creating the students.
-student_1 = Student("Affaan", "Computer Science", 3.1, False)
-student_2 = Student("Ahmed", "Business Administration", 3.0, True)
+student_1 = Student("Affaan", "Computer Science", 3.1)
+student_2 = Student("Ahmed", "Business Administration", 3.0)
 
 """
 # Testing output.
