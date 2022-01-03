@@ -2,7 +2,7 @@
 # Name: Ahmed Affaan                                  #
 # Title: while_loop.py                                #
 # Date: 17/10/2021                                    #
-# Country: Reublic of Maldives                        #
+# Country: Republic of Maldives                       #
 # Code version: 3.8.10                                #
 # Description: While Loop basics                      #
 # Note: Uncomment codes to execute and comment        #

@@ -2,7 +2,7 @@
 # Name: Ahmed Affaan                                  #
 # Title: if_statement_and_comparisons.py              #
 # Date: 29/09/2021                                    #
-# Country: Reublic of Maldives                        #
+# Country: Republic of Maldives                       #
 # Code version: 3.8.10                                #
 # Description: -                                      #
 # Note: Uncomment codes to execute and comment        #

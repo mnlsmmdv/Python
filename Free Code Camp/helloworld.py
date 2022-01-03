@@ -2,7 +2,7 @@
 # Name: Ahmed Affaan                         #
 # Title: helloworld.py                       #
 # Date: 14/09/2021                           #
-# Country: Reublic of Maldives               #
+# Country: Republic of Maldives              #
 # Code version: 3.8.10                       #
 # Description: Program that prints out       #
 #              "Hello World".                #

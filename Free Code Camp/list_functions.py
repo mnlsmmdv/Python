@@ -2,7 +2,7 @@
 # Name: Ahmed Affaan                                  #
 # Title: list_functions.py                            #
 # Date: 17/09/2021                                    #
-# Country: Reublic of Maldives                        #
+# Country: Republic of Maldives                       #
 # Code version: 3.8.10                                #
 # Description: Lists creation and modification        #
 # Note: Uncomment codes to execute and comment        #

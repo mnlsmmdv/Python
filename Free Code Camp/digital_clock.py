@@ -2,7 +2,7 @@
 # Name: Ahmed Affaan                                  #
 # Title: digital_clock.py                             #
 # Date: 19/10/2021                                    #
-# Country: Reublic of Maldives                        #
+# Country: Republic of Maldives                       #
 # Code version: 3.8.10                                #
 # Description: Simple digital GUI clock               #
 # Note: Uncomment codes to execute and comment        #

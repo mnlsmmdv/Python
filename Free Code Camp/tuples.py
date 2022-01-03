@@ -2,7 +2,7 @@
 # Name: Ahmed Affaan                                  #
 # Title: tuples.py                                    #
 # Date: 20/09/2021                                    #
-# Country: Reublic of Maldives                        #
+# Country: Republic of Maldives                       #
 # Code version: 3.8.10                                #
 # Description: Tuples creation and modification       #
 # Note: Uncomment codes to execute and comment        #

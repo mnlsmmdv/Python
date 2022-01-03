@@ -2,7 +2,7 @@
 # Name: Ahmed Affaan                                  #
 # Title: lists_and_loops.py                           #
 # Date: 14/11/2021                                    #
-# Country: Reublic of Maldives                        #
+# Country: Republic of Maldives                       #
 # Code version: 3.8.10                                #
 # Description: 2D Lists & Nested Loops                #
 # Note: Uncomment codes to execute and comment        #
