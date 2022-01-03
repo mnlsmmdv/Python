@@ -2,7 +2,7 @@
 # Name: Ahmed Affaan                                  #
 # Title: comments.py                                  #
 # Date: 15/11/2021                                    #
-# Country: Reublic of Maldives                        #
+# Country: Republic of Maldives                       #
 # Code version: 3.8.10                                #
 # Description: Understanding basic commenting         #
 # Note: Uncomment codes to execute and comment        #
