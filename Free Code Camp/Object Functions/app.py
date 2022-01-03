@@ -27,8 +27,6 @@ print(student_1.name)
 print(student_2.major)
 # Prints student_3's gpa.
 print(student_3.gpa)
-# Prints student_4's probation status.
-print(student_4.is_on_probation)
 """
 
 # Testing output.
