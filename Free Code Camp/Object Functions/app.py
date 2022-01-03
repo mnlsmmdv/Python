@@ -33,6 +33,7 @@ print(student_4.is_on_probation)
 
 # Testing output.
 # Checks student's honor roll status.
-
+print(student_1.on_honor_roll())
+print(student_2.on_honor_roll())
 
 # Program end.
