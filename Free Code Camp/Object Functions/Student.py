@@ -26,5 +26,7 @@ class Student:
     # Honor roll eligible only for gpa's 3.5 and above.
     def on_honor_roll(self):
         # This will check the validity of the student's gpa.
+        if self.gpa >= 3.5:
+            
 
 # Program end.
