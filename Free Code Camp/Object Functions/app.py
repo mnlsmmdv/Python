@@ -12,6 +12,9 @@
 
 # Program start.
 
+# Importing the Student class from the Student file.
+from Student import Student
+
 
 
 # Program end.
