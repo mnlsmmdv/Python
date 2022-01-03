@@ -28,6 +28,6 @@ class Student:
         # This will check the validity of the student's gpa.
         if self.gpa >= 3.5:
             # If the gpa is 3.5 or above honor status is True.
-            
+            return True
 
 # Program end.
