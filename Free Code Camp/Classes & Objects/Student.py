@@ -17,7 +17,7 @@ class Student:
     # Creating the initialised function.
     # After comma in self are parameter names.
     def __init__(self, name, major, gpa, is_on_probation):
-        # Assigning values to the function.
+        # Assigning parameter values to the attribute of the object.
         self.name = name
         self.major = major
         self.gpa = gpa
