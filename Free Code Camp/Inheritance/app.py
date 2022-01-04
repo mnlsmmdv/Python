@@ -13,10 +13,15 @@
 # Program start.
 
 # Importing the Chef class from the Chef file.
-from Chef import Chef
+#from Chef import Chef
+
+# Importing the ChineseChef class from the ChineseChef file.
+from ChineseChef import ChineseChef
 
 # Declaring a new Chef object.
-myChef = Chef()
+#myChef = Chef()
+
+
 
 """
 # Testing outputs.
