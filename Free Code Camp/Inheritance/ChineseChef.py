@@ -20,6 +20,11 @@ class ChineseChef:
         # Describes what exactly the chef does.
         print("The chef makes a chicken")
     
+    # Function to describe a chef's specific job.
+    def make_salad(self):
+        # Describes what exactly the chef does.
+        print("The Chef makes a salad")
+    
     
 
 # Program end.
