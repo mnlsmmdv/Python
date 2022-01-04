@@ -21,6 +21,8 @@ from ChineseChef import ChineseChef
 # Declaring a new Chef object.
 #myChef = Chef()
 
+# Declaring a new Chef object.
+myChineseChef = ChineseChef()
 
 
 """
