@@ -12,6 +12,9 @@
 
 # Program start.
 
+# Importing the Chef class from Chef the file.
+from Chef import Chef
+
 # Program's main class.
 # This class describes the function of a Chinese Chef.
 # The Chinese Chef can do what a normal Chef does and even more.
@@ -36,7 +39,7 @@ class ChineseChef:
         # Describes what exactly the chef does.
         print("The chef makes fried rice")
     
-    
+
     
 
 # Program end.
