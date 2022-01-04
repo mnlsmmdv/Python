@@ -35,7 +35,8 @@ class ChineseChef:
     def make_fried_rice(self):
         # Describes what exactly the chef does.
         print("The chef makes fried rice")
-
+    
+    
     
 
 # Program end.
