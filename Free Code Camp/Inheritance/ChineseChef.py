@@ -12,6 +12,9 @@
 
 # Program start.
 
-
+# Program's main class.
+# This class describes the function of a Chinese Chef.
+class ChineseChef:
+    
 
 # Program end.
