@@ -29,11 +29,13 @@ class ChineseChef:
     # Function to describe a chef's specific job.
     def make_special_dish(self):
         # Describes what exactly the chef does.
-        print("The chef makes bbq ribs")
+        print("The chef makes orange chicken")
     
     # Function to describe a chef's specific job.
     def make_fried_rice(self):
         # Describes what exactly the chef does.
         print("The chef makes fried rice")
+
+    
 
 # Program end.
