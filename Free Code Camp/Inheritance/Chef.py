@@ -16,6 +16,9 @@
 # This class describes the function of a Chef.
 class Chef:
     # Function to describe a chef's specific job.
-    
+    def make_chicken(self):
+        # Describes what exactly the chef does.
+        print("The chef makes a chicken")
 
+    
 # Program end.
