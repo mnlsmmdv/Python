@@ -14,6 +14,7 @@
 
 # Program's main class.
 # This class describes the function of a Chinese Chef.
+# The Chinese Chef can do what a normal chef does and even more.
 class ChineseChef:
     # Function to describe a chef's specific job.
     def make_chicken(self):
@@ -25,6 +26,6 @@ class ChineseChef:
         # Describes what exactly the chef does.
         print("The Chef makes a salad")
     
-    
+
 
 # Program end.
