@@ -34,7 +34,7 @@ myChineseChef.make_fried_rice()
 """
 
 """
-# Testing outputs.
+# Testing outputs for Chef
 # These are done to see if the functions work.
 myChef.make_chicken()
 myChef.make_salad()
