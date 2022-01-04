@@ -25,15 +25,6 @@ from ChineseChef import ChineseChef
 myChineseChef = ChineseChef()
 
 """
-# Testing outputs for Chinese Chef.
-# These are done to see if the functions work.
-myChineseChef.make_chicken()
-myChineseChef.make_salad()
-myChineseChef.make_special_dish()
-myChineseChef.make_fried_rice()
-"""
-
-"""
 # Testing outputs for Chef
 # These are done to see if the functions work.
 myChef.make_chicken()
@@ -41,6 +32,13 @@ myChef.make_salad()
 myChef.make_special_dish()
 """
 
-
+"""
+# Testing outputs for Chinese Chef.
+# These are done to see if the functions work.
+myChineseChef.make_chicken()
+myChineseChef.make_salad()
+myChineseChef.make_special_dish()
+myChineseChef.make_fried_rice()
+"""
 
 # Program end.
