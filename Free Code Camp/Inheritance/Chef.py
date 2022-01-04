@@ -12,6 +12,8 @@
 
 # Program start.
 
+# Program main class.
+# This class describes the function of a Chef.
 
 
 # Program end.
