@@ -15,6 +15,7 @@
 # Program main class.
 # This class describes the function of a Chef.
 class Chef:
+    # Function to describe a chef's specific job.
     
 
 # Program end.
