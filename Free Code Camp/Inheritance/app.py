@@ -15,7 +15,7 @@
 # Importing the Chef class from the Chef file.
 from Chef import Chef
 
-# Declaring a new Chef and calling the Chef class.
+# Declaring a new Chef object.
 myChef = Chef()
 
 """
