@@ -30,6 +30,7 @@ class ChineseChef:
         print("The chef makes a salad")
     
     # Function to describe a chef's specific job.
+    # This will override the special dish in Chef class.
     def make_special_dish(self):
         # Describes what exactly the chef does.
         print("The chef makes orange chicken")
