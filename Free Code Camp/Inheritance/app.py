@@ -24,12 +24,14 @@ from ChineseChef import ChineseChef
 # Declaring a new Chef object.
 myChineseChef = ChineseChef()
 
+"""
 # Testing outputs for Chinese Chef.
 # These are done to see if the functions work.
 myChineseChef.make_chicken()
 myChineseChef.make_salad()
 myChineseChef.make_special_dish()
 myChineseChef.make_fried_rice()
+"""
 
 """
 # Testing outputs.
