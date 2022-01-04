@@ -18,7 +18,7 @@ from Chef import Chef
 # Program's main class.
 # This class describes the function of a Chinese Chef.
 # The Chinese Chef can do what a normal Chef does and even more.
-class ChineseChef:
+class ChineseChef(Chef):
     # Function to describe a chef's specific job.
     # This will override the special dish in Chef class.
     def make_special_dish(self):
@@ -29,5 +29,5 @@ class ChineseChef:
     def make_fried_rice(self):
         # Describes what exactly the chef does.
         print("The chef makes fried rice")
-        
+
 # Program end.
