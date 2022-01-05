@@ -14,6 +14,8 @@
 
 # Importing the Chef class from the Chef file.
 from Chef import Chef
+# Importing the ChineseChef class from the ChineseChef file.
+from ChineseChef import ChineseChef
 
 
 
