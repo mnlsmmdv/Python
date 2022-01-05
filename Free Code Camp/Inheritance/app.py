@@ -25,6 +25,9 @@ from ItalianChef import ItalianChef
 # Declaring a new Chef object.
 myChineseChef = ChineseChef()
 
+# Declaring a new Chef object.
+myItalianChef = ItalianChef()
+
 """
 # Testing outputs for Chef
 # These are done to see if the functions work.
