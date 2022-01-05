@@ -22,7 +22,7 @@ from ChineseChef import ChineseChef
 # The Italian Chef can do what a Chef and Chinese Chef does and even more.
 class ItalianChef(ChineseChef):
     # Function to describe a chef's specific job.
-    # This will override the dish in the dish in the ChineseChef class.
+    # This will override the dish already in the ChineseChef class.
     def make_special_dish(self):
         # Describes what exactly the chef does.
         print("The Chef makes Lasagna")
