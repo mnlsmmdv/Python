@@ -16,6 +16,8 @@
 from Chef import Chef
 # Importing the ChineseChef class from the ChineseChef file.
 from ChineseChef import ChineseChef
+# Importing the ItalianChef class from the ItalianChef file.
+from ItalianChef import ItalianChef
 
 # Declaring a new Chef object.
 #myChef = Chef()
