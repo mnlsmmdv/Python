@@ -29,7 +29,5 @@ class Chef:
     def make_special_dish(self):
         # Describes what exactly the chef does.
         print("The chef makes bbq ribs")
-    
-    
-
+        
 # Program end.
