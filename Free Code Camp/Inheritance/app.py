@@ -40,4 +40,8 @@ myChineseChef.make_special_dish()
 myChineseChef.make_fried_rice()
 """
 
+# Testing outputs for Italian Chef.
+# These are done to see if the functions work.
+
+
 # Program end.
