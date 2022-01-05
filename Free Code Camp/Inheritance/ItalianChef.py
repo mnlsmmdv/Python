@@ -24,6 +24,9 @@ class ItalianChef(ChineseChef):
     # Function to describe a chef's specific job.
     # This will override the dish in the dish in the ChineseChef class.
     def make_special_dish(self):
-        
+        # Describes what exactly the chef does.
+        print("The Chef makes Lasagna")
+    
+    
 
 # Program end.
