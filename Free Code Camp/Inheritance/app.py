@@ -23,7 +23,7 @@ from ItalianChef import ItalianChef
 #myChef = Chef()
 
 # Declaring a new Chef object.
-myChineseChef = ChineseChef()
+#myChineseChef = ChineseChef()
 
 # Declaring a new Chef object.
 myItalianChef = ItalianChef()
