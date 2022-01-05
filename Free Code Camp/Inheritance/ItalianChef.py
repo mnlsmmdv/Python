@@ -12,6 +12,9 @@
 
 # Program start.
 
+# Importing the Chef class from the Chef file.
+from Chef import Chef
+
 
 
 # Program end.
