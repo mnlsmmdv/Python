@@ -29,6 +29,7 @@ class ItalianChef(ChineseChef):
     
     # Function to describe a chef's specific job.
     def make_italian_pizza(self):
-        
+        # Describes what exactly the chef does.
+        print("The Chef makes Italian pizza")
 
 # Program end.
