@@ -20,6 +20,7 @@ from ChineseChef import ChineseChef
 # Program's main class.
 # This class describes the functions of a Italian Chef.
 # The Italian Chef can do what a Chef and Chinese Chef does and even more.
-
+class ItalianChef(ChineseChef):
+    
 
 # Program end.
