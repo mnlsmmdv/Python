@@ -23,6 +23,10 @@ verb1 = input("Verb: ")
 # This will store a verb.
 verb2 = input("Verb: ")
 
+# Assigning the famous_person variable.
+# This will store the name of a famous person.
+famous_person = input("Famous person: ")
+
 # Assigning the madlib variable.
 madlib = f"Computer programming is so {adj}! It makes me so excited all the time \
     I love to {verb1}. Stay hydrated and {verb2} like you are {famous_person}!"
