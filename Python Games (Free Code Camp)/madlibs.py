@@ -19,7 +19,9 @@ adj = input("Adjective: ")
 # This will store a verb.
 verb1 = input("Verb: ")
 
-
+# Assigning the verb2 variable.
+# This will store a verb.
+verb2 = input("Verb: ")
 
 # Assigning the madlib variable.
 madlib = f"Computer programming is so {adj}! It makes me so excited all the time \
