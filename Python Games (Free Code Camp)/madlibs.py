@@ -17,6 +17,6 @@ adj = input("Adjective: ")
 
 # Assigning the madlib variable.
 madlib = f"Computer programming is so {adj}! It makes me so excited all the time \
-    I love to {verb1}."
+    I love to {verb1}. Stay hydrated and {verb2}"
 
 # Program end.
