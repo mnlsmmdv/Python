@@ -12,6 +12,6 @@
 # Program start.
 
 # Assigning the madlib variable.
-madlib = f"Computer programming is so {adj}"
+madlib = f"Computer programming is so {adj}!"
 
 # Program end.
