@@ -11,6 +11,10 @@
 
 # Program start.
 
+# Assigning the adjective variable.
+# This will recieve the user's input.
+adj = input("Adjective: ")
+
 # Assigning the madlib variable.
 madlib = f"Computer programming is so {adj}!"
 
