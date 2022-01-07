@@ -61,6 +61,13 @@ def computer_guess(x):
         # Will input all inputs as lower case.
         feedback = input(f'Is {guess} too high (H), or too low (L), or correct (C)?? ').lower()
 
+        # If Elif statements to value feedback.
+        if feedback == 'h':
+            # If feedback guess is high it will decrease by 1.
+            high = guess - 1
+            
+
+
 # Calling the guess function.
 # Parameter given up to the number 10.
 guess(10)
