@@ -78,4 +78,8 @@ def computer_guess(x):
 # Parameter given up to the number 10.
 guess(10)
 
+# Calling the computer_guess function.
+# Parameter given up to the number 10.
+computer_guess(10)
+
 # Program end.
