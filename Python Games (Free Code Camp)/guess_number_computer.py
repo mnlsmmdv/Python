@@ -15,6 +15,9 @@
 # This module generates random numbers.
 import random
 
-
+# Function to conduct guesses.
+# x passed as parameter to get random get number function.
+def guess(x):
+    
 
 # Program end.
