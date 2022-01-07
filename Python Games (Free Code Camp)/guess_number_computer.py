@@ -71,7 +71,6 @@ def computer_guess(x):
             # If feedback guess is low it will add by 1.
             low = guess + 1
 
-
 # Calling the guess function.
 # Parameter given up to the number 10.
 guess(10)
