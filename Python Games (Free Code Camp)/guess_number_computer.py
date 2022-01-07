@@ -62,10 +62,11 @@ def computer_guess(x):
         feedback = input(f'Is {guess} too high (H), or too low (L), or correct (C)?? ').lower()
 
         # If Elif statements to value feedback.
+        # This will set the upper bound.
         if feedback == 'h':
             # If feedback guess is high it will decrease by 1.
             high = guess - 1
-            
+        
 
 
 # Calling the guess function.
