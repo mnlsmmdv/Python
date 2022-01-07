@@ -40,7 +40,6 @@ def guess(x):
     # If guess is equal to random number this will print.
     print(f"Yay, congrats. You have guessed the number {random_number} correctly!!")
 
-
 # Calling the guess function.
 # Parameter given up to the number 10.
 guess(10)
