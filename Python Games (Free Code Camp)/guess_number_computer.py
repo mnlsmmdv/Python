@@ -1,6 +1,6 @@
 #######################################################
 # Name: Ahmed Affaan                                  #
-# Title: guess_number.py                              #
+# Title: guess_number_computer.py                     #
 # Date: 06/01/2022                                    #
 # Country: Republic of Maldives                       #
 # Code version: 3.8.10                                #
