@@ -66,7 +66,10 @@ def computer_guess(x):
         if feedback == 'h':
             # If feedback guess is high it will decrease by 1.
             high = guess - 1
-        
+        # This will set the lower bound.
+        elif feedback == 'l':
+            # If feedback guess is low it will add by 1.
+            low = guess + 1
 
 
 # Calling the guess function.
