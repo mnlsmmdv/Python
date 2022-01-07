@@ -57,7 +57,8 @@ def computer_guess(x):
     while feedback != 'c':
         # Getting the random guess number.
         guess = random.randint(low, high)
-
+        # Getting the users feedback as input.
+        feedback = input(f'Is {guess} too high (H), or too low (L), or correct (C)?? ')
 
 # Calling the guess function.
 # Parameter given up to the number 10.
