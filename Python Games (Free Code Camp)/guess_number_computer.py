@@ -55,6 +55,8 @@ def computer_guess(x):
     # While Loop checks for user feedback.
     # Uses "c" as in correct to verify the guess was correct.
     while feedback != 'c':
+        # Getting the random guess number.
+        guess = random.randint(low, high)
         
 
 # Calling the guess function.
