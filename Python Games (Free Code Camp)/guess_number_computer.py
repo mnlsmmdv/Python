@@ -21,6 +21,8 @@ def guess(x):
     # Getting the random number.
     # Will return a random number to guess.
     random_number = random.randint(1, x)
+    # Guess variable. Default value starts at 0.
+    guess = 0
 
     # If the guess is not equal to random number this will iterate in a While Loop. 
     while guess != random_number:
