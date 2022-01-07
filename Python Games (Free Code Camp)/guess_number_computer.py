@@ -44,6 +44,14 @@ def guess(x):
 # Function for the computer to conduct guesses.
 # x passed as parameter to get random number function.
 def computer_guess(x):
+    # Defining the guess parameters
+    # Variable for lowest starting point.
+    low = 1
+    # Variable for highest point (user specified)
+    high = x
+    # Feedback variable. Default value is an empty string.
+    feedback = ''
+
     
 
 # Calling the guess function.
