@@ -38,4 +38,7 @@ def guess(x):
         elif guess > random_number:
             print("Sorry, guess again. Too high.")
 
+    # If guess is equal to random number this will print.
+    print(f"Yay, congrats. You have guessed the number {random_number} correctly!!")
+
 # Program end.
