@@ -30,4 +30,12 @@ def guess(x):
         # Casted the input as integer to recieve as an integer as well.
         guess = int(input(f'Guess a number between 1 and {x}'))
 
+        # If Elif statements to value guesses.
+        # If guess is less than the random number this will print.
+        if guess < random_number:
+            print("Sorry, guess again. Too low.")
+        # If guess is greater than the random number this will print.
+        elif guess > random_number:
+            print("Sorry, guess again. Too high.")
+
 # Program end.
