@@ -58,7 +58,8 @@ def computer_guess(x):
         # Getting the random guess number.
         guess = random.randint(low, high)
         # Getting the users feedback as input.
-        feedback = input(f'Is {guess} too high (H), or too low (L), or correct (C)?? ')
+        # Will input all inputs as lower case.
+        feedback = input(f'Is {guess} too high (H), or too low (L), or correct (C)?? ').lower()
 
 # Calling the guess function.
 # Parameter given up to the number 10.
