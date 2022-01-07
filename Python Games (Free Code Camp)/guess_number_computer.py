@@ -28,7 +28,7 @@ def guess(x):
     while guess != random_number:
         # Getting the users guess as input.
         # Casted the input as integer to recieve as an integer as well.
-        guess = int(input(f'Guess a number between 1 and {x}'))
+        guess = int(input(f'Guess a number between 1 and {x}: '))
 
         # If Elif statements to value guesses.
         # If guess is less than the random number this will print.
@@ -37,7 +37,6 @@ def guess(x):
         # If guess is greater than the random number this will print.
         elif guess > random_number:
             print("Sorry, guess again. Too high.")
-
     # If guess is equal to random number this will print.
     print(f"Yay, congrats. You have guessed the number {random_number} correctly!!")
 
