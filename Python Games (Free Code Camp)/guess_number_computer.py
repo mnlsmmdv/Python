@@ -52,7 +52,10 @@ def computer_guess(x):
     # Feedback variable. Default value is an empty string.
     feedback = ''
 
-    
+    # While Loop checks for user feedback.
+    # Uses "c" as in correct to verify the guess was correct.
+    while feedback != 'c':
+        
 
 # Calling the guess function.
 # Parameter given up to the number 10.
