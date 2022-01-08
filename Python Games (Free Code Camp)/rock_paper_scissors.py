@@ -28,6 +28,8 @@ def play():
     if user == computer:
         return 'tie'
 
+# Function to see who wins.
+def is_win(player, opponent):
     
 
 # Program end.
