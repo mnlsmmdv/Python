@@ -21,5 +21,7 @@ def guess(x):
     # Getting the random number.
     # Will return a random number to guess.
     random_number = random.randint(1, x)
+    # Guess variable. Default value starts at 0.
+    guess = 0
 
 # Program end.
