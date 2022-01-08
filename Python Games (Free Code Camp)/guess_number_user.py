@@ -18,6 +18,8 @@ import random
 # Function to conduct guesses.
 # x passed as parameter to get random get number function.
 def guess(x):
-    
+    # Getting the random number.
+    # Will return a random number to guess.
+    random_number = random.randint(1, x)
 
 # Program end.
