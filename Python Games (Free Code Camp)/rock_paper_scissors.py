@@ -11,6 +11,9 @@
 
 # Program start.
 
+# Simple use case how the game works.
+# r > s, s > p, p > r
+
 # Importing random module.
 import random
 
@@ -26,5 +29,5 @@ def play():
         return 'tie'
 
     
-    
+
 # Program end.
