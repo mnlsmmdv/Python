@@ -29,8 +29,9 @@ def play():
         return 'tie'
 
 # Function to see who wins.
-# This will return True if the player wins.
 def is_win(player, opponent):
+    # This will return True if the player wins.
+    # r > s, s > p, p > r
     
 
 # Program end.
