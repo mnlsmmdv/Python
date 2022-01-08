@@ -23,10 +23,7 @@ def guess(x):
     random_number = random.randint(1, x)
     # Guess variable. Default value starts at 0.
     guess = 0
-
-    # If the guess is not equal to random number this will iterate in a While Loop. 
-    while guess != random_number:
-        
+    
 # Function for the computer to conduct guesses.
 # x passed as parameter to get random number function.
 def computer_guess(x):
