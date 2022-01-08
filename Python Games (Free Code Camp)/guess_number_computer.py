@@ -15,10 +15,6 @@
 # This module generates random numbers.
 import random
 
-# Function to conduct guesses.
-# x passed as parameter to get random get number function.
-def guess(x):
-
 # Function for the computer to conduct guesses.
 # x passed as parameter to get random number function.
 def computer_guess(x):
