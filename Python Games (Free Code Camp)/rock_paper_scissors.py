@@ -21,4 +21,10 @@ def play():
     # Computer randomly chooses one of these choices.
     computer = random.choice(['r', 'p', 's'])
 
+    # This will return the tie if both choices are the same.
+    if user == computer:
+        return 'tie'
+
+    
+    
 # Program end.
