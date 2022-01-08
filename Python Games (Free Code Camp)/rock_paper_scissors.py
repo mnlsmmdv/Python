@@ -45,5 +45,8 @@ def is_win(player, opponent):
         # If the player wins will return True.
         return True
 
+# Calling the function.
+# Called using a print statement.
+print(play())
 
 # Program end.
