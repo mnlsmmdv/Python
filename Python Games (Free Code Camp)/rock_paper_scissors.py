@@ -26,6 +26,7 @@ def play():
 
     # This will return the tie if both choices are the same.
     if user == computer:
+        # If the two sides give the same choice this will print.
         return 'It\'s a tie'
 
     # This will ask if the user has won.
