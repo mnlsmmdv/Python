@@ -11,6 +11,9 @@
 
 # Program start.
 
+# Importing random module.
+import random
+
 
 
 # Program end.
