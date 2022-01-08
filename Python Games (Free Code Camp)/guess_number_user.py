@@ -26,6 +26,8 @@ def guess(x):
 
      # If the guess is not equal to random number this will iterate in a While Loop. 
     while guess != random_number:
-        
+        # Getting the users guess as input.
+        # Casted the input as integer to recieve as an integer as well.
+        guess = int(input(f'Guess a number between 1 and {x}: '))
 
 # Program end.
