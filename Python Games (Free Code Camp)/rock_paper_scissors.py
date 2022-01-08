@@ -16,6 +16,8 @@ import random
 
 # Function to play the game.
 def play():
+    # Asking for user input.
+    user = input("'r' for rock, 'p' for paper, 's' for scissors")
     
 
 # Program end.
