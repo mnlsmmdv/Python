@@ -37,10 +37,7 @@ def guess(x):
         # If guess is greater than the random number this will print.
         elif guess > random_number:
             print("Sorry, guess again. Too high.")
-
-    # If guess is equal to random number this will print.
-    print(f"Yay, congrats. You have guessed the number {random_number} correctly!!")
-
+            
 # Function for the computer to conduct guesses.
 # x passed as parameter to get random number function.
 def computer_guess(x):
