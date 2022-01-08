@@ -14,6 +14,8 @@
 # Importing random module.
 import random
 
-
+# Function to play the game.
+def play():
+    
 
 # Program end.
