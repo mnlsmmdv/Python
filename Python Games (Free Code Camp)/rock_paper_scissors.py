@@ -33,6 +33,9 @@ def play():
         # If the user won this will print.
         return 'You won!'
 
+    # If the computer won and you lose this will print.
+    return 'You lost!'
+
 # Function to see who wins.
 def is_win(player, opponent):
     # This will return True if the player wins.
