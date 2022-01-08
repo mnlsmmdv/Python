@@ -74,10 +74,6 @@ def computer_guess(x):
         # If computer guesses correctly this will print.
         print(f"Yay! The computer guessed your number, {guess}, correctly!!")
 
-# Calling the guess function.
-# Parameter given up to the number 10.
-#guess(10)
-
 # Calling the computer_guess function.
 # Parameter given up to the number 10.
 computer_guess(10)
