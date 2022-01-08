@@ -4,7 +4,7 @@
 # Date: 06/01/2022                                    #
 # Country: Republic of Maldives                       #
 # Code version: 3.8.10                                #
-# Description:                                        #
+# Description: Computer guesses random numbers.       #
 # Note: Uncomment codes to execute and comment        #
 #       them when not in use.                         #
 #######################################################
