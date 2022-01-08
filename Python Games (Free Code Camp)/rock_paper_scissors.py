@@ -20,7 +20,7 @@ import random
 # Function to play the game.
 def play():
     # Asking for user input.
-    user = input("'r' for rock, 'p' for paper, 's' for scissors\n")
+    user = input("What's your choice? 'r' for rock, 'p' for paper, 's' for scissors\n")
     # Computer randomly chooses one of these choices.
     computer = random.choice(['r', 'p', 's'])
 
