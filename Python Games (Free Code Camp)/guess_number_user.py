@@ -11,6 +11,10 @@
 
 # Program start.
 
+# Importing a module.
+# This module generates random numbers.
+import random
+
 
 
 # Program end.
