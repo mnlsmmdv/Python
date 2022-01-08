@@ -1,6 +1,7 @@
 #######################################################
 # Name: Ahmed Affaan                                  #
 # Title: hangman.py                                   #
+# Folder: Hangman                                     #
 # Date: 08/01/2022                                    #
 # Country: Republic of Maldives                       #
 # Code version: 3.8.10                                #
