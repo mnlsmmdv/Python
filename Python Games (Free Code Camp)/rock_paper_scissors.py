@@ -18,6 +18,7 @@ import random
 def play():
     # Asking for user input.
     user = input("'r' for rock, 'p' for paper, 's' for scissors")
-    
+    # Computer randomly chooses one of these choices.
+    computer = random.choice(['r', 'p', 's'])
 
 # Program end.
