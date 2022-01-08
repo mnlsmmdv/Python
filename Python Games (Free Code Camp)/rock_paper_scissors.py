@@ -28,6 +28,11 @@ def play():
     if user == computer:
         return 'It\'s a tie'
 
+    # This will ask if the user has won.
+    if is_win(user, computer):
+        # If the user won this will print.
+        return 'You won!'
+
 # Function to see who wins.
 def is_win(player, opponent):
     # This will return True if the player wins.
