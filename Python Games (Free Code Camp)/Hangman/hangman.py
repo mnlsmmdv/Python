@@ -14,7 +14,7 @@
 
 # Importing module to use random values.
 import random
-# Importing entire file as module.
+# Importing entire file as a module.
 from words import words
 
 # Program end.
