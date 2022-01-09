@@ -33,6 +33,6 @@ def get_valid_word(words):
 
     # When conditions have been met will return a word.
     # Returned words will be uppercase.
-    return word
+    return word.upper()
 
 # Program end.
