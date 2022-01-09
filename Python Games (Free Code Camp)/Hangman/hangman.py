@@ -31,6 +31,7 @@ def get_valid_word(words):
         # Iterates and give back random words until condition is met.
         word = random.choice(words)
 
-    
+    # When conditions have been met will return a word.
+    return word
 
 # Program end.
