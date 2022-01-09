@@ -20,4 +20,9 @@ from words import words
 # This print statement will test if the word list displays.
 #print(words)
 
+# This will go through until we get a valid word from the word list.
+# The parameter will be the list of words.
+def get_valid_word(words):
+    
+
 # Program end.
