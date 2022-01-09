@@ -14,9 +14,4 @@
 
 
 
-# This print statement will test if the word list displays.
-#print(words)
-
-
-
 # Program end.
