@@ -50,6 +50,6 @@ def hangman():
 
     # Getting the user's input.
     # User's input will be made in to uppercase.
-    user_letter = input('Type something: ').upper() 
+    user_letter = input('Guess a letter: ').upper() 
 
 # Program end.
