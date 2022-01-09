@@ -16,6 +16,8 @@
 import random
 # Importing entire file as a module.
 from words import words
+# Importing module.
+import string
 
 # This print statement will test if the word list displays.
 #print(words)
