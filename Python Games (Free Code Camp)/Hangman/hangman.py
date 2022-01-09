@@ -35,4 +35,8 @@ def get_valid_word(words):
     # Returned words will be in uppercase.
     return word.upper()
 
+# This will check the validity of words.
+def hangman():
+    
+
 # Program end.
