@@ -43,5 +43,7 @@ def hangman():
     word = get_valid_word(words)
     # This will save all the letters in a word.
     word_letters = set(word)
+    # This will set letters in uppercase as in the dictionary.
+    alphabet = set(string.ascii_uppercase)
 
 # Program end.
