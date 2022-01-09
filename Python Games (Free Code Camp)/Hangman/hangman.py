@@ -26,4 +26,11 @@ def get_valid_word(words):
     # Assigning the word to random selection and word list.
     word = random.choice(words)
 
+    # While a "-" is in the word list this will iterate.
+    while '-' in word or ' ' in word:
+        # Iterates and give back random words until condition is met.
+        word = random.choice(words)
+
+    
+
 # Program end.
