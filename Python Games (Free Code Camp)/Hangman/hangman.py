@@ -37,6 +37,8 @@ def get_valid_word(words):
 
 # This will check the validity of words.
 def hangman():
+    # This will store valid words from the random selection.
+    word = get_valid_word(words)
     
 
 # Program end.
