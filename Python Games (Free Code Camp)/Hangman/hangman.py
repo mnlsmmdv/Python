@@ -18,6 +18,6 @@ import random
 from words import words
 
 # This print statement will test if the word list displays.
-print(words)
+#print(words)
 
 # Program end.
