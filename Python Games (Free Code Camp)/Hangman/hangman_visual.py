@@ -12,10 +12,7 @@
 
 # Program start.
 
-# Importing module to use random values.
-import random
-# Importing entire file as module.
-from words import words
+
 
 # This print statement will test if the word list displays.
 #print(words)
