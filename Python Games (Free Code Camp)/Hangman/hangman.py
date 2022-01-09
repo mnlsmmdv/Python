@@ -45,5 +45,7 @@ def hangman():
     word_letters = set(word)
     # This will set letters in uppercase as in the dictionary.
     alphabet = set(string.ascii_uppercase)
+    # Keeps track of user's guess.
+    used_letters = set() 
 
 # Program end.
