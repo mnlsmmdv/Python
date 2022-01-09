@@ -39,6 +39,7 @@ def get_valid_word(words):
 def hangman():
     # This will store valid words from the random selection.
     word = get_valid_word(words)
-    
+    # This will save all the letters in a word.
+    word_letters = set(word)
 
 # Program end.
