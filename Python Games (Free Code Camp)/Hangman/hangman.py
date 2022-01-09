@@ -46,6 +46,10 @@ def hangman():
     # This will set letters in uppercase as in the dictionary.
     alphabet = set(string.ascii_uppercase)
     # Keeps track of user's guess.
-    used_letters = set() 
+    used_letters = set()
+
+    # Getting the user's input.
+    # User's input will be made in to uppercase.
+    user_letter = input('Type something: ').upper() 
 
 # Program end.
