@@ -12,6 +12,10 @@
 
 # Program start.
 
+# Importing module to use random values.
+import random
+# Importing entire file as module.
+from words import words
 
 
 # Program end.
