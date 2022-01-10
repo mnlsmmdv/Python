@@ -85,6 +85,7 @@ def hangman():
         else:
             print("Invalid input. Please try again!")
 
-
+# Calling the main function.
+hangman()
 
 # Program end.
