@@ -50,5 +50,12 @@ def hangman():
     # The amount of lives a user has.
     lives = 6
 
+    # Getting the user's initial input.
+    # Will keep iterating if the word letters and lives are greater than 0.
+    while len(word_letters) > 0 and lives > 0:
+        # Letters used.
+        # ' '.join(['a', 'b', 'cd']) --> 'a b cd'
+        
+
 
 # Program end.
