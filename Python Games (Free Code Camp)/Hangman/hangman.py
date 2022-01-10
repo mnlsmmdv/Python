@@ -63,5 +63,10 @@ def hangman():
         # Checked word will be added to word list.
         print('Current word: ', ' '.join(word_list))
 
+        # Asks the user to guess a letter.
+        # User's guess will be turned to uppercase.
+        user_letter = input('Guess a letter: ').upper()
+        
+
 
 # Program end.
