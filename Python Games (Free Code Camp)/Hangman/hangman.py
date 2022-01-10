@@ -77,6 +77,13 @@ def hangman():
             if user_letter in word_letters:
                 # This will remove the word letters in a word.
                 word_letters.remove(user_letter)
+
+            # This will take away one life after each wrong guess.
+            else:
+                # Decrements one life.
+                lives = lives - 1
+                # Tells user letter guessed not in word.
+                print("Letter is not in the word!")
         
         # If the user letter entered is in used letters this will prompt the user.
         elif user_letter in used_letters:
@@ -86,6 +93,7 @@ def hangman():
         # If guessed is not in the alphabet and used letters it is invalid.
         else:
             print("Invalid input. Please try again!")
+            
 
 # Calling the main function.
 hangman()
