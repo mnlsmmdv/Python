@@ -81,4 +81,10 @@ def hangman():
             # Prompts the user they have already used those letters.
             print("You have already used that character. Please try again!")
 
+        # If guessed is not in the alphabet and used letters it is invalid.
+        else:
+            print("Invalid input. Please try again!")
+
+
+
 # Program end.
