@@ -55,7 +55,7 @@ def hangman():
     while len(word_letters) > 0 and lives > 0:
         # Letters used.
         # ' '.join(['a', 'b', 'cd']) --> 'a b cd'
-        
+        print('You have', lives, 'lives left and you have used these letters: ', ' '.join(used_letters))
 
 
 # Program end.
