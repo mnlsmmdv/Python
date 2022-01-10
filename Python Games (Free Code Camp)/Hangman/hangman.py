@@ -93,6 +93,8 @@ def hangman():
         # If guessed is not in the alphabet and used letters it is invalid.
         else:
             print("Invalid input. Please try again!")
+
+    
             
 
 # Calling the main function.
