@@ -76,6 +76,9 @@ def hangman():
                 # This will remove the word letters in a word.
                 word_letters.remove(user_letter)
         
-        
+        # If the user letter entered is in used letters this will prompt the user.
+        elif user_letter in used_letters:
+            # Prompts the user they have already used those letters.
+            print("You have already used that character. Please try again!")
 
 # Program end.
