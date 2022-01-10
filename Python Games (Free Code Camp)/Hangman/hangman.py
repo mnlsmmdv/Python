@@ -48,7 +48,7 @@ def hangman():
     # Keeps track of user's guess.
     used_letters = set()
     # The amount of lives a user has.
-
+    lives = 6
 
 
 # Program end.
