@@ -66,7 +66,8 @@ def hangman():
         # Asks the user to guess a letter.
         # User's guess will be turned to uppercase.
         user_letter = input('Guess a letter: ').upper()
-        
 
+        # If character isn't used within the alphabet will add to used_letters set.
+        
 
 # Program end.
