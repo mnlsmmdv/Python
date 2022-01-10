@@ -68,6 +68,14 @@ def hangman():
         user_letter = input('Guess a letter: ').upper()
 
         # If character isn't used within the alphabet will add to used_letters set.
+        if user_letter in alphabet - used_letters:
+            # Add it to used_letters set.
+            used_letters.add(user_letter)
+            # If what we guessed is in the word letters will remove it.
+            if user_letter in word_letters:
+                # This will remove the word letters in a word.
+                word_letters.remove(user_letter)
+        
         
 
 # Program end.
