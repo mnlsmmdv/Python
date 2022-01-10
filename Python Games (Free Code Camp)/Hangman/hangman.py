@@ -94,9 +94,14 @@ def hangman():
         else:
             print("Invalid input. Please try again!")
 
-    
+      # Implemented when len(word_letters) == 0 OR when lives == 0
+    if lives == 0:
+        # Tells user of their death and displays the word.
+        print('You died, sorry. The word was', word)
+    else:
+        # Tells the user they have won.
+        print('YAY! You guessed the word', word, '!!')
             
-
 # Calling the main function.
 hangman()
 
