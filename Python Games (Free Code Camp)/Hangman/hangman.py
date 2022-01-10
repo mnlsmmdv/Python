@@ -54,5 +54,7 @@ def hangman():
     
 # This will ask for the user's initial input.
 user_input = input('Type something: ')
+# This will print the user input statement above.
+print(user_input)
 
 # Program end.
