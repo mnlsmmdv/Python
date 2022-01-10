@@ -47,14 +47,27 @@ def hangman():
     alphabet = set(string.ascii_uppercase)
     # Keeps track of user's guess.
     used_letters = set()
+    # The amount of lives a user has.
+
 
     # Getting the user's input.
     # User's input will be made in to uppercase.
     user_letter = input('Guess a letter: ').upper()
-    
-# This will ask for the user's initial input.
-user_input = input('Type something: ')
-# This will print the user input statement above.
-print(user_input)
+
+    if user_letter in alphabet - used_letters:
+            used_letters.add(user_letter)
+            if user_letter in word_letters:
+                word_letters.remove(user_letter)
+                print('')
+
+            else:
+                lives = lives - 1  # takes away a life if wrong
+                print('\nYour letter,', user_letter, 'is not in the word.')
+
+        elif user_letter in used_letters:
+            print('\nYou have already used that letter. Guess another letter.')
+
+        else:
+            print('\nThat is not a valid letter.')
 
 # Program end.
