@@ -12,6 +12,8 @@
 
 # Program start.
 
+# Python module to use mathematical tasks.
+import math
 
 
 # Program end.
