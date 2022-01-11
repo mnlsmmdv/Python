@@ -14,6 +14,9 @@
 
 # Python module to use mathematical tasks.
 import math
+# Python module to use random values.
+import random
+
 
 
 # Program end.
