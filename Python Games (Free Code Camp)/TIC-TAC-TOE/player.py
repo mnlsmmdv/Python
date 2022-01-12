@@ -17,6 +17,8 @@ import math
 # Python module to use random values.
 import random
 
-
+# Main program class to define the player.
+class Player:
+    
 
 # Program end.
