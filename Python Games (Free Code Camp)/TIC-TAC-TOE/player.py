@@ -54,7 +54,7 @@ class HumanPlayer(Player):
 
     # To be edited later.
     def get_move(self, game):
-        # Null statement.
-        pass
+        # Keeps iterating until they get a valid square.
+        valid_square = False
 
 # Program end.
