@@ -14,6 +14,8 @@
 
 # Main program class.
 class TicTacToe:
-    
+    # This function will house the board.
+    def __init__(self):
+        
 
 # Program end.
