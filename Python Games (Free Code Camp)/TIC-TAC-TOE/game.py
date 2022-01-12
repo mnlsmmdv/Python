@@ -16,6 +16,8 @@
 class TicTacToe:
     # This function will house the board.
     def __init__(self):
-        
+        # Board variable.
+        # Single list used to represent 3x3 board.
+        self.board = [' ' for _ in range(9)]
 
 # Program end.
