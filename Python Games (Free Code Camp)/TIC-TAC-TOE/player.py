@@ -56,5 +56,6 @@ class HumanPlayer(Player):
     def get_move(self, game):
         # Keeps iterating until they get a valid square.
         valid_square = False
+        val = None
 
 # Program end.
