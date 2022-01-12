@@ -39,8 +39,9 @@ class RandomComputerPlayer(Player):
 
     # To be edited later.
     def get_move(self, game):
-        # Null statement.
-        pass
+        # This selects a random empty spot to make our next move.
+        square = random.choice(game.available_moves())
+        return square
 
 # Human player made with inheritance.
 # Super class is Player.
