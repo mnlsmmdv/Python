@@ -26,6 +26,9 @@ class Player:
 
     # Function to help Player's get their next move.
     def get_move(self, game):
-        
+        # Null statement.
+        pass
+
+
 
 # Program end.
