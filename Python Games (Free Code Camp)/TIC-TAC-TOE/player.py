@@ -45,7 +45,10 @@ class RandomComputerPlayer(Player):
 # Human player made with inheritance.
 # Super class is Player.
 class HumanPlayer(Player):
-    
+    # Main function for this class. Initialisation function.
+    def __init__(self, letter):
+        # Calls initialisation in the super class.
+        super().__init__(letter)
 
 
 # Program end.
