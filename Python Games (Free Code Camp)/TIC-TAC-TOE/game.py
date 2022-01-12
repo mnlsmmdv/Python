@@ -12,6 +12,8 @@
 
 # Program start.
 
-
+# Main program class.
+class TicTacToe:
+    
 
 # Program end.
