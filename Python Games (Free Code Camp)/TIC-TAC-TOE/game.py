@@ -24,5 +24,7 @@ class TicTacToe:
 
     # This function will print the board.
     def print_board(self):
-        
+        # This splits it in to the rows.
+        for row in [self.board[i * 3: (i + 3) * 3] for i in range(3)]:
+            
 # Program end.
