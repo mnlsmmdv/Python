@@ -22,5 +22,7 @@ class Player:
     # Main program function to define Player's letter (X or O).
     def __init__(self, letter):
         # Letter is X or O.
+        self.letter = letter
+        
 
 # Program end.
