@@ -33,5 +33,8 @@ class Player:
 class RandomComputerPlayer(Player):
     # Main function for this class. Initialisation function.
     def __init__(self, letter):
-        
+        # Calls initialisation in the super class.
+        super().__init__(letter)
+
+    
 # Program end.
