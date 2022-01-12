@@ -41,6 +41,7 @@ class RandomComputerPlayer(Player):
     def get_move(self, game):
         # This selects a random empty spot to make our next move.
         square = random.choice(game.available_moves())
+        # Returns an empty square.
         return square
 
 # Human player made with inheritance.
