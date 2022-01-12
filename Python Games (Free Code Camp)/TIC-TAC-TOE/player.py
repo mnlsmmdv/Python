@@ -42,5 +42,10 @@ class RandomComputerPlayer(Player):
         # Null statement.
         pass
 
+# Human player made with inheritance.
+# Super class is Player.
+class HumanPlayer(Player):
+    
+
 
 # Program end.
