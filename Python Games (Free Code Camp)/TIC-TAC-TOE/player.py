@@ -36,5 +36,8 @@ class RandomComputerPlayer(Player):
         # Calls initialisation in the super class.
         super().__init__(letter)
 
-    
+    # To be edited later.
+    def get_move(self, game):
+        # Null statement.
+        pass
 # Program end.
