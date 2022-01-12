@@ -62,6 +62,7 @@ class HumanPlayer(Player):
         while not valid_square:
             # User input for move.
             square = input(self.letter + '\' turn. Input move (0-9): ')
+            
             """
             We're going to check that this is a correct value by trying to cast
             it to an integer, and if it's not, then we say it's invalid if that
