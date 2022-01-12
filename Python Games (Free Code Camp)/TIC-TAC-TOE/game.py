@@ -28,4 +28,16 @@ class TicTacToe:
         for row in [self.board[i * 3: (i + 3) * 3] for i in range(3)]:
             # This will print the separators on the board.
             print('| ' + ' | '.join(row) + ' |')
+
+    @staticmethod
+    
+    # Tells us what number corresponds to what box.
+    def print_board_nums():
+        number_board = [[str(i) for i in range(j * 3, (j + 1) * 3)] for j in range(3)]
+        # This will do it for the whole board.
+        for row in number_board:
+            # This will print the separators on the board.
+            print('| ' + ' | '.join(row) + ' |')
+
+    
 # Program end.
