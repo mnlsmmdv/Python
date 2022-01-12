@@ -23,6 +23,9 @@ class Player:
     def __init__(self, letter):
         # Letter is X or O.
         self.letter = letter
+
+    # Function to help Player's get their next move.
+    def get_move(self, game):
         
 
 # Program end.
