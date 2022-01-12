@@ -29,6 +29,8 @@ class Player:
         # Null statement.
         pass
 
-
+# Random computer player made with inheritance.
+class RandomComputerPlayer(Player):
+    
 
 # Program end.
