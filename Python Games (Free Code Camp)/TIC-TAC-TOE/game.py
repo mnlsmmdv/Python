@@ -22,4 +22,7 @@ class TicTacToe:
         # Keeps track of winner.
         self.current_winner = None
 
+    # This function will print the board.
+    def print_board(self):
+        
 # Program end.
