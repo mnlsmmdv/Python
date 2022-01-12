@@ -26,5 +26,6 @@ class TicTacToe:
     def print_board(self):
         # This splits it in to the rows.
         for row in [self.board[i * 3: (i + 3) * 3] for i in range(3)]:
-            
+            # This will print the separators on the board.
+            print('| ' + ' | '.join(row) + ' |')
 # Program end.
