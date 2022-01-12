@@ -39,5 +39,9 @@ class TicTacToe:
             # This will print the separators on the board.
             print('| ' + ' | '.join(row) + ' |')
 
-    
+    # This function will check what moves available after a move.
+    def available_moves(self):
+        # This will return a list of indices.
+        return [i for i, spot in enumerate(self.board) if spot == ' ']
+
 # Program end.
