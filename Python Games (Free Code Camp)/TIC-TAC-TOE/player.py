@@ -30,6 +30,7 @@ class Player:
         pass
 
 # Random computer player made with inheritance.
+# Super class is Player.
 class RandomComputerPlayer(Player):
     # Main function for this class. Initialisation function.
     def __init__(self, letter):
@@ -40,4 +41,6 @@ class RandomComputerPlayer(Player):
     def get_move(self, game):
         # Null statement.
         pass
+
+
 # Program end.
