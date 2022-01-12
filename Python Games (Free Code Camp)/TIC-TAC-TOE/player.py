@@ -31,7 +31,7 @@ class Player:
 
 # Random computer player made with inheritance.
 class RandomComputerPlayer(Player):
-    # Main function for this class. Super class.
+    # Main function for this class. Initialisation function.
     def __init__(self, letter):
         
 # Program end.
