@@ -19,5 +19,7 @@ class TicTacToe:
         # Board variable.
         # Single list used to represent 3x3 board.
         self.board = [' ' for _ in range(9)]
+        # Keeps track of winner.
+        self.current_winner = None
 
 # Program end.
