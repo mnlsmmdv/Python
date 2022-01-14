@@ -52,4 +52,16 @@ class TicTacToe:
     # This function will check the number of empty squares.
     def num_empty_squares(self):
         return self.board.count(' ')
+
+    """
+    This function will make a move.
+    If valid move, then make the move (assign square to letter)
+    then return true, if invalid, return false.
+    """
+    def make_move(self, square, letter):
+        if self.board[square] == ' ':
+            self.board[square] = letter
+            return True
+        return False
+
 # Program end.
