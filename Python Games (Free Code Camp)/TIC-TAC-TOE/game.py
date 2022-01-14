@@ -44,4 +44,8 @@ class TicTacToe:
         # This will return a list of indices.
         return [i for i, spot in enumerate(self.board) if spot == ' ']
 
+    # This function will check if the game still have empty squares.
+    def empty_squares(self):
+        # This will function as a Boolean.
+        return ' ' in self.board
 # Program end.
