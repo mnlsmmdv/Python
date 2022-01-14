@@ -48,4 +48,8 @@ class TicTacToe:
     def empty_squares(self):
         # This will function as a Boolean.
         return ' ' in self.board
+
+    # This function will check the number of empty squares.
+    def num_empty_squares(self):
+        return self.board.count(' ')
 # Program end.
