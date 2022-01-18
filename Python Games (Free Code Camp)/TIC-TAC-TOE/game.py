@@ -12,6 +12,8 @@
 
 # Program start.
 
+# Importing module.
+import time
 # Importing file.
 from player import HumanPlayer, RandomComputerPlayer
 
@@ -141,6 +143,9 @@ def play(game, x_player, o_player, print_game = True):
 
             # After we make a move, we need to alternate our letters.
             letter = 'O' if letter == 'X' else 'X'
+
+        # Tiny break.
+        time.sleep(0.8)
 
         # This will display the tie.
         if print_game:
