@@ -100,6 +100,7 @@ def play(game, x_player, o_player, print_game = True):
             if game.current_winner:
                 if print_game:
                     print(letter + ' wins!')
+                return letter
 
             # After we make a move, we need to alternate our letters.
             letter = 'O' if letter == 'X' else 'X'
