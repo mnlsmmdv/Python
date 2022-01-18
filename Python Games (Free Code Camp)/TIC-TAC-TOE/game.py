@@ -64,4 +64,39 @@ class TicTacToe:
             return True
         return False
 
+# This function helps get rest of the functions.
+def play(game, x_player, o_player, print_game = True):
+    # Printing the game.
+    if print_game:
+        # Defines which numbers corresponds to which spot.
+        game.print_board_nums()
+    
+    # The starting letter.
+    letter = 'X'
+    
+    """
+    Iterate while the game still has empty squares
+    (we don't have to worry about winner because we'll just return that
+    which breaks the loop)
+    """
+    while game.empty_squares():
+        # Get the move from the appropriate player.
+        if letter == 'O':
+            square = o_player.get_move(game)
+        else:
+            square = x_player.get_move(game)
+
+        # This function will make a move.
+        if game.make_move(square, letter):
+            if print_game:
+                print(letter + f' make a move to square {square}')
+                # This will print the updated board.
+                game.print_board()
+                # Empty line.
+                print('')
+
+            # After we make a move, we need to alternate our letters.
+            letter = 'O' if letter == 'X' else 'X'
+            
+
 # Program end.
