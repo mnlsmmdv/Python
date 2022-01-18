@@ -97,7 +97,7 @@ def play(game, x_player, o_player, print_game = True):
                 # Empty line.
                 print('')
             
-            # Specifies the letter that made us won.
+            # Specifies the letter that made us win.
             if game.current_winner:
                 if print_game:
                     print(letter + ' wins!')
