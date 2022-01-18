@@ -61,7 +61,7 @@ class HumanPlayer(Player):
         # While valid square is False this will iterate.
         while not valid_square:
             # User input for move.
-            square = input(self.letter + '\' turn. Input move (0-9): ')
+            square = input(self.letter + '\' turn. Input move (0-8): ')
 
             """
             We're going to check that this is a correct value by trying to cast
