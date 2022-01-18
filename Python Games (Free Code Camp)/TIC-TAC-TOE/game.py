@@ -12,6 +12,9 @@
 
 # Program start.
 
+# Importing file.
+from player import HumanPlayer, RandomComputerPlayer
+
 # Main program class.
 class TicTacToe:
     # This function will house the board.
