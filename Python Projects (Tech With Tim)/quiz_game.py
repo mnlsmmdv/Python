@@ -77,6 +77,4 @@ if answer.lower() == "power supply unit":
 else:
     print("Incorrect!")
 
-
-
 # Program end.
