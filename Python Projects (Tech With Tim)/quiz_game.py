@@ -46,6 +46,9 @@ if answer == "Graphical Processing Unit" or "graphical processing unit":
 else:
     print("Incorrect!")
 
+# Variable to ask user a question. Question 3.
+# This variable will also get the user's input.
+answer = input("What does RAM stand for?: ")
 
 
 # Program end.
