@@ -64,6 +64,9 @@ if answer == "Random Access Memory" or "random access memory":
 else:
     print("Incorrect!")
 
+# This will give one line spacing.
+print("")
+
 # Variable to ask user a question. Question 4.
 # This variable will also get the user's input.
 answer = input("What does PSU stand for?: ")
