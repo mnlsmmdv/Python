@@ -25,6 +25,7 @@ if playing.lower() != "yes":
 
 # If the answer is yes then this displays.
 print("Okay! Let's play :)")
+
 # This will give one line spacing.
 print("")
 
