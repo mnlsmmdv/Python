@@ -29,7 +29,6 @@ print("Okay! Let's play :)")
 # Variable to ask user a question.
 # This variable will also get the user's input.
 answer = input("What does CPU stand for?: ")
-
 # Checks the user's given answer.
 # If it's correct or incorrect it will be displayed.
 if answer == "Central Processing Unit" or "central processing unit":
