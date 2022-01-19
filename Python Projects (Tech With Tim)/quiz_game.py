@@ -59,7 +59,7 @@ print("")
 answer = input("What does RAM stand for?: ")
 # Checks the user's given answer.
 # If it's correct or incorrect it will be displayed.
-if answer == "random access memory":
+if answer.lower() == "random access memory":
     print("Correct!")
 else:
     print("Incorrect!")
