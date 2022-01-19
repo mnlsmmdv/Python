@@ -26,6 +26,8 @@ if playing != "yes":
 # If the answer is yes then this displays.
 print("Okay! Let's play :)")
 
-
+# Variable to ask user a question.
+# This variable will also get the user's input.
+answer = input("What does CPU stand for?: ")
 
 # Program end.
