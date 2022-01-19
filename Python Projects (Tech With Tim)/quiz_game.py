@@ -25,6 +25,8 @@ if playing != "yes":
 
 # If the answer is yes then this displays.
 print("Okay! Let's play :)")
+# This will give one line spacing.
+print("")
 
 # Variable to ask user a question. Question 1.
 # This variable will also get the user's input.
