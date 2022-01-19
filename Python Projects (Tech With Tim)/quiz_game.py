@@ -23,6 +23,9 @@ playing = input("Do you want to play?: ")
 if playing != "yes":
     quit()
 
+# If the answer is yes then this displays.
+print("Okay! Let's play :)")
+
 
 
 # Program end.
