@@ -39,6 +39,13 @@ else:
 # Variable to ask user a question. Question 2.
 # This variable will also get the user's input.
 answer = input("What does GPU stand for?: ")
+# Checks the user's given answer.
+# If it's correct or incorrect it will be displayed.
+if answer == "Graphical Processing Unit" or "graphical processing unit":
+    print("Correct!")
+else:
+    print("Incorrect!")
+
 
 
 # Program end.
