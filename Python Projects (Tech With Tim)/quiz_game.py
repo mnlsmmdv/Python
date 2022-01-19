@@ -14,6 +14,10 @@
 # Welcome message.
 print("Welcome to my computer quiz!")
 
+# Variable to ask user if they want to play.
+# This variable will also get the user's input.
+playing = input("Do you want to play?: ")
+
 
 
 # Program end.
