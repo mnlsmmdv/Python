@@ -46,7 +46,7 @@ print("")
 answer = input("What does GPU stand for?: ")
 # Checks the user's given answer.
 # If it's correct or incorrect it will be displayed.
-if answer == "graphical processing unit":
+if answer.lower() == "graphical processing unit":
     print("Correct!")
 else:
     print("Incorrect!")
