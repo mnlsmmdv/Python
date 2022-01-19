@@ -59,6 +59,13 @@ else:
 # Variable to ask user a question. Question 4.
 # This variable will also get the user's input.
 answer = input("What does PSU stand for?: ")
+# Checks the user's given answer.
+# If it's correct or incorrect it will be displayed.
+if answer == "Power Supply Unit" or "power supply unit":
+    print("Correct!")
+else:
+    print("Incorrect!")
+
 
 
 # Program end.
