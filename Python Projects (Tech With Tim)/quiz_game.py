@@ -18,6 +18,11 @@ print("Welcome to my computer quiz!")
 # This variable will also get the user's input.
 playing = input("Do you want to play?: ")
 
+# This will check if the user answered "yes" or "no".
+# If it's not yes it will quit the game.
+if playing != "yes":
+    quit()
+
 
 
 # Program end.
