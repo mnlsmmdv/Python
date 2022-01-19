@@ -20,7 +20,7 @@ playing = input("Do you want to play?: ")
 
 # This will check if the user answered "yes" or "no".
 # If it's not yes it will quit the game.
-if playing != "Yes" or "yes":
+if playing != "yes":
     quit()
 
 # If the answer is yes then this displays.
