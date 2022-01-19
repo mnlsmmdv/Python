@@ -11,6 +11,9 @@
 
 # Program start.
 
+# Welcome message.
+print("Welcome to my computer quiz!")
+
 
 
 # Program end.
