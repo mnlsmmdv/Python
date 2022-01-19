@@ -38,6 +38,9 @@ if answer == "Central Processing Unit" or "central processing unit":
 else:
     print("Incorrect!")
 
+# This will give one line spacing.
+print("")
+
 # Variable to ask user a question. Question 2.
 # This variable will also get the user's input.
 answer = input("What does GPU stand for?: ")
