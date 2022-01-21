@@ -1,16 +1,15 @@
-#######################################################
-# Name: Ahmed Affaan                                  #
-# Title: tuples.py                                    #
-# Date: 20/09/2021                                    #
-# Country: Republic of Maldives                       #
-# Code version: 3.8.10                                #
-# Description: Tuples creation and modification       #
-# Note: Uncomment codes to execute and comment        #
-#       them when not in use.                         #
-#######################################################
+"""
+Name: Ahmed Affaan                                  
+Title: tuples.py                                    
+Date: 20/09/2021                                    
+Country: Republic of Maldives                       
+Code version: 3.8.10                                
+Description: Tuples creation and modification       
+Note: Uncomment codes to execute and comment 
+them when not in use.                         
+"""
 
 # Program start
-
 
 """
 Tuples - Structures that can contain various values.
@@ -21,14 +20,12 @@ Tuples after creation can not be changed or modified.
 """
 maldives = (2, 13)
 
-
 """
 Code below will print attributes inside the Tuples
 Note: Printing Tuples will work similar same as printing specific indexes in lists
 Define Tuple's variable name and place the index to be printed inside square brackets as shown "print(variable[1])"
 """
 print(maldives[1])
-
 
 """
 List of Tuples
