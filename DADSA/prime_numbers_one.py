@@ -1,12 +1,12 @@
-#######################################################
-# Name: Ahmed Affaan                                  #
-# Title: prime_numbers_one.py                         #
-# Date: 15/11/2021                                    #
-# Country: Maldives                                   #
-# Description:                                        #
-# Note: Uncomment codes to execute and comment        #
-#       them when not in use.                         #
-#######################################################
+"""
+Name: Ahmed Affaan                                  
+Title: prime_numbers_one.py                         
+Date: 15/11/2021                                    
+Country: Maldives                                   
+Description:                                        
+Note: Uncomment codes to execute and comment
+them when not in use.                         
+"""
 
 # Variable declared that accepts an input and also changes its data type
 prime_number = int(input("Enter any number: "))
