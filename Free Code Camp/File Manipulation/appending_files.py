@@ -1,14 +1,14 @@
-#######################################################
-# Name: Ahmed Affaan                                  #
-# Title: appending_files.py                           #
-# Folder: File Manipulation                           #
-# Date: 12/12/2021                                    #
-# Country: Republic of Maldives                       #
-# Code version: 3.8.10                                #
-# Description: Understanding how to append to files   #
-# Note: Uncomment codes to execute and comment        #
-#       them when not in use.                         #
-#######################################################
+"""
+Name: Ahmed Affaan                                  
+Title: appending_files.py                           
+Folder: File Manipulation                           
+Date: 12/12/2021                                    
+Country: Republic of Maldives                       
+Code version: 3.8.10                                
+Description: Understanding how to append to files   
+Note: Uncomment codes to execute and comment        
+them when not in use.                         
+"""
 
 # Program start.
 
