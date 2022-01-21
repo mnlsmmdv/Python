@@ -1,14 +1,14 @@
-#######################################################
-# Name: Ahmed Affaan                                  #
-# Title: multiple_choice_quiz.py                      #
-# Folder: Multiple Choice Quiz                        #
-# Date: 29/12/2021                                    #
-# Country: Republic of Maldives                       #
-# Code version: 3.8.10                                #
-# Description:                                        #
-# Note: Uncomment codes to execute and comment        #
-#       them when not in use.                         #
-#######################################################
+"""
+Name: Ahmed Affaan                                  
+Title: multiple_choice_quiz.py                      
+Folder: Multiple Choice Quiz                        
+Date: 29/12/2021                                    
+Country: Republic of Maldives                       
+Code version: 3.8.10                                
+Description:                                        
+Note: Uncomment codes to execute and comment
+them when not in use.                         
+"""
 
 # Program start.
 
