@@ -1,10 +1,11 @@
 """
- Name: Ahmed Affaan                                  
- Title: greatest_common_divisor.py                   
- Date: 15/11/2021                                    
- Country: Maldives                                   
- Description:                                        
- Note: Uncomment codes to execute and comment        
+Name: Ahmed Affaan                                  
+Title: greatest_common_divisor.py                   
+Date: 15/11/2021                                    
+Country: Maldives
+Code version: 3.8.10                                    
+Description:                                        
+Note: Uncomment codes to execute and comment        
 them when not in use.                         
 """
 

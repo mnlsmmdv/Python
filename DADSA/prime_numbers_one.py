@@ -2,7 +2,8 @@
 Name: Ahmed Affaan                                  
 Title: prime_numbers_one.py                         
 Date: 15/11/2021                                    
-Country: Maldives                                   
+Country: Maldives
+Code version: 3.8.10                                    
 Description:                                        
 Note: Uncomment codes to execute and comment
 them when not in use.                         
