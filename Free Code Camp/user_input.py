@@ -1,15 +1,16 @@
-##################################################
-# Name: Ahmed Affaan                             #
-# Title: user_input.py                           #
-# Date: 16/09/2021                               #
-# Country: Republic of Maldives                  #
-# Code version: 3.8.10                           #
-# Description: User input and modification       #
-# Note: Uncomment codes to execute and comment   #
-#       them when not in use.                    #
-##################################################
+"""
+Name: Ahmed Affaan                             
+Title: user_input.py                           
+Date: 16/09/2021                               
+Country: Republic of Maldives                  
+Code version: 3.8.10                           
+Description: User input and modification       
+Note: Uncomment codes to execute and comment 
+them when not in use.                    
+"""
 
 # Program start
+
 # Getting simple input from a user
 # "input("")" is defined as the input prompt
 """
