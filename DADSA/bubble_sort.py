@@ -1,12 +1,12 @@
 """
- Name: Ahmed Affaan                                  
- Title: bubble_sort.py                               
- Date: 29/09/2021                                    
- Country: Republic of Maldives                       
- Code version: 3.8.10                                
- Description:                                        
- Note: Uncomment codes to execute and comment        
-       them when not in use.                         
+Name: Ahmed Affaan                                  
+Title: bubble_sort.py                               
+Date: 29/09/2021                                    
+Country: Republic of Maldives                       
+Code version: 3.8.10                                
+Description:                                        
+Note: Uncomment codes to execute and comment
+them when not in use.                         
 """
 
 # Program start
