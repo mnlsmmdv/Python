@@ -1,13 +1,13 @@
-#######################################################
-# Name: Ahmed Affaan                                  #
-# Title: functions.py                                 #
-# Date: 20/09/2021                                    #
-# Country: Republic of Maldives                       #
-# Code version: 3.8.10                                #
-# Description: Functions creation and modification    #
-# Note: Uncomment codes to execute and comment        #
-#       them when not in use.                         #
-#######################################################
+"""
+Name: Ahmed Affaan                                  
+Title: functions.py                                 
+Date: 20/09/2021                                    
+Country: Republic of Maldives                       
+Code version: 3.8.10                                
+Description: Functions creation and modification    
+Note: Uncomment codes to execute and comment 
+them when not in use.                         
+"""
 
 # Program start
 
