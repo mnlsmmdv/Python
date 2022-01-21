@@ -9,7 +9,8 @@ Note: Uncomment codes to execute and comment
 them when not in use.                         
 """
 
-# Program start
+# Program start.
+
 # Creation of Boolean variable to check gender
 is_Male = True
 is_Tall = False
