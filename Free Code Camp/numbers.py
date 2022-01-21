@@ -1,13 +1,13 @@
-##################################################
-# Name: Ahmed Affaan                             #
-# Title: numbers.py                              #
-# Date: 15/09/2021                               #
-# Country: Republic of Maldives                  #
-# Code version: 3.8.10                           #
-# Description: number creation and manipulation. #
-# Note: Uncomment codes to execute and comment   #
-#       them when not in use.                    #
-##################################################
+"""
+Name: Ahmed Affaan                             
+Title: numbers.py                              
+Date: 15/09/2021                               
+Country: Republic of Maldives                  
+Code version: 3.8.10                           
+Description: number creation and manipulation. 
+Note: Uncomment codes to execute and comment 
+them when not in use.                    
+"""
 
 # Program start
 # Importing math related functions (Python Modules)
