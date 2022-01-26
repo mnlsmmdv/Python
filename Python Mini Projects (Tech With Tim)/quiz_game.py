@@ -40,6 +40,8 @@ else:
     # Displays if user's answer if incorrect.
     print("Incorrect!")
 
+# This will store the user's answer. Question #2.
+answer = input("What does GPU stand for?: ")
 
 
 # Program end.
