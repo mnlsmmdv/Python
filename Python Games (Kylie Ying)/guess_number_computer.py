@@ -1,13 +1,13 @@
-#######################################################
-# Name: Ahmed Affaan                                  #
-# Title: guess_number_computer.py                     #
-# Date: 06/01/2022                                    #
-# Country: Republic of Maldives                       #
-# Code version: 3.8.10                                #
-# Description: Computer guesses random numbers.       #
-# Note: Uncomment codes to execute and comment        #
-#       them when not in use.                         #
-#######################################################
+"""
+Name: Ahmed Affaan                                  
+Title: guess_number_computer.py                     
+Date: 06/01/2022                                    
+Country: Republic of Maldives                       
+Code version: 3.8.10                                
+Description: Computer guesses random numbers.       
+Note: Uncomment codes to execute and comment 
+them when not in use.                         
+"""
 
 # Program start.
 
