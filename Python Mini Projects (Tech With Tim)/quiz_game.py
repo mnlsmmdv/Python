@@ -30,4 +30,7 @@ print("Okay! Let's play :)")
 # Given for one line spacing.
 print("")
 
+# This will store the user's answer.
+answer = input("What does CPU stand for?: ")
+
 # Program end.
