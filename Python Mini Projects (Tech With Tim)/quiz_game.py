@@ -21,6 +21,7 @@ playing = input("Do you want to play?: ")
 if playing != "Yes" or "yes":
     quit()
 
-
+# Displayed when the user agrees to continue the game.
+print("Okay! Let's play :)")
 
 # Program end.
