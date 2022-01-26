@@ -23,7 +23,7 @@ playing = input("Do you want to play?: ")
 print("")
 
 # This will ask user's choice to continue the game.
-if playing != "Yes" or "yes":
+if playing != "yes":
     quit()
 
 # Displayed when the user agrees to continue the game.
