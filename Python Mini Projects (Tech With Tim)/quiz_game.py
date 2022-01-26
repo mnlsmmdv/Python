@@ -11,7 +11,9 @@ them when not in use.
 
 # Program start.
 
-# Welcome message.
+# Displays as welcome message.
 print("Welcome to my computer quiz!")
+
+
 
 # Program end.
