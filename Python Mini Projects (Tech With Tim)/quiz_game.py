@@ -17,6 +17,10 @@ print("Welcome to my computer quiz!")
 # Asks user's choice.
 playing = input("Do you want to play?: ")
 
+# This will ask user's choice to continue the game.
+if playing != "Yes" or "yes":
+    quit()
+
 
 
 # Program end.
