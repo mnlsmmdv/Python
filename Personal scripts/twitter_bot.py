@@ -1,13 +1,13 @@
-#######################################################
-# Name: Ahmed Affaan                                  #
-# Title: twitter_bot.py                               #
-# Date: 17/10/2021                                    #
-# Country: Republic of Maldives                       #
-# Code version: 3.8.10                                #
-# Description: Twitter bot version 01                 #
-# Note: Uncomment codes to execute and comment        #
-#       them when not in use.                         #
-#######################################################
+"""
+Name: Ahmed Affaan                                  
+Title: twitter_bot.py                               
+Date: 17/10/2021                                    
+Country: Republic of Maldives                       
+Code version: 3.8.10                                
+Description: Twitter bot version 01                 
+Note: Uncomment codes to execute and comment 
+them when not in use.                         
+"""
 
 # Program start
 # Importing tweepy module
