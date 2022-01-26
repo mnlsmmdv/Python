@@ -69,6 +69,7 @@ else:
 # Given for one line spacing.
 print("")
 
-
+# This will store the user's answer. Question #4.
+answer = input("What does PSU stand for?: ")
 
 # Program end.
