@@ -50,6 +50,8 @@ else:
     # Displays if user's answer is incorrect.
     print("Incorrect!")
 
+# This will store the user's answer. Question #3.
+answer = input("What does RAM stand for?: ")
 
 
 # Program end.
