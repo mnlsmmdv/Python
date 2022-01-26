@@ -52,6 +52,14 @@ else:
 
 # This will store the user's answer. Question #3.
 answer = input("What does RAM stand for?: ")
+# Validates the answer for Question #3.
+if answer == "random access memory":
+    # Displays if user's answer if correct.
+    print("Correct!")
+else:
+    # Displays if user's answer is incorrect.
+    print("Incorrect!")
+
 
 
 # Program end.
