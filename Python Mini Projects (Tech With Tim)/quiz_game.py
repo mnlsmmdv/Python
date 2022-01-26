@@ -28,6 +28,8 @@ if playing != "yes":
 
 # Displayed when the user agrees to continue the game.
 print("Okay! Let's play :)")
+# Divider print statement.
+print("--------------------------------")
 
 # Given for one line spacing.
 print("")
