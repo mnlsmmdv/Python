@@ -13,6 +13,8 @@ them when not in use.
 
 # Displays as welcome message.
 print("Welcome to my computer quiz!")
+# Divider print statement.
+print("--------------------------------")
 
 # Asks user's choice.
 playing = input("Do you want to play?: ")
