@@ -32,5 +32,14 @@ print("")
 
 # This will store the user's answer. Question #1.
 answer = input("What does CPU stand for?: ")
+# Validates the answer for Question #1.
+if answer == "central processing unit":
+    # Displays if user's answer is correct.
+    print("Correct!")
+else:
+    # Displays if user's answer if incorrect.
+    print("Incorrect!")
+
+
 
 # Program end.
