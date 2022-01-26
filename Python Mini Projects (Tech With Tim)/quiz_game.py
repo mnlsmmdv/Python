@@ -37,7 +37,7 @@ if answer == "central processing unit":
     # Displays if user's answer is correct.
     print("Correct!")
 else:
-    # Displays if user's answer if incorrect.
+    # Displays if user's answer is incorrect.
     print("Incorrect!")
 
 # Given for one line spacing.
@@ -47,7 +47,7 @@ print("")
 answer = input("What does GPU stand for?: ")
 # Validates the answer for Question #2.
 if answer == "graphics processing unit":
-    # Displays if user's answer if correct.
+    # Displays if user's answer is correct.
     print("Correct!")
 else:
     # Displays if user's answer is incorrect.
@@ -60,7 +60,7 @@ print("")
 answer = input("What does RAM stand for?: ")
 # Validates the answer for Question #3.
 if answer == "random access memory":
-    # Displays if user's answer if correct.
+    # Displays if user's answer is correct.
     print("Correct!")
 else:
     # Displays if user's answer is incorrect.
