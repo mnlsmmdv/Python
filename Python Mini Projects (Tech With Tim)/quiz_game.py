@@ -27,4 +27,7 @@ if playing != "Yes" or "yes":
 # Displayed when the user agrees to continue the game.
 print("Okay! Let's play :)")
 
+# Given for one line spacing.
+print("")
+
 # Program end.
