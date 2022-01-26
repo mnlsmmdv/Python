@@ -1,13 +1,13 @@
-#######################################################
-# Name: Ahmed Affaan                                  #
-# Title: while_loop.py                                #
-# Date: 17/10/2021                                    #
-# Country: Republic of Maldives                       #
-# Code version: 3.8.10                                #
-# Description: While Loop basics                      #
-# Note: Uncomment codes to execute and comment        #
-#       them when not in use.                         #
-#######################################################
+"""
+Name: Ahmed Affaan                                  
+Title: while_loop.py                                
+Date: 17/10/2021                                    
+Country: Republic of Maldives                       
+Code version: 3.8.10                                
+Description: While Loop basics                      
+Note: Uncomment codes to execute and comment 
+them when not in use.                         
+"""
 
 # Program start
 
