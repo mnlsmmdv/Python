@@ -71,5 +71,14 @@ print("")
 
 # This will store the user's answer. Question #4.
 answer = input("What does PSU stand for?: ")
+# Validates the user's answer for Question #4.
+if answer == "power supply unit":
+    # Displays if user's answer is correct.
+    print("Correct!")
+else:
+    # Displays if user's answer is incorrect.
+    print("Incorrect!")
+
+
 
 # Program end.
