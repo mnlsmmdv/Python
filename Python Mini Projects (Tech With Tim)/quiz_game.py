@@ -53,6 +53,9 @@ else:
     # Displays if user's answer is incorrect.
     print("Incorrect!")
 
+# Given for one line spacing.
+print("")
+
 # This will store the user's answer. Question #3.
 answer = input("What does RAM stand for?: ")
 # Validates the answer for Question #3.
