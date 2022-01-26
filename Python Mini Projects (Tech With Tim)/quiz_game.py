@@ -66,6 +66,9 @@ else:
     # Displays if user's answer is incorrect.
     print("Incorrect!")
 
+# Given for one line spacing.
+print("")
+
 
 
 # Program end.
