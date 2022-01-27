@@ -36,4 +36,7 @@ else:
 # This variable will store the random value.
 random_number = random.randint(top_of_range)
 
+# This will print the random numbers.
+print(random_number)
+
 # Program end.
