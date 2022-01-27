@@ -14,6 +14,7 @@ them when not in use.
 # This module will generate random values.
 import random
 
-
+# This variable will store the random value.
+random_number = random.randint(11)
 
 # Program end.
