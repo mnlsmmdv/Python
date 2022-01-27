@@ -11,6 +11,9 @@ them when not in use.
 
 # Program start.
 
+# This module will generate random numbers.
+import random
+
 
 
 # Program end.
