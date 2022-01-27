@@ -67,7 +67,7 @@ print("")
 # Inputs are changed to lower case.
 answer = input("What does RAM stand for?: ")
 # Validates the answer for Question #3.
-if answer == "random access memory":
+if answer.lower() == "random access memory":
     # Displays if user's answer is correct.
     print("Correct!")
 else:
