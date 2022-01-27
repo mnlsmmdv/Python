@@ -44,7 +44,7 @@ guesses = 0
 while True:
     # Increments the user's guess count.
     guesses += 1
-
+    
     # Asks the user's a number to guess.
     # This variable will store the user's guess.
     user_guess = input("Make a guess: ")
