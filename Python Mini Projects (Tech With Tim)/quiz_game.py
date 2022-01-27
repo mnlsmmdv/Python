@@ -64,6 +64,7 @@ else:
 print("")
 
 # This will store the user's answer. Question #3.
+# Inputs are changed to lower case.
 answer = input("What does RAM stand for?: ")
 # Validates the answer for Question #3.
 if answer == "random access memory":
