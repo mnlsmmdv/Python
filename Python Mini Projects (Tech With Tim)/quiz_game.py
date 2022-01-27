@@ -50,6 +50,7 @@ else:
 print("")
 
 # This will store the user's answer. Question #2.
+# Inputs are changed to lower case.
 answer = input("What does GPU stand for?: ")
 # Validates the answer for Question #2.
 if answer == "graphics processing unit":
