@@ -17,6 +17,22 @@ import random
 # Collects input from user to guess.
 top_of_range = input("Type a number: ")
 
+# Checks if the value passed is a digit.
+if top_of_range.isdigit():
+    # Changes the string input to an integer.
+    top_of_range = int(top_of_range)
+    
+    # Checks if the digit is greater than 0.
+    if top_of_range <= 0:
+        # Message displayed to enter a larger number & quits the program.
+        print("Please enter a number larger than 0 next time!")
+        quit()
+        
+# Displayed when value passed is not a number & quits.
+else:
+    print("Please type a number next time!")
+    quit()
+
 # This variable will store the random value.
 random_number = random.randint(11)
 
