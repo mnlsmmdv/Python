@@ -36,6 +36,7 @@ print("--------------------------------")
 print("")
 
 # This will store the user's answer. Question #1.
+# Inputs are changed to lower case.
 answer = input("What does CPU stand for?: ")
 # Validates the answer for Question #1.
 if answer == "central processing unit":
