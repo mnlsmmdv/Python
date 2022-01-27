@@ -53,7 +53,7 @@ print("")
 # Inputs are changed to lower case.
 answer = input("What does GPU stand for?: ")
 # Validates the answer for Question #2.
-if answer == "graphics processing unit":
+if answer.lower() == "graphics processing unit":
     # Displays if user's answer is correct.
     print("Correct!")
 else:
