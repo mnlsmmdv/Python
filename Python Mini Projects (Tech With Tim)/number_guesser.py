@@ -36,6 +36,31 @@ else:
 # This variable will store the random value.
 random_number = random.randint(0, top_of_range)
 
+# This will iterate until user's guess is correct.
+while True:
+    # Asks the user's a number to guess.
+    # This variable will store the user's guess.
+    user_guess = input("Make a guess: ")
+    
+    # This will check what the user entered was a number.
+    # Checks if passed value is a digit.
+    if user_guess.isdigit():
+        # If it's a digit changes the value to an integer.
+        user_guess = int(user_guess)
+    # If the value passed is not a digit this message is shown.
+    else:
+        print("Please type a number next time!")
+        # This will go back to the loop and iterate again.
+        continue
 
+    # Displayed when the user guessed it correct or incorrect.
+    if user_guess == random_number:
+        # Message displayed when correct.
+        print("You guessed it correct!")
+        # Stops the iteration when you get it correct.
+        break
+    else:
+        # Message displayed when incorrect.
+        print("You guessed it incorrect!!!")
 
 # Program end.
