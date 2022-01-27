@@ -23,6 +23,7 @@ playing = input("Do you want to play?: ")
 print("")
 
 # This will ask user's choice to continue the game.
+# Inputs are changed to lower case.
 if playing != "yes":
     quit()
 
