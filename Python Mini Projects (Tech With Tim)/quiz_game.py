@@ -106,7 +106,7 @@ print("--------------------------------")
 # Displays how many questions the user got correct.
 # Score's int value is changed to a String.
 print("You got " + str(score) + " questions correct!")
-# Displays the score in percentage.
+# Displays the user's score as a percentage.
 print("You got " + str((score / 4) * 100) + "%.")
 # Divider print statement.
 print("--------------------------------")
