@@ -39,7 +39,7 @@ print("")
 # Inputs are changed to lower case.
 answer = input("What does CPU stand for?: ")
 # Validates the answer for Question #1.
-if answer == "central processing unit":
+if answer.lower() == "central processing unit":
     # Displays if user's answer is correct.
     print("Correct!")
 else:
