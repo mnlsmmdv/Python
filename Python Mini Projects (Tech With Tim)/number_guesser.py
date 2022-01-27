@@ -76,6 +76,8 @@ while True:
 
 # Given for one line spacing.
 print("")
+# Divider print statement.
+print("--------------------------------")
 # This will display how many guesses the user attempted.
 print("You got in", guesses, "guesses.") 
 
