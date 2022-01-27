@@ -44,7 +44,7 @@ guesses = 0
 while True:
     # Increments the user's guess count.
     guesses += 1
-    
+
     # Asks the user's a number to guess.
     # This variable will store the user's guess.
     user_guess = input("Make a guess: ")
@@ -69,5 +69,8 @@ while True:
     else:
         # Message displayed when incorrect.
         print("You guessed it incorrect!!!")
+
+# This will display how many guesses the user attempted.
+print("You got in", guesses, "guesses.") 
 
 # Program end.
