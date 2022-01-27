@@ -105,5 +105,7 @@ print("--------------------------------")
 # Displays how many questions the user got correct.
 # Score's int value is changed to a String.
 print("You got " + str(score) + " questions correct!")
+# Divider print statement.
+print("--------------------------------")
 
 # Program end.
