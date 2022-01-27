@@ -34,7 +34,7 @@ else:
     quit()
 
 # This variable will store the random value.
-random_number = random.randint(top_of_range)
+random_number = random.randint(0, top_of_range)
 
 # This will print the random numbers.
 print(random_number)
