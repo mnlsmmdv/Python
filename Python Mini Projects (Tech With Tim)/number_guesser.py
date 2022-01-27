@@ -36,7 +36,8 @@ else:
 # This variable will store the random value.
 random_number = random.randint(0, top_of_range)
 
-# This will track how many correct guesses a user makes.
+# This will keep track how many guesses a user makes.
+# Default value kept as 0.
 guesses = 0
 
 # This will iterate until user's guess is correct.
