@@ -32,6 +32,10 @@ print("Okay! Let's play :)")
 # Divider print statement.
 print("--------------------------------")
 
+# This variable will keep track of the score.
+# Default value kept as 0
+score = 0
+
 # Given for one line spacing.
 print("")
 
