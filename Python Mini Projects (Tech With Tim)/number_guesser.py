@@ -14,6 +14,9 @@ them when not in use.
 # This module will generate random values.
 import random
 
+# Collects input from user to guess.
+top_of_range = input("Type a number: ")
+
 # This variable will store the random value.
 random_number = random.randint(11)
 
