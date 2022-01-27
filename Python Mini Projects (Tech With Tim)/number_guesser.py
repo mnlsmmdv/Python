@@ -74,6 +74,8 @@ while True:
         # If user's guess above the number.
         print("You were below the number.")
 
+# Given for one line spacing.
+print("")
 # This will display how many guesses the user attempted.
 print("You got in", guesses, "guesses.") 
 
