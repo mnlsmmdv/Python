@@ -24,7 +24,7 @@ print("")
 
 # This will ask user's choice to continue the game.
 # Inputs are changed to lower case.
-if playing != "yes":
+if playing.lower() != "yes":
     quit()
 
 # Displayed when the user agrees to continue the game.
