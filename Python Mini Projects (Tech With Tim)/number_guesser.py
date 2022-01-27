@@ -66,9 +66,13 @@ while True:
         print("You guessed it correct!")
         # Stops the iteration when you get it correct.
         break
+    # This will display if the user's guess was above or below.
+    elif user_guess > random_number:
+        # If user's guess above the number.
+        print("You were above the number.")
     else:
-        # Message displayed when incorrect.
-        print("You guessed it incorrect!!!")
+        # If user's guess above the number.
+        print("You were below the number.")
 
 # This will display how many guesses the user attempted.
 print("You got in", guesses, "guesses.") 
