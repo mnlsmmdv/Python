@@ -100,6 +100,8 @@ else:
     # Displays if user's answer is incorrect.
     print("Incorrect!")
 
-
+# Displays how many questions the user got correct.
+# Score's int value is changed to a String.
+print("You got " + str(score) + " questions correct!")
 
 # Program end.
