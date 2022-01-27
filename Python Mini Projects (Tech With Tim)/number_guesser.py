@@ -27,13 +27,13 @@ if top_of_range.isdigit():
         # Message displayed to enter a larger number & quits the program.
         print("Please enter a number larger than 0 next time!")
         quit()
-        
+
 # Displayed when value passed is not a number & quits.
 else:
     print("Please type a number next time!")
     quit()
 
 # This variable will store the random value.
-random_number = random.randint(11)
+random_number = random.randint(top_of_range)
 
 # Program end.
