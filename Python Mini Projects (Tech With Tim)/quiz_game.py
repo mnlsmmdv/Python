@@ -81,7 +81,7 @@ print("")
 # Inputs are changed to lower case.
 answer = input("What does PSU stand for?: ")
 # Validates the user's answer for Question #4.
-if answer == "power supply unit":
+if answer.lower() == "power supply unit":
     # Displays if user's answer is correct.
     print("Correct!")
 else:
