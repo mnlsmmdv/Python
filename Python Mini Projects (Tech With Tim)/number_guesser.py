@@ -79,6 +79,8 @@ print("")
 # Divider print statement.
 print("--------------------------------")
 # This will display how many guesses the user attempted.
-print("You got in", guesses, "guesses.") 
+print("You got in", guesses, "guesses.")
+# Divider print statement.
+print("--------------------------------") 
 
 # Program end.
