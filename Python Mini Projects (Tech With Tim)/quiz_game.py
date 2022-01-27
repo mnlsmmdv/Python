@@ -78,6 +78,7 @@ else:
 print("")
 
 # This will store the user's answer. Question #4.
+# Inputs are changed to lower case.
 answer = input("What does PSU stand for?: ")
 # Validates the user's answer for Question #4.
 if answer == "power supply unit":
