@@ -94,6 +94,8 @@ answer = input("What does PSU stand for?: ")
 if answer.lower() == "power supply unit":
     # Displays if user's answer is correct.
     print("Correct!")
+    # Increments the score by 1 if user's answer is correct.
+    score += 1
 else:
     # Displays if user's answer is incorrect.
     print("Incorrect!")
