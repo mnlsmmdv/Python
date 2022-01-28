@@ -50,6 +50,17 @@ while True:
     # This will print what the computer chose.
     print("Computer picked", computer_pick + ".")
 
+    # Compares computer and user's picks.
+    # Picks the winning conditions.
+    # Condition rock VS scissors
+    if user_input == "rock" and computer_pick == "scissors":
+        # Tells the user they have won.
+        print("You won!")
+        # Increments one point to the user.
+        user_wins += 1
+        # Loops back to the start of the While Loop.
+        continue
+
     
 
 # This is the final end message.
