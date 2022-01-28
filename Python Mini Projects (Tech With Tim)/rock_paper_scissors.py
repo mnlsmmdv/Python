@@ -88,7 +88,6 @@ while True:
 
 # Prints how many wins the user won.
 print("You won", user_wins, "times.")
-
 # Prints how many wins the computer won.
 print("You won", computer_wins, "times.")
 
