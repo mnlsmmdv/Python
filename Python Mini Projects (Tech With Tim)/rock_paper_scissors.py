@@ -14,6 +14,8 @@ them when not in use.
 # This module will generate random values.
 import random
 
-
+# This will store the user's score.
+# Default value kept as 0.
+user_wins = 0
 
 # Program end.
