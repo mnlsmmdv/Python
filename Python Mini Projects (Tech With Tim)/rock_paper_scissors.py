@@ -27,5 +27,9 @@ while True:
     # This will store user's input.
     user_input = input("Rock/Paper/Scissors or Q to quit: ").lower()
 
-
+    # This will check if the user wants to quit, continues the game.
+    if user_input == "q":
+        # Quits the program.
+        quit()
+        
 # Program end.
