@@ -38,6 +38,9 @@ while True:
         # If what user entered is not valid we will urge them to loops back.
         continue 
 
+    # Generates random number for the computer to play the game.
+    # 0 - rock, 1 - paper, 2 - scissors
+    random_number = random.randint(0, 2)
 
 # This is the final end message.
 print("Goodbye.")
