@@ -18,4 +18,10 @@ import random
 # Default value kept as 0.
 user_wins = 0
 
+# This will store the computer's score.
+# Default value kept as 0.
+computer_wins = 0
+
+
+
 # Program end.
