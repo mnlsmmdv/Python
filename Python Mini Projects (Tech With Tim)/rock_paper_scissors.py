@@ -22,6 +22,7 @@ user_wins = 0
 # Default value kept as 0.
 computer_wins = 0
 
+# This will store the game options in a list.
 options = ["rock", "paper", "scissors"]
 
 # This will iterate through the whole game.
