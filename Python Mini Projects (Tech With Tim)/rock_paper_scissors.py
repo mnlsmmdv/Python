@@ -78,7 +78,13 @@ while True:
         user_wins += 1
         # Loops back to the start of the While Loop.
         continue
-    
+
+    # If the conditions are the same for the user and the computer.
+    else:
+        # Tells the user they have lost.
+        print("You lost!")
+        # Increments one point to the computer.
+        computer_wins += 1
 
 # This is the final end message.
 print("Goodbye.")
