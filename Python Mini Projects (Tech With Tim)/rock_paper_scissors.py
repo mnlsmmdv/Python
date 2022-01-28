@@ -86,6 +86,9 @@ while True:
         # Increments one point to the computer.
         computer_wins += 1
 
+# Prints how many wins the user won.
+print("You won", user_wins, "times.")
+
 # This is the final end message.
 print("Goodbye.")
 
