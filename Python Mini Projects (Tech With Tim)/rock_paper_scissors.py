@@ -61,6 +61,15 @@ while True:
         # Loops back to the start of the While Loop.
         continue
 
+    # Condition paper VS rock
+    if user_input == "paper" and computer_pick == "rock":
+        # Tells the user they have won.
+        print("You won!")
+        # Increments one point to the user.
+        user_wins += 1
+        # Loops back to the start of the While Loop.
+        continue
+
     
 
 # This is the final end message.
