@@ -36,7 +36,7 @@ while True:
 
     # Checks for the choices in the game.
     # Choices are kept in a list and checked.
-    if user_input not in ["rock", "paper", "scissors"]:
+    if user_input not in options:
         # If what user entered is not valid we will urge them to loops back.
         continue 
 
