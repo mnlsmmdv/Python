@@ -14,6 +14,7 @@ them when not in use.
 # Asks for the user's name.
 name = input("Type your name: ")
 
-
+# Welcoming the user.
+print("Welcome", name, "to this adventure!")
 
 # Program end.
