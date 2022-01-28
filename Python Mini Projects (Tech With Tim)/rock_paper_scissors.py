@@ -31,5 +31,11 @@ while True:
     if user_input == "q":
         # Quits the program.
         quit()
-        
+
+    # Checks for the choices in the game.
+    # Choices are kept in a list and checked.
+    if user_input not in ["rock", "paper", "scissors"]:
+        # If what user entered is not valid we will urge them to loops back.
+        continue 
+
 # Program end.
