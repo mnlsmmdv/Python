@@ -24,6 +24,7 @@ computer_wins = 0
 
 # This will iterate through the whole game.
 while True:
-    
+    # This will store user's input.
+    user_input = input("Rock/Paper/Scissors or Q to quit.")
 
 # Program end.
