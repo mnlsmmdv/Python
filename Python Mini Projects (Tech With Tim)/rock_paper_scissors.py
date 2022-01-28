@@ -106,5 +106,7 @@ print("Computer won", computer_wins, "times.")
 print("--------------------------------")
 # This is the final end message.
 print("Goodbye!")
+# Divider print statement.
+print("--------------------------------")
 
 # Program end.
