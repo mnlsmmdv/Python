@@ -29,8 +29,8 @@ while True:
 
     # This will check if the user wants to quit, continues the game.
     if user_input == "q":
-        # Quits the program.
-        quit()
+        # Breaks out of the program.
+        break
 
     # Checks for the choices in the game.
     # Choices are kept in a list and checked.
