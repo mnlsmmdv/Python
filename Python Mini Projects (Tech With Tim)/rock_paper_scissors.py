@@ -22,6 +22,8 @@ user_wins = 0
 # Default value kept as 0.
 computer_wins = 0
 
+options = ["rock", "paper", "scissors"]
+
 # This will iterate through the whole game.
 while True:
     # This will store user's input.
