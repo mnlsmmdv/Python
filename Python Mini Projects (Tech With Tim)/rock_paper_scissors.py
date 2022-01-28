@@ -22,6 +22,8 @@ user_wins = 0
 # Default value kept as 0.
 computer_wins = 0
 
-
+# This will iterate through the whole game.
+while True:
+    
 
 # Program end.
