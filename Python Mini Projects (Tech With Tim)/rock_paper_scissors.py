@@ -101,7 +101,7 @@ print("--------------------------------")
 # Prints how many wins the user won.
 print("You won", user_wins, "times.")
 # Prints how many wins the computer won.
-print("You won", computer_wins, "times.")
+print("Computer won", computer_wins, "times.")
 # Divider print statement.
 print("--------------------------------")
 # This is the final end message.
