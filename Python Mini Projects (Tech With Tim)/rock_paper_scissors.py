@@ -89,6 +89,8 @@ while True:
 
     # If the conditions are the same for the user and the computer.
     else:
+        # Given for one line spacing.
+        print("")
         # Tells the user they have lost.
         print("You lost!")
         # Increments one point to the computer.
