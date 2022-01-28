@@ -96,10 +96,13 @@ while True:
         # Increments one point to the computer.
         computer_wins += 1
 
+# Divider print statement.
+print("--------------------------------")
 # Prints how many wins the user won.
 print("You won", user_wins, "times.")
 # Prints how many wins the computer won.
 print("You won", computer_wins, "times.")
+
 
 # This is the final end message.
 print("Goodbye.")
