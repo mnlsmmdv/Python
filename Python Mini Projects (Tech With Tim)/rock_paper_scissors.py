@@ -47,6 +47,8 @@ while True:
 
     # This will go through the list for the computer to choose.
     computer_pick = options[random_number]
+    # Given for one line spacing.
+    print("")
     # This will print what the computer chose.
     print("Computer picked", computer_pick + ".")
 
