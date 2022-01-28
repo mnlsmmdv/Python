@@ -67,6 +67,8 @@ while True:
 
     # Condition paper VS rock
     elif user_input == "paper" and computer_pick == "rock":
+        # Given for one line spacing.
+        print("")
         # Tells the user they have won.
         print("You won!")
         # Increments one point to the user.
