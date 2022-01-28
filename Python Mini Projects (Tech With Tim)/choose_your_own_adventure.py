@@ -11,6 +11,9 @@ them when not in use.
 
 # Program start.
 
+# Asks for the user's name.
+name = input("Type your name: ")
+
 
 
 # Program end.
