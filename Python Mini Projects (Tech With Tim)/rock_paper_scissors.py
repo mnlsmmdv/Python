@@ -70,6 +70,14 @@ while True:
         # Loops back to the start of the While Loop.
         continue
 
+    # Condition scissors VS paper
+    elif user_input == "scissors" and computer_pick == "paper":
+        # Tells the user they have won.
+        print("You won!")
+        # Increments one point to the user.
+        user_wins += 1
+        # Loops back to the start of the While Loop.
+        continue
     
 
 # This is the final end message.
