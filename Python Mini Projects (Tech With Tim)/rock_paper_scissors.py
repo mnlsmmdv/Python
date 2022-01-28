@@ -47,6 +47,10 @@ while True:
 
     # This will go through the list for the computer to choose.
     computer_pick = options[random_number]
+    # This will print what the computer chose.
+    print("Computer picked", computer_pick + ".")
+
+    
 
 # This is the final end message.
 print("Goodbye.")
