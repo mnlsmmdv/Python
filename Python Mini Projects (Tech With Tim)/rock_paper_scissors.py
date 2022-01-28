@@ -38,4 +38,8 @@ while True:
         # If what user entered is not valid we will urge them to loops back.
         continue 
 
+
+# This is the final end message.
+print("Goodbye.")
+
 # Program end.
