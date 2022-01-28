@@ -56,6 +56,8 @@ while True:
     # Picks the winning conditions.
     # Condition rock VS scissors
     if user_input == "rock" and computer_pick == "scissors":
+        # Given for one line spacing.
+        print("")
         # Tells the user they have won.
         print("You won!")
         # Increments one point to the user.
