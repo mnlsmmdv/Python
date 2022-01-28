@@ -45,6 +45,9 @@ while True:
     # 0 - rock, 1 - paper, 2 - scissors
     random_number = random.randint(0, 2)
 
+    # This will go through the list for the computer to choose.
+    computer_pick = options[random_number]
+
 # This is the final end message.
 print("Goodbye.")
 
