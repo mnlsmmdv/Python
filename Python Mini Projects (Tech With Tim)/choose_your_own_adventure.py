@@ -23,6 +23,8 @@ answer = input("You are on a dirt road, it has come to an end and you can go lef
 # Checks what choice the user has chosen.
 # If the user chose left this will happen.
 if answer == "left":
+    # Giving the user choices.
+    answer = input("You've come to a river, you can walk around it or swim across. Type walk to walk and swim to swim across: ")
     
 # If the user chose right this will happen.
 elif answer == "right":
