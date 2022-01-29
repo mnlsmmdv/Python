@@ -45,6 +45,16 @@ elif answer == "right":
     # Giving the user choices.
     answer = input("You've come to a bridge, it looks wobbly, do you want to cross it or head back (cross/back)?: ").lower()
     
+    # Checks what choices the user has chosen.
+    # If the user chose to go back this will happen.
+    if answer == "back":
+
+    # If the user chose to cross this will happen.
+    elif answer == "cross":
+
+    # If the user has given an invalid option this will happen.
+    else:
+        
 
 # If the user has given an invalid choice this will happen.
 else:
