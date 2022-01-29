@@ -15,7 +15,7 @@ them when not in use.
 master_pwd = input("What is the master password?: ")
 
 # Giving the user choices. Add or View passwords.
-mode = input("Would you like to add or view existing passwords (add/view)?: ")
+mode = input("Would you like to add or view existing passwords (add/view)?: ").lower()
 
 
 # Checks what the user has chosen.
