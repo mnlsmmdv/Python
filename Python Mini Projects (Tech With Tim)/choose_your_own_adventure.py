@@ -114,6 +114,8 @@ else:
     # Error message.
     print("Not a valid option. You lose!")
 
+# Divider print statement.
+print("--------------------------------")
 # Final parting message.
 print("Thank you for trying", name)
 
