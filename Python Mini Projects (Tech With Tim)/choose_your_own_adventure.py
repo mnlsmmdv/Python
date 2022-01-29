@@ -64,6 +64,8 @@ elif answer == "right":
             print("You talked with the stranger and they gave you gold. YOU WON!")
         # If the user chose no this will happen.
         elif answer == "no":
+            # Divider print statement.
+            print("--------------------------------")
             # Tells the user outcome of their choice.
             print("You ignored the stranger, they got offended. YOU LOST!")
         # If the user has given an invalid option this will happen.
