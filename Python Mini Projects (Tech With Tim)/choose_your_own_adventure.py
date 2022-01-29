@@ -17,4 +17,7 @@ name = input("Type your name: ")
 # Welcoming the user.
 print("Welcome", name, "to this adventure!")
 
+# Giving the user choices.
+answer = input("You are on a dirt road, it has come to an end and you can go left and right. Which way would you like to go?: ")
+
 # Program end.
