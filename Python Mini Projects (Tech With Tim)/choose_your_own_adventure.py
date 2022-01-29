@@ -102,6 +102,8 @@ elif answer == "right":
 
 # If the user has given an invalid choice this will happen.
 else:
+    # Divider print statement.
+    print("--------------------------------")
     # Error message.
     print("Not a valid option. You lose!")
 
