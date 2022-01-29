@@ -14,6 +14,10 @@ them when not in use.
 # Asks the user a master password.
 master_pwd = input("What is the master password?: ")
 
+# This will work out the add password function.
+def add():
+    
+
 # Will keep iterating until True.
 while True:
     # Giving the user choices. Add or View passwords.
