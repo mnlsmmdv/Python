@@ -14,4 +14,7 @@ them when not in use.
 # Asks the user a master password.
 master_pwd = input("What is the master password?: ")
 
+# Giving the user choices. Add or View passwords.
+mode = input("Would you like to add or view existing passwords (add/view)?: ")
+
 # Program end.
