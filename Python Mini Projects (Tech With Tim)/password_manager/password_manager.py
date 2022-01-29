@@ -26,7 +26,7 @@ def add():
     # "a" means append.
     with open("passwords.txt", 'a') as f:
         # This will house user + password
-        f.write(name + "|" + pwd)
+        f.write(name + "|" + pwd + "\n")
 
 # This will work out the view password function.
 def view():
