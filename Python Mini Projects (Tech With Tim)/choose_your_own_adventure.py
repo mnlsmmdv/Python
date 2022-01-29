@@ -19,6 +19,8 @@ print("--------------------------------")
 # Welcoming the user.
 print("Welcome", name, "to this adventure!")
 
+# Divider print statement.
+print("--------------------------------")
 # Giving the user choices.
 answer = input("You are on a dirt road, it has come to an end and you can go left and right. Which way would you like to go?: ").lower()
 
