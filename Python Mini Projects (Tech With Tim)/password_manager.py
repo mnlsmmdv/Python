@@ -16,7 +16,8 @@ master_pwd = input("What is the master password?: ")
 
 # This will work out the add password function.
 def add():
-    pass
+    # Asks the user for their account's name.
+    name = input("Account Name: ")
 
 # This will work out the view password function.
 def view():
