@@ -21,6 +21,12 @@ def add():
     # Asks the user for their account's password.
     pwd = input("Password: ")
 
+    # Creates a file and adds the password.
+    # "a" means append.
+    with open("passwords.txt", 'a') as f:
+        # This will house user + password
+        f.write(name + "|" + pwd)
+
 # This will work out the view password function.
 def view():
     pass
