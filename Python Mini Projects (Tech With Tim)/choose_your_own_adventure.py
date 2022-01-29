@@ -64,7 +64,8 @@ elif answer == "right":
 
         # If the user has given an invalid option this will happen.
         else:
-
+            # Error message.
+            print("Not a valid option. You lose!")
     # If the user has given an invalid option this will happen.
     else:
         # Error message.
