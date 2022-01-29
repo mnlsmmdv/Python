@@ -35,7 +35,8 @@ while True:
     # Checks what the user has chosen.
     # If the user has chosen add this will happen.
     if mode == "add":
-        pass
+        # Calling the function
+        add()
     # If the user has chosen view this will happen.
     elif mode == "view":
         pass
