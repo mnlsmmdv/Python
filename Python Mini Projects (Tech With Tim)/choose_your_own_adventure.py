@@ -33,7 +33,8 @@ if answer == "left":
         print("You swam across and was eaten by an alligator!")
     # If the user chose to walk around it this will happen.
     if answer == "walk":
-
+        # Tells the user outcome of their choice.
+        print("You walked for many miles, ran out of water and you lost the game.")
     # If the user has given an invalid choice this will happen.
     else:
 
