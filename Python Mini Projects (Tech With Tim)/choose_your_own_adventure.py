@@ -47,6 +47,8 @@ if answer == "left":
         print("You walked for many miles, ran out of water and you lost the game.")
     # If the user has given an invalid choice this will happen.
     else:
+        # Divider print statement.
+        print("--------------------------------")
         # Error message.
         print("Not a valid option. You lose!")
 
