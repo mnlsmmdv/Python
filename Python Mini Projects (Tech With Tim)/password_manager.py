@@ -21,7 +21,7 @@ mode = input("Would you like to add or view existing passwords (add/view)?: ").l
 # Checks what the user has chosen.
 # If the user has chosen add this will happen.
 if mode == "add":
-    
+    pass
 # If the user has chosen view this will happen.
 elif mode == "view":
 
