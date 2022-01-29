@@ -114,4 +114,7 @@ else:
     # Error message.
     print("Not a valid option. You lose!")
 
+# Final parting message.
+print("Thank you for trying", name)
+
 # Program end.
