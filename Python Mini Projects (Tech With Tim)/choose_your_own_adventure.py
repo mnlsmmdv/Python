@@ -52,6 +52,8 @@ elif answer == "right":
         print("You go back, you lose!")
     # If the user chose to cross this will happen.
     elif answer == "cross":
+        # Giving the user choices.
+        answer = input("You cross the bridge and meet a stranger. Do you talk with them (yes/no)?: ")
         
     # If the user has given an invalid option this will happen.
     else:
