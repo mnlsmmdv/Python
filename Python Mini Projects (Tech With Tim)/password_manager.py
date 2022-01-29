@@ -16,7 +16,7 @@ master_pwd = input("What is the master password?: ")
 
 # This will work out the add password function.
 def add():
-    
+    pass
 
 # Will keep iterating until True.
 while True:
