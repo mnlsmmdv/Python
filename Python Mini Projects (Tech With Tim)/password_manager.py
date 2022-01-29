@@ -18,6 +18,10 @@ master_pwd = input("What is the master password?: ")
 def add():
     pass
 
+# This will work out the view password function.
+def view():
+    
+
 # Will keep iterating until True.
 while True:
     # Giving the user choices. Add or View passwords.
