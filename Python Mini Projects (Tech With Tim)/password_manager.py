@@ -11,6 +11,7 @@ them when not in use.
 
 # Program start.
 
-
+# Asks the user a master password.
+master_pwd = input("What is the master password?: ")
 
 # Program end.
