@@ -20,7 +20,7 @@ def add():
 
 # This will work out the view password function.
 def view():
-    
+    pass
 
 # Will keep iterating until True.
 while True:
