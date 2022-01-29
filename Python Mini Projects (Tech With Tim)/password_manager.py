@@ -30,5 +30,7 @@ while True:
     else:
         # Error message.
         print("Invalid mode.")
+        # Iterates the loop.
+        continue
     
 # Program end.
