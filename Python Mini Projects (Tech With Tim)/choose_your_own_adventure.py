@@ -39,6 +39,7 @@ if answer == "left":
     else:
         # Error message.
         print("Not a valid option. You lose!")
+        
 # If the user chose right this will happen.
 elif answer == "right":
     
