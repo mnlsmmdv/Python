@@ -25,7 +25,18 @@ answer = input("You are on a dirt road, it has come to an end and you can go lef
 if answer == "left":
     # Giving the user choices.
     answer = input("You've come to a river, you can walk around it or swim across. Type walk to walk and swim to swim across: ")
-    
+
+    # Checks what choices the user has chosen.
+    # If the user chose to swim across it this will happen.
+    if answer == "swim":
+        # Tells the user outcome of their choice.
+        print("You swam across and was eaten by an alligator!")
+    # If the user chose to walk around it this will happen.
+    if answer == "walk":
+
+    # If the user has given an invalid choice this will happen.
+    else:
+
 # If the user chose right this will happen.
 elif answer == "right":
     
