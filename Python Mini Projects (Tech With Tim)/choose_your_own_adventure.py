@@ -48,13 +48,14 @@ elif answer == "right":
     # Checks what choices the user has chosen.
     # If the user chose to go back this will happen.
     if answer == "back":
-
+        
     # If the user chose to cross this will happen.
     elif answer == "cross":
 
     # If the user has given an invalid option this will happen.
     else:
-        
+        # Error message.
+        print("Not a valid option. You lose!")
 
 # If the user has given an invalid choice this will happen.
 else:
