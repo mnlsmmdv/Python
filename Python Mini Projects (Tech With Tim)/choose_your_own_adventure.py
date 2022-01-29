@@ -43,8 +43,8 @@ if answer == "left":
 # If the user chose right this will happen.
 elif answer == "right":
     # Giving the user choices.
-    answer = input("You've come to a bridge, it looks wobbly, do you want to cross it or head back (cross/back)?: ")
-    
+    answer = input("You've come to a bridge, it looks wobbly, do you want to cross it or head back (cross/back)?: ").lower()
+
 # If the user has given an invalid choice this will happen.
 else:
     # Error message.
