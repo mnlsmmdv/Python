@@ -24,7 +24,9 @@ if mode == "add":
     
 elif mode == "view":
 
+# If the user has given an invalid mode this will happen.
 else:
+    # Error message.
+    print("Invalid mode.")
     
-
 # Program end.
