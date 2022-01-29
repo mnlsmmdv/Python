@@ -88,6 +88,8 @@ elif answer == "right":
             print("You ignored the stranger, they got offended. YOU LOST!")
         # If the user has given an invalid option this will happen.
         else:
+            # Divider print statement.
+            print("--------------------------------")
             # Error message.
             print("Not a valid option. You lose!")
 
