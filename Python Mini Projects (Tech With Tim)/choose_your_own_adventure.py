@@ -41,12 +41,14 @@ if answer == "left":
         print("--------------------------------")
         # Tells the user outcome of their choice.
         print("You swam across and was eaten by an alligator!")
+
     # If the user chose to walk around it this will happen.
     elif answer == "walk":
         # Divider print statement.
         print("--------------------------------")
         # Tells the user outcome of their choice.
         print("You walked for many miles, ran out of water and you lost the game.")
+
     # If the user has given an invalid choice this will happen.
     else:
         # Divider print statement.
@@ -68,6 +70,7 @@ elif answer == "right":
         print("--------------------------------")
         # Tells the user outcome of their choice.
         print("You go back, you lose!")
+
     # If the user chose to cross this will happen.
     elif answer == "cross":
         # Divider print statement.
@@ -82,12 +85,14 @@ elif answer == "right":
             print("--------------------------------")
             # Tells the user outcome of their choice.
             print("You talked with the stranger and they gave you gold. YOU WON!")
+
         # If the user chose no this will happen.
         elif answer == "no":
             # Divider print statement.
             print("--------------------------------")
             # Tells the user outcome of their choice.
             print("You ignored the stranger, they got offended. YOU LOST!")
+            
         # If the user has given an invalid option this will happen.
         else:
             # Divider print statement.
