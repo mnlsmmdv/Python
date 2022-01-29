@@ -17,17 +17,18 @@ master_pwd = input("What is the master password?: ")
 # Giving the user choices. Add or View passwords.
 mode = input("Would you like to add or view existing passwords (add/view)?: ").lower()
 
-
-# Checks what the user has chosen.
-# If the user has chosen add this will happen.
-if mode == "add":
-    pass
-# If the user has chosen view this will happen.
-elif mode == "view":
-    pass
-# If the user has given an invalid mode this will happen.
-else:
-    # Error message.
-    print("Invalid mode.")
+# Will keep iterating until True.
+while True:
+    # Checks what the user has chosen.
+    # If the user has chosen add this will happen.
+    if mode == "add":
+        pass
+    # If the user has chosen view this will happen.
+    elif mode == "view":
+        pass
+    # If the user has given an invalid mode this will happen.
+    else:
+        # Error message.
+        print("Invalid mode.")
     
 # Program end.
