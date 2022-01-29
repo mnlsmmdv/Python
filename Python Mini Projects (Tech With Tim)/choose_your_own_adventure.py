@@ -54,6 +54,8 @@ if answer == "left":
 
 # If the user chose right this will happen.
 elif answer == "right":
+    # Divider print statement.
+    print("--------------------------------")
     # Giving the user choices.
     answer = input("You've come to a bridge, it looks wobbly, do you want to cross it or head back (cross/back)?: ").lower()
     
