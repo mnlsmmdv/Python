@@ -69,7 +69,7 @@ elif answer == "right":
         # Divider print statement.
         print("--------------------------------")
         # Tells the user outcome of their choice.
-        print("You go back, you lose!")
+        print("You went back, so you lose!")
 
     # If the user chose to cross this will happen.
     elif answer == "cross":
@@ -92,7 +92,7 @@ elif answer == "right":
             print("--------------------------------")
             # Tells the user outcome of their choice.
             print("You ignored the stranger, they got offended. YOU LOST!")
-            
+
         # If the user has given an invalid option this will happen.
         else:
             # Divider print statement.
