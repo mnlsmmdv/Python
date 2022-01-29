@@ -118,5 +118,7 @@ else:
 print("--------------------------------")
 # Final parting message.
 print("Thank you for trying", name)
+# Divider print statement.
+print("--------------------------------")
 
 # Program end.
