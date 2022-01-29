@@ -35,6 +35,8 @@ if answer == "left":
     # Checks what choices the user has chosen.
     # If the user chose to swim across it this will happen.
     if answer == "swim":
+        # Divider print statement.
+        print("--------------------------------")
         # Tells the user outcome of their choice.
         print("You swam across and was eaten by an alligator!")
     # If the user chose to walk around it this will happen.
