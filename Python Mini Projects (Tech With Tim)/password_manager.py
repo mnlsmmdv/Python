@@ -39,7 +39,8 @@ while True:
         add()
     # If the user has chosen view this will happen.
     elif mode == "view":
-        pass
+        # Calling the function.
+        view()
     # If the user has given an invalid mode this will happen.
     else:
         # Error message.
