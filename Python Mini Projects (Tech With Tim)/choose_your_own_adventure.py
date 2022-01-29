@@ -107,5 +107,4 @@ else:
     # Error message.
     print("Not a valid option. You lose!")
 
-
 # Program end.
