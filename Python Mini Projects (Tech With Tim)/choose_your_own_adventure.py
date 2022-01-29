@@ -11,6 +11,8 @@ them when not in use.
 
 # Program start.
 
+# Divider print statement.
+print("--------------------------------")
 # Asks for the user's name.
 name = input("Type your name: ")
 
