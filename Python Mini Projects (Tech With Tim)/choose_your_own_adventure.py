@@ -32,7 +32,7 @@ if answer == "left":
         # Tells the user outcome of their choice.
         print("You swam across and was eaten by an alligator!")
     # If the user chose to walk around it this will happen.
-    if answer == "walk":
+    elif answer == "walk":
         # Tells the user outcome of their choice.
         print("You walked for many miles, ran out of water and you lost the game.")
     # If the user has given an invalid choice this will happen.
@@ -44,6 +44,7 @@ if answer == "left":
 elif answer == "right":
     # Giving the user choices.
     answer = input("You've come to a bridge, it looks wobbly, do you want to cross it or head back (cross/back)?: ").lower()
+    
 
 # If the user has given an invalid choice this will happen.
 else:
