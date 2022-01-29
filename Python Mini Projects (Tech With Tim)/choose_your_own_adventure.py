@@ -58,6 +58,8 @@ elif answer == "right":
         # Checks what choices the user has chosen.
         # If the user chose yes this will happen.
         if answer == "yes":
+            # Divider print statement.
+            print("--------------------------------")
             # Tells the user outcome of their choice.
             print("You talked with the stranger and they gave you gold. YOU WON!")
         # If the user chose no this will happen.
@@ -68,7 +70,7 @@ elif answer == "right":
         else:
             # Error message.
             print("Not a valid option. You lose!")
-            
+
     # If the user has given an invalid option this will happen.
     else:
         # Error message.
