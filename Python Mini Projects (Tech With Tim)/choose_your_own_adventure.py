@@ -39,9 +39,11 @@ if answer == "left":
     else:
         # Error message.
         print("Not a valid option. You lose!")
-        
+
 # If the user chose right this will happen.
 elif answer == "right":
+    # Giving the user choices.
+    answer = input("You've come to a bridge, it looks wobbly, do you want to cross it or head back (cross/back)?: ")
     
 # If the user has given an invalid choice this will happen.
 else:
