@@ -29,7 +29,8 @@ elif answer == "right":
     
 # If the user has given an invalid choice this will happen.
 else:
-    
+    # Error message.
+    print("Not a valid option. You lose!")
 
 
 # Program end.
