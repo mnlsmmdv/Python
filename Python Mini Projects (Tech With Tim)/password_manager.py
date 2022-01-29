@@ -24,7 +24,7 @@ if mode == "add":
     pass
 # If the user has chosen view this will happen.
 elif mode == "view":
-
+    pass
 # If the user has given an invalid mode this will happen.
 else:
     # Error message.
