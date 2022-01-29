@@ -53,8 +53,7 @@ elif answer == "right":
     # If the user chose to cross this will happen.
     elif answer == "cross":
         # Giving the user choices.
-        answer = input("You cross the bridge and meet a stranger. Do you talk with them (yes/no)?: ")
-        
+        answer = input("You cross the bridge and meet a stranger. Do you talk with them (yes/no)?: ").lower()
     # If the user has given an invalid option this will happen.
     else:
         # Error message.
