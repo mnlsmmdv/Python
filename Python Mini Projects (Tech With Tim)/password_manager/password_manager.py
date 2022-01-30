@@ -39,7 +39,8 @@ def view():
     # "r" means read.
     password_file = open("./Python Mini Projects (Tech With Tim)/password_manager/" + "passwords.txt", 'r')
 
-    
+    # Will close the open file function.
+    password_file.close()
 
 # Will keep iterating until True.
 while True:
