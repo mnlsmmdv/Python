@@ -25,7 +25,8 @@ def add():
     # Creates a file and adds the password.
     # "a" means append.
     password_file = open("./Python Mini Projects (Tech With Tim)/password_manager/" + "password.txt", "a")
-    
+    # Will close the open file function.
+    password_file.close()
 
 # This will work out the view password function.
 def view():
