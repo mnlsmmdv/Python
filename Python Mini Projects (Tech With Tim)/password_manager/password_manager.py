@@ -38,8 +38,6 @@ def add():
         # Will now go to a new line after writing a new password.
         f.write(name + "|" + pwd + "\n")
 
-    
-
 # This will work out the view password function.
 def view():
     # Creates a file and adds the password.
