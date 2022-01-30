@@ -49,8 +49,7 @@ def view():
             print("--------------------------------")
             # Prints the lines it's read through.
             print(line.rstrip())
-            # Divider print statement.
-            print("--------------------------------")
+            
             
 # Will keep iterating until True.
 while True:
