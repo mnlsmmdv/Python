@@ -42,7 +42,8 @@ def add():
 def view():
     # Creates a file and adds the password.
     # "r" means read.
-    password_file_view = open("./Python Mini Projects (Tech With Tim)/password_manager/" + "passwords.txt", 'r')
+    with open("./Python Mini Projects (Tech With Tim)/password_manager/" + "passwords.txt", 'r') as f:
+        
 
     # Will close the open file function.
     password_file_view.close()
