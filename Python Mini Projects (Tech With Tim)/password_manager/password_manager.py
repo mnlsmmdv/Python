@@ -10,8 +10,6 @@ Note: Uncomment codes to execute and comment
 them when not in use.                         
 """
 
-# Program start.
-
 ### IMPORTANT ###
 """
 Note: Use entries below as the test data.
@@ -20,6 +18,10 @@ Master Password: hello@123
 Account Name: Aff
 Password: hello@321
 """
+
+# Program start.
+
+
 
 # Asks the user to enter a master password.
 master_pwd = input("What is the master password?: ")
