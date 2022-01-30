@@ -43,10 +43,7 @@ def view():
     # Creates a file and adds the password.
     # "r" means read.
     with open("./Python Mini Projects (Tech With Tim)/password_manager/" + "passwords.txt", 'r') as f:
-
-
-    
-
+        
 # Will keep iterating until True.
 while True:
     # Giving the user choices. Add or View passwords.
