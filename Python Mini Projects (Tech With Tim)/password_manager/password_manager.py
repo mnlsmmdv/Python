@@ -35,7 +35,11 @@ def add():
 
 # This will work out the view password function.
 def view():
-    pass
+    # Creates a file and adds the password.
+    # "r" means read.
+    password_file = open("./Python Mini Projects (Tech With Tim)/password_manager/" + "passwords.txt", 'r')
+
+    
 
 # Will keep iterating until True.
 while True:
