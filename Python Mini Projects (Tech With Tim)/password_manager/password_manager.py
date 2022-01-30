@@ -31,7 +31,7 @@ def add():
     password_file_add.write(name + "|" + pwd + "\n")
 
     # Will close the open file function.
-    password_file.close()
+    password_file_add.close()
 
 # This will work out the view password function.
 def view():
