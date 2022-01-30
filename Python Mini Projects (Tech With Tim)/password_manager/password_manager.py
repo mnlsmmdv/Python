@@ -36,7 +36,7 @@ def add():
     with open("./Python Mini Projects (Tech With Tim)/password_manager/" + "password.txt", 'a') as f:
         # Writes the new password.
         # Will now go to a new line after writing a new password.
-        f.write(name + "|" + pwd)
+        f.write(name + "|" + pwd + "\n")
 
     # Will close the open file function.
     password_file_add.close()
