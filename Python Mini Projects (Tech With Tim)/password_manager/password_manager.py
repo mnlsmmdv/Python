@@ -33,7 +33,7 @@ def add():
 
     # Creates a file and adds the password.
     # "a" means append.
-    password_file_add = open("./Python Mini Projects (Tech With Tim)/password_manager/" + "password.txt", 'a')
+    with open("./Python Mini Projects (Tech With Tim)/password_manager/" + "password.txt", 'a') as f
 
     # Writes the new password.
     # Will now go to a new line after writing a new password.
