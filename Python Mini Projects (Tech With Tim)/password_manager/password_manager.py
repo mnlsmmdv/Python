@@ -50,7 +50,6 @@ def view():
             # Prints the lines it's read through.
             print(line.rstrip())
             
-            
 # Will keep iterating until True.
 while True:
     # Giving the user choices. Add or View passwords.
