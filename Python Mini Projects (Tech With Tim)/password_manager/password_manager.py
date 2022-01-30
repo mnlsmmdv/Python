@@ -45,8 +45,6 @@ def view():
     with open("./Python Mini Projects (Tech With Tim)/password_manager/" + "password.txt", 'r') as f:
         # Will read through the file lines.
         for line in f.readlines():
-            # Divider print statement.
-            print("--------------------------------")
             # Prints the lines it's read through.
             print(line.rstrip())
             
