@@ -28,7 +28,7 @@ def add():
 
     # Writes the new password.
     # Will now go to a new line after writing a new password.
-    password_file.write(name + "|" + pwd + "\n")
+    password_file_add.write(name + "|" + pwd + "\n")
 
     # Will close the open file function.
     password_file.close()
