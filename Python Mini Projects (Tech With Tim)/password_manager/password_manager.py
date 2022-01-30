@@ -31,7 +31,7 @@ def add():
     # Asks the user for their account's password.
     pwd = input("Password: ")
 
-    # Creates a file and adds the password.
+    # Creates a file and adds the passwords.
     # "a" means append.
     with open("./Python Mini Projects (Tech With Tim)/password_manager/" + "password.txt", 'a') as f:
         # Writes the new password.
