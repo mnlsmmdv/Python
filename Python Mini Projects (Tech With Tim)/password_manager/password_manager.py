@@ -38,8 +38,7 @@ def add():
         # Will now go to a new line after writing a new password.
         f.write(name + "|" + pwd + "\n")
 
-    # Will close the open file function.
-    password_file_add.close()
+    
 
 # This will work out the view password function.
 def view():
