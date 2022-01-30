@@ -43,7 +43,7 @@ def view():
     # Creates a file and adds the password.
     # "r" means read.
     with open("./Python Mini Projects (Tech With Tim)/password_manager/" + "password.txt", 'r') as f:
-        # Will read through the file lines.
+        # Will read through the file's lines.
         for line in f.readlines():
             # Prints the lines it's read through.
             print(line.rstrip())
