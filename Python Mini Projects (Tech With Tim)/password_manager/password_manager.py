@@ -42,7 +42,7 @@ def add():
 def view():
     # Creates a file and adds the password.
     # "r" means read.
-    with open("./Python Mini Projects (Tech With Tim)/password_manager/" + "passwords.txt", 'r') as f:
+    with open("./Python Mini Projects (Tech With Tim)/password_manager/" + "password.txt", 'r') as f:
         # Will read through the file lines.
         for line in f.readlines():
             # Prints the lines it's read through.
