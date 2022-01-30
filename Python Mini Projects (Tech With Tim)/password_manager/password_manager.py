@@ -40,7 +40,7 @@ def view():
     password_file_view = open("./Python Mini Projects (Tech With Tim)/password_manager/" + "passwords.txt", 'r')
 
     # Will close the open file function.
-    password_file.close()
+    password_file_view.close()
 
 # Will keep iterating until True.
 while True:
