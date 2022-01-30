@@ -46,7 +46,7 @@ def view():
         # Will read through the file lines.
         for line in f.readlines():
             # Prints the lines it's read through.
-            print(line)
+            print(line.rstrip())
             
 # Will keep iterating until True.
 while True:
