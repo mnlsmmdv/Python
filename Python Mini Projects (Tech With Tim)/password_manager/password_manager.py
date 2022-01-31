@@ -61,7 +61,7 @@ def load_key():
 master_pwd = input("What is the master password?: ")
 # Calling the function.
 # Fudges the key + master password.
-key = load_key() + master_pwd.bytes
+key = load_key() + master_pwd.encode()
 # Initialising the encryption module.
 fer = Fernet(key)
 
@@ -77,7 +77,8 @@ def add():
     with open("./Python Mini Projects (Tech With Tim)/password_manager/" + "passwords.txt", 'a') as f:
         # Writes the new password.
         # Will go to a new line after writing a new password.
-        f.write(name + "|" + pwd + "\n")
+        # Encodes the password into bytes.
+        f.write(name + "|" + fer.encrypt(pwd.encode()) + "\n")
 
 # This will work out the view existing passwords function.
 def view():
