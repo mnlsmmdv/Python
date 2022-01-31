@@ -80,7 +80,7 @@ def add():
         Will go to a new line after writing a new password.
         Encodes the password into bytes.
         """
-        f.write(name + "|" + str(fer.encrypt(pwd.encode())) + "\n")
+        f.write(name + "|" + fer.encrypt(pwd.encode()) + "\n")
 
 # This will work out the view existing passwords function.
 def view():
