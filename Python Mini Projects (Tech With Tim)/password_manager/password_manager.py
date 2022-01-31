@@ -60,7 +60,8 @@ def load_key():
 # Asks the user to enter a master password.
 master_pwd = input("What is the master password?: ")
 # Calling the function.
-key = load_key()
+# Fudges the key + master password.
+key = load_key() + master_pwd.bytes
 # Initialising the encryption module.
 fer = Fernet(key)
 
