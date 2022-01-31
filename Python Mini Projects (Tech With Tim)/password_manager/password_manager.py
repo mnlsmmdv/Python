@@ -49,7 +49,7 @@ key. Key + Password needed to decrypt the text.
 """
 # Uncomment from below.
 """
-# This function will help generate the key.
+# This function will help generate the keys.
 def write_key():
     # Assigning text encryption method.
     key = Fernet.generate_key()
