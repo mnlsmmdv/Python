@@ -21,6 +21,9 @@ Password: test@321
 
 # Program start.
 
+# Module used for text encryption.
+from cryptography.fernet import Fernet
+
 # Asks the user to enter a master password.
 master_pwd = input("What is the master password?: ")
 
