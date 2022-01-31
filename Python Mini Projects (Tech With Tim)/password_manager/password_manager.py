@@ -14,9 +14,9 @@ them when not in use.
 """
 Note: Use entries below as the test data.
 ------------------------------------------
-Master Password: hello@123
+Master Password: test
 Account Name: Aff
-Password: hello@321
+Password: test@321
 """
 
 # Program start.
