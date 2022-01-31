@@ -27,6 +27,25 @@ from cryptography.fernet import Fernet
 # Asks the user to enter a master password.
 master_pwd = input("What is the master password?: ")
 
+"""
+These functions will fudge the master password using the
+key. Key + Password needed to decrypt the text.
+---------------------------------------------------------- 
+"""
+# This function will help generate the key.
+def write_key():
+    # Assigning text encryption method
+    key = Fernet.generate_key()
+    # This will generate a new key file.
+    # "wb" means "write byte mode".
+    with open("./Python Mini Projects (Tech With Tim)/password_manager/" + "key.key", 'wb') as key_file:
+        # Writes the data to the generated key file.
+        key_file.write(key)
+
+# Calling the function.
+write_key()
+
+
 # This will work out the add password function.
 def add():
     # Asks the user for their account's name.
