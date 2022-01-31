@@ -51,7 +51,7 @@ def view():
             # Splits the variables containing specific data.
             user, passw = data.split("|")
             # Printing the data in splitted format.
-            print("User:", user, ", Password:", passw)
+            print("User:", user, "| Password:", passw)
             
 # Will keep iterating until True.
 while True:
