@@ -24,24 +24,6 @@ Password: test@321
 # Module used for text encryption.
 from cryptography.fernet import Fernet
 
-# This function will help load the keys.
-def load_key():
-    # Loads the generated key file.
-    # "rb" means "read bytes".
-    file = open("./Python Mini Projects (Tech With Tim)/password_manager/" + "key.key", 'rb')
-    # Reads contents of key file.
-    key = file.read()
-    # Closes the read file method.
-    file.close()
-    # Returns the key file contents.
-    return key
-
-# Calling the function.
-key = load_key()
-
-# Asks the user to enter a master password.
-master_pwd = input("What is the master password?: ")
-
 """
 These functions will fudge the master password using the
 key. Key + Password needed to decrypt the text.
@@ -62,6 +44,26 @@ def write_key():
 # Calling the function.
 write_key()
 """
+
+# This function will help load the keys.
+def load_key():
+    # Loads the generated key file.
+    # "rb" means "read bytes".
+    file = open("./Python Mini Projects (Tech With Tim)/password_manager/" + "key.key", 'rb')
+    # Reads contents of key file.
+    key = file.read()
+    # Closes the read file method.
+    file.close()
+    # Returns the key file contents.
+    return key
+
+# Calling the function.
+key = load_key()
+
+# Asks the user to enter a master password.
+master_pwd = input("What is the master password?: ")
+
+
 
 # This will work out the add password function.
 def add():
