@@ -46,6 +46,7 @@ def view():
         # Will read through the file's lines.
         for line in f.readlines():
             # Prints the lines it's read through.
+            # Will split username and password.
             data = line.rstrip()
             
 # Will keep iterating until True.
