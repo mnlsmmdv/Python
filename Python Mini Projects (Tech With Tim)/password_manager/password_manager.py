@@ -36,7 +36,7 @@ key. Key + Password needed to decrypt the text.
 """
 # This function will help generate the key.
 def write_key():
-    # Assigning text encryption method
+    # Assigning text encryption method.
     key = Fernet.generate_key()
     # This will generate a new key file.
     # "wb" means "write byte mode".
