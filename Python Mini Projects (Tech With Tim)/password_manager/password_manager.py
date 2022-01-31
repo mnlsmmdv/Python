@@ -63,8 +63,6 @@ key = load_key()
 # Asks the user to enter a master password.
 master_pwd = input("What is the master password?: ")
 
-
-
 # This will work out the add password function.
 def add():
     # Asks the user for their account's name.
