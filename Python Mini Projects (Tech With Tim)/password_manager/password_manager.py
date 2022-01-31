@@ -35,7 +35,7 @@ def add():
     # "a" means append.
     with open("./Python Mini Projects (Tech With Tim)/password_manager/" + "password.txt", 'a') as f:
         # Writes the new password.
-        # Will now go to a new line after writing a new password.
+        # Will go to a new line after writing a new password.
         f.write(name + "|" + pwd + "\n")
 
 # This will work out the view existing passwords function.
