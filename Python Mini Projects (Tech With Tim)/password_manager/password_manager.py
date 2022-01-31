@@ -57,8 +57,6 @@ def load_key():
     # Returns the key file contents.
     return key
 
-
-
 # Asks the user to enter a master password.
 master_pwd = input("What is the master password?: ")
 # Calling the function.
