@@ -75,9 +75,11 @@ def add():
     # Creates a file and adds the passwords.
     # "a" means append.
     with open("./Python Mini Projects (Tech With Tim)/password_manager/" + "passwords.txt", 'a') as f:
-        # Writes the new password.
-        # Will go to a new line after writing a new password.
-        # Encodes the password into bytes.
+        """
+        Writes the new password.
+        Will go to a new line after writing a new password.
+        Encodes the password into bytes.
+        """
         f.write(name + "|" + fer.encrypt(pwd.encode()) + "\n")
 
 # This will work out the view existing passwords function.
