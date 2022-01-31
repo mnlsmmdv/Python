@@ -95,7 +95,7 @@ def view():
             # Splits the variables containing specific data.
             user, passw = data.split("|")
             # Printing the data in splitted format.
-            print("User:", user, "| Password:", str(fer.decrypt(passw.encode())))
+            print("User:", user, "| Password:", fer.decrypt(passw.encode()).decode())
             
 # Will keep iterating until True.
 while True:
