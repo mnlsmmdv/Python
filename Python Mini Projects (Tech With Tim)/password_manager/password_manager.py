@@ -15,7 +15,7 @@ them when not in use.
 Note: Use entries below as the test data.
 ------------------------------------------
 Master Password: test
-Account Name: Aff
+Account Name: admin
 Password: test@321
 """
 
