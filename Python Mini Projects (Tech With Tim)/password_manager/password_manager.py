@@ -32,6 +32,8 @@ These functions will fudge the master password using the
 key. Key + Password needed to decrypt the text.
 ---------------------------------------------------------- 
 """
+# Uncomment from below.
+"""
 # This function will help generate the key.
 def write_key():
     # Assigning text encryption method
@@ -44,7 +46,7 @@ def write_key():
 
 # Calling the function.
 write_key()
-
+"""
 
 # This will work out the add password function.
 def add():
