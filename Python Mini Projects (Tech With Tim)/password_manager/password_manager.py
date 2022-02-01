@@ -25,8 +25,7 @@ Password: test@321
 from cryptography.fernet import Fernet
 
 """
-These functions will fudge the master password using the
-key. Key + Password needed to decrypt the text.
+These functions will fudge the master password.
 ---------------------------------------------------------- 
 """
 # Uncomment from below.
