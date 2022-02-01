@@ -27,7 +27,6 @@ item1.price = 100
 # Objects quantity.
 item1.quantity = 5
 
-random_string = "aaa"
 
 
 # Program end.
