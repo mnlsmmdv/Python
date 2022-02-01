@@ -33,6 +33,8 @@ item1.calculate_total_price()
 #----------------------------------
 # Defining object #2.
 item2 = Item()
+# Objects name.
+item2.name = "Laptop"
 
 
 # Program end.
