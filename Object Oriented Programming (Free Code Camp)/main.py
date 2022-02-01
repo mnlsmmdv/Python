@@ -21,6 +21,7 @@ class Item:
 item1 = Item()
 # Objects name.
 item1.name = "Phone"
-
+# Objects price.
+item1.price = 100
 
 # Program end.
