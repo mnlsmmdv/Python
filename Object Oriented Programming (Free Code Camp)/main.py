@@ -30,5 +30,9 @@ item1.price = 100
 item1.quantity = 5
 # Assigning object to the function.
 item1.calculate_total_price()
+#----------------------------------
+# Defining object #2.
+item2 = Item()
+
 
 # Program end.
