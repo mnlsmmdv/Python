@@ -19,6 +19,7 @@ class Item:
 
 # Creates a new Item object.
 item1 = Item()
+# Objects name.
 item1.name = "Phone"
 
 
