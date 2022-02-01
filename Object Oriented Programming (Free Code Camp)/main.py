@@ -16,6 +16,8 @@ them when not in use.
 class Item:
     # This function will calculate the total price.
     def calculate_total_price(self):
+        # Temporary statement.
+        pass
         
 # Variable declarations
 # Defining a new Item object.
@@ -26,6 +28,8 @@ item1.name = "Phone"
 item1.price = 100
 # Objects quantity.
 item1.quantity = 5
+# Assigning function to the object.
+item1.calculate_total_price()
 
 
 
