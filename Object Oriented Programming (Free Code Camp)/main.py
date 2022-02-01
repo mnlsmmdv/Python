@@ -23,5 +23,7 @@ item1 = Item()
 item1.name = "Phone"
 # Objects price.
 item1.price = 100
+# Objects quantity.
+item1.quantity = 5
 
 # Program end.
