@@ -37,6 +37,7 @@ item2 = Item()
 item2.name = "Laptop"
 # Objects price.
 item2.price = 1000
-
+# Objects quantity.
+item2.quantity = 3
 
 # Program end.
