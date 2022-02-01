@@ -11,6 +11,8 @@ them when not in use.
 
 # Program start.
 
-
+# Defining a new class.
+class Car:
+    
 
 # Program end.
