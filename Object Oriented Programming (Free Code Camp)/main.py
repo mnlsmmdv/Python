@@ -31,6 +31,4 @@ item1.quantity = 5
 # Assigning function to the object.
 item1.calculate_total_price()
 
-
-
 # Program end.
