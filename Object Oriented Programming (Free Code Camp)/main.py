@@ -12,7 +12,7 @@ them when not in use.
 
 # Program start.
 
-# This will house the Item's functionality.
+# This will house the Item objects functionality.
 class Item:
     # This function will calculate the total price.
     def calculate_total_price(self):
