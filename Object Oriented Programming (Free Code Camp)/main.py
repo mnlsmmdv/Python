@@ -14,8 +14,9 @@ them when not in use.
 
 # This will house the Item's functionality.
 class Item:
-    
-
+    # This function will calculate the total price.
+    def calculate_total_price(self):
+        
 # Variable declarations
 # Defining a new Item object.
 item1 = Item()
