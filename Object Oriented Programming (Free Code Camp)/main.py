@@ -19,7 +19,7 @@ class Item:
 
 # Creates a new Item object.
 item1 = Item()
-
+item1.name = "Phone"
 
 
 # Program end.
