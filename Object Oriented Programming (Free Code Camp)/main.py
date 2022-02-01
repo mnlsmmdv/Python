@@ -12,6 +12,8 @@ them when not in use.
 
 # Program start.
 
-
+# Items name.
+item1 = "Phone"
+ 
 
 # Program end.
