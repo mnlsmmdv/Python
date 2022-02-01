@@ -14,8 +14,7 @@ them when not in use.
 
 # This will house the Item's functionality.
 class Item:
-    # Temporary statement.
-    pass
+    
 
 # Variable declarations
 # Defining a new Item object.
