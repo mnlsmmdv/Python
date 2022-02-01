@@ -17,7 +17,7 @@ class Item:
     # Temporary statement.
     pass
 
-# Creates a new Item object.
+# Defining a new Item object.
 item1 = Item()
 # Objects name.
 item1.name = "Phone"
