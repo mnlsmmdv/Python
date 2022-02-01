@@ -12,6 +12,8 @@ them when not in use.
 
 # Program start.
 
- 
+# This will house the Item's functionality.
+class Item:
+    
 
 # Program end.
