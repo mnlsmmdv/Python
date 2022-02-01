@@ -1,7 +1,6 @@
 """
 Name: Ahmed Affaan                                  
-Title: main.py
-Folder: password_manager                            
+Title: main.py                            
 Date: 01/02/2022                                    
 Country: Republic of Maldives                       
 Code version: 3.8.10                                
