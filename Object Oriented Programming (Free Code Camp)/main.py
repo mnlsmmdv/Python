@@ -17,4 +17,9 @@ class Item:
     # Temporary statement.
     pass
 
+# Creates a new Item object.
+item1 = Item()
+
+
+
 # Program end.
