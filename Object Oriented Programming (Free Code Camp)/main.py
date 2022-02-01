@@ -17,6 +17,7 @@ class Item:
     # Temporary statement.
     pass
 
+# Variable declarations
 # Defining a new Item object.
 item1 = Item()
 # Objects name.
