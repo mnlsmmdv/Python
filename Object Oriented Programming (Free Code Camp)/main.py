@@ -28,7 +28,7 @@ item1.name = "Phone"
 item1.price = 100
 # Objects quantity.
 item1.quantity = 5
-# Assigning function to the object.
+# Assigning object to the function.
 item1.calculate_total_price()
 
 # Program end.
