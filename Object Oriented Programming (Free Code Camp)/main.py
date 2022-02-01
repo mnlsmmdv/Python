@@ -20,6 +20,7 @@ class Item:
         pass
         
 # Variable declarations
+#----------------------------------
 # Defining object #1.
 item1 = Item()
 # Objects name.
