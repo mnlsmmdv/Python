@@ -15,6 +15,8 @@ them when not in use.
 # Items name.
 item1 = "Phone"
 # Items price.
-item1_price = 100 
+item1_price = 100
+# Items quantity.
+item1_quantity = 5 
 
 # Program end.
