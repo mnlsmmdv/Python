@@ -25,6 +25,9 @@ class Car:
         # Prints message of cars function.
         print("This car is driving!")
 
-    
+    # Cars stop function.
+    def stop(self):
+        # Prints message of cars function.
+        print("This car is stopped")
 
 # Program end.
