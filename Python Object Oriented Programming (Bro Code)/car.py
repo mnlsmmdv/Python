@@ -11,6 +11,12 @@ them when not in use.
 
 # Program start.
 
-
+# Main class.
+class Car:
+    # Cars attributes.
+    make = None
+    model = None
+    year = None
+    colour = None
 
 # Program end.
