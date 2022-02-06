@@ -31,6 +31,6 @@ class Car:
     # Cars stop function.
     def stop(self):
         # Prints message of cars function.
-        print("This car is stopped")
+        print("This " + self.model + " is stopped")
 
 # Program end.
