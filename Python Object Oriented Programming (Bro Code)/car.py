@@ -18,10 +18,10 @@ class Car:
     # Constructor.
     def __init__(self, make, model, year, colour):
         # Cars attributes.
-        self.make = None
-        self.model = None
-        self.year = None
-        self.colour = None
+        self.make = make
+        self.model = model
+        self.year = year
+        self.colour = colour
 
     # Cars drive function.
     def drive(self):
