@@ -18,11 +18,9 @@ from car import Car
 car_1 = Car("Chevy", "Corvette", 2021, "blue")
 car_2 = Car("Ford", "Mustang", 2022, "red")
 
-"""
 # Calling methods for car_1
 car_1.drive()
 car_1.stop()
-"""
 
 # Calling methods for car_2
 car_2.drive()
