@@ -16,5 +16,8 @@ from car import Car
 
 # Creating a new object.
 car_1 = Car("Chevy", "Corvette", 2021, "blue")
+car_2 = Car("Ford", "Mustang", 2022, "red")
+
+
 
 # Program end.
