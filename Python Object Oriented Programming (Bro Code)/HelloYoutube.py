@@ -14,4 +14,7 @@ them when not in use.
 # Importing modules.
 from car import Car
 
+# Creating a new object.
+car_1 = Car("Chevy", "Corvette", 2021, "blue")
+
 # Program end.
