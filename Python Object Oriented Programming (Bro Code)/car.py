@@ -20,6 +20,10 @@ class Car:
     colour = None
 
     # Cars functions.
+    # Constructor.
+    def __init__(self):
+        
+
     # Cars drive function.
     def drive(self):
         # Prints message of cars function.
