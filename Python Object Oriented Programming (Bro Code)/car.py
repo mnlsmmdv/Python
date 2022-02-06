@@ -19,4 +19,8 @@ class Car:
     year = None
     colour = None
 
+    # Cars functions.
+    def drive(self):
+        
+
 # Program end.
