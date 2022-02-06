@@ -26,7 +26,7 @@ class Car:
     # Cars drive function.
     def drive(self):
         # Prints message of cars function.
-        print("This car is driving")
+        print("This " + self.model + " is driving")
 
     # Cars stop function.
     def stop(self):
