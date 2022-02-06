@@ -13,16 +13,15 @@ them when not in use.
 
 # Main class.
 class Car:
-    # Cars attributes.
-    make = None
-    model = None
-    year = None
-    colour = None
 
     # Cars functions.
     # Constructor.
     def __init__(self):
-        
+        # Cars attributes.
+        make = None
+        model = None
+        year = None
+        colour = None
 
     # Cars drive function.
     def drive(self):
