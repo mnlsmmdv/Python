@@ -11,6 +11,6 @@ them when not in use.
 
 # Program start.
 
-
+from car import Car
 
 # Program end.
