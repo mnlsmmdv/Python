@@ -16,7 +16,7 @@ class Car:
 
     # Cars functions.
     # Constructor.
-    def __init__(self):
+    def __init__(self, make, model, year, colour):
         # Cars attributes.
         make = None
         model = None
