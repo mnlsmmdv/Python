@@ -18,4 +18,9 @@ from tkinter import filedialog, colorchooser, font
 from tkinter.messagebox import *
 from tkinter.filedialog import *
 
+# This function will change the font colour.
+def change_colour(self):
+    # Temporary statement.
+    pass
+
 # Program end.
