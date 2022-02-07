@@ -88,6 +88,10 @@ screen_width = window.winfo_screenwidth
 x = int((screen_width / 2) - (window_width / 2))
 y = int((screen_height / 2) - (window_height / 2))
 
+# Windows display geometry.
+# Will make it show in the middle.
+window.geometry("{}x{}+{}+{}".format(window_width, window_height, x, y))
+
 # Window end point.
 window.mainloop()
 
