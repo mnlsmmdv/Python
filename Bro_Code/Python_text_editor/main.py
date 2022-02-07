@@ -70,6 +70,7 @@ def quit():
 
 # Creating the main window.
 window = Tk()
-
+# Window end point.
+window.mainloop()
 
 # Program end.
