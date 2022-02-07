@@ -24,7 +24,7 @@ def change_colour(self):
     pass
 
 # This function will change the font.
-def change_font(self):
+def change_font(*args):
     # Temporary statement.
     pass
 
