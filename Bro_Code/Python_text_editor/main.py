@@ -80,7 +80,7 @@ file = None
 window_height = 500
 window_width = 500
 
-# This will get the screen width.
+# This will get the screen height and width.
 screen_height = window.winfo_screenheight
 
 
