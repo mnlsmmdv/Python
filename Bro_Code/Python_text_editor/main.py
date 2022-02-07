@@ -69,28 +69,7 @@ def quit():
     # Temporary statement.
     pass
 
-# Creating the main window.
-window = Tk()
-# Window title.
-window.title("Text Editor program")
-# File used.
-file = None
 
-# Window height and width.
-window_height = 500
-window_width = 500
-
-# This will get the screen height and width.
-screen_width = window.winfo_screenwidth
-screen_height = window.winfo_screenheight
-
-# Setting the x and y axis.
-x = int((screen_width / 2) - (window_width / 2))
-y = int((screen_height / 2) - (window_height / 2))
-
-# Windows display geometry.
-# Will make it show in the middle.
-window.geometry("{}x{}+{}+{}".format(window_width, window_height, x, y))
 
 # Window end point.
 window.mainloop()
