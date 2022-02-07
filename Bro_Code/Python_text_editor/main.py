@@ -84,7 +84,9 @@ window_width = 500
 screen_height = window.winfo_screenheight
 screen_width = window.winfo_screenwidth
 
-
+# Setting the x and y axis.
+x = int((screen_width / 2) - (window_width / 2))
+y = int((screen_height / 2) - (window_height / 2))
 
 # Window end point.
 window.mainloop()
