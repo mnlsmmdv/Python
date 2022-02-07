@@ -77,7 +77,8 @@ window.title("Text Editor program")
 file = None
 # Window height.
 window_height = 500
-
+# window width.
+window_width = 500
 # Window end point.
 window.mainloop()
 
