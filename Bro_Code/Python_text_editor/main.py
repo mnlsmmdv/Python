@@ -77,8 +77,8 @@ window.title("Text Editor program")
 file = None
 
 # Window height and width.
-window_height = 500
-window_width = 500
+window_height = 800
+window_width = 800
 
 # This will get the screen height and width.
 screen_width = window.winfo_screenwidth()
