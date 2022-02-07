@@ -75,9 +75,11 @@ window = Tk()
 window.title("Text Editor program")
 # File used.
 file = None
+
 # Window height and width.
 window_height = 500
 window_width = 500
+
 # Window end point.
 window.mainloop()
 
