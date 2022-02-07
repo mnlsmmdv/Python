@@ -96,6 +96,10 @@ window.geometry("{}x{}+{}+{}".format(window_width, window_height, x, y))
 font_name = StringVar(window)
 font_name.set("Arial")
 
+# This will set the font's size.
+font_size = StringVar(window)
+font_size.set("25")
+
 
 
 # Window end point.
