@@ -38,4 +38,11 @@ def open_file():
     # Temporary statement.
     pass
 
+# This function will help save files.
+def save_file():
+    # Temporary statement.
+    pass
+
+
+
 # Program end.
