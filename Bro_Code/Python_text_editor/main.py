@@ -58,6 +58,11 @@ def paste():
     # Temporary statement.
     pass
 
+# This function will display the about section.
+def about():
+    # Temporary statement.
+    pass
+
 
 
 # Program end.
