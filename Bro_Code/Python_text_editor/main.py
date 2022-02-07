@@ -73,6 +73,7 @@ def quit():
 window = Tk()
 # Window title.
 window.title("Text Editor program")
+# File used.
 file = None
 # Window end point.
 window.mainloop()
