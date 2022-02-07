@@ -53,6 +53,11 @@ def copy():
     # Temporary statement.
     pass
 
+# This function will help paste.
+def paste():
+    # Temporary statement.
+    pass
+
 
 
 # Program end.
