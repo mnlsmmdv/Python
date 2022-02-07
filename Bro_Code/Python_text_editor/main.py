@@ -92,6 +92,12 @@ y = int((screen_height / 2) - (window_height / 2))
 # Will make it show in the middle.
 window.geometry("{}x{}+{}+{}".format(window_width, window_height, x, y))
 
+# This will set font name and type.
+font_name = StringVar(window)
+font_name.set("Arial")
+
+
+
 # Window end point.
 window.mainloop()
 
