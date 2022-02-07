@@ -23,4 +23,9 @@ def change_colour(self):
     # Temporary statement.
     pass
 
+# This function will change the font.
+def change_font(self):
+    # Temporary statement.
+    pass
+
 # Program end.
