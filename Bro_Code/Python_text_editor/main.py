@@ -68,4 +68,8 @@ def quit():
     # Temporary statement.
     pass
 
+# Creating the main window.
+window = Tk()
+
+
 # Program end.
