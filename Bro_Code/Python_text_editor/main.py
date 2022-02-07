@@ -13,6 +13,7 @@ them when not in use.
 
 # Importing modules.
 import os
+import tkinter
 from tkinter import *
 from tkinter import filedialog, colorchooser, font
 from tkinter.messagebox import *
