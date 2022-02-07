@@ -28,4 +28,9 @@ def change_font(*args):
     # Temporary statement.
     pass
 
+# This function will help open/create new files.
+def new_file():
+    # Temporary statement.
+    pass
+
 # Program end.
