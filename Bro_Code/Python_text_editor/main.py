@@ -48,6 +48,11 @@ def cut():
     # Temporary statement.
     pass
 
+# This function will help copy.
+def copy():
+    # Temporary statement.
+    pass
+
 
 
 # Program end.
