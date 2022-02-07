@@ -100,7 +100,7 @@ font_name.set("Arial")
 font_size = StringVar(window)
 font_size.set("25")
 
-# This will creat and configure the text area.
+# This will create and configure the text area.
 text_area = Text(window, font = (font_name.get(), font_size.get()))
 
 
