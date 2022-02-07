@@ -63,6 +63,9 @@ def about():
     # Temporary statement.
     pass
 
-
+# This function will help quit the text editor.
+def quit():
+    # Temporary statement.
+    pass
 
 # Program end.
