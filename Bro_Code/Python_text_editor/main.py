@@ -107,7 +107,7 @@ text_area = Text(window, font = (font_name.get(), font_size.get()))
 scroll_bar = Scrollbar(text_area)
 window.grid_rowconfigure(0, weight = 1)
 window.grid_columnconfigure(0, weight = 1)
-text_area.grid(sticky = N + E + S + W )
+text_area.grid(sticky = N + E + S + W)
 
 # Window end point.
 window.mainloop()
