@@ -14,6 +14,6 @@ them when not in use.
 # Importing modules.
 import os
 from tkinter import *
-
+from tkinter import filedialog, colorchooser, font
 
 # Program end.
