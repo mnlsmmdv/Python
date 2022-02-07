@@ -43,6 +43,11 @@ def save_file():
     # Temporary statement.
     pass
 
+# This function will help cut.
+def cut():
+    # Temporary statement.
+    pass
+
 
 
 # Program end.
