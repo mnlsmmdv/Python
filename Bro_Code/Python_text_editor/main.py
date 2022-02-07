@@ -81,8 +81,8 @@ window_height = 500
 window_width = 500
 
 # This will get the screen height and width.
-screen_height = window.winfo_screenheight
 screen_width = window.winfo_screenwidth
+screen_height = window.winfo_screenheight
 
 # Setting the x and y axis.
 x = int((screen_width / 2) - (window_width / 2))
