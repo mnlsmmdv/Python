@@ -82,6 +82,8 @@ window_width = 500
 
 # This will get the screen height and width.
 screen_height = window.winfo_screenheight
+screen_width = window.winfo_screenwidth
+
 
 
 # Window end point.
