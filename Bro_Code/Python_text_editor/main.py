@@ -33,4 +33,9 @@ def new_file():
     # Temporary statement.
     pass
 
+# This function will help open files.
+def open_file():
+    # Temporary statement.
+    pass
+
 # Program end.
