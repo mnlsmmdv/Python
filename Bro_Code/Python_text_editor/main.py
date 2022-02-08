@@ -48,8 +48,8 @@ def save_file():
 
 # This function will help cut.
 def cut():
-    # Temporary statement.
-    pass
+    # Helps cut text.
+    text_area.event_generate("<<Cut>>")
 
 # This function will help copy.
 def copy():
