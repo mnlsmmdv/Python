@@ -63,8 +63,8 @@ def paste():
 
 # This function will display the about section.
 def about():
-    # Temporary statement.
-    pass
+    # Information about program with popup.
+    showinfo("About", "Text editor program was written by Ahmed Affaan.")
 
 # This function will help quit the text editor.
 def quit():
