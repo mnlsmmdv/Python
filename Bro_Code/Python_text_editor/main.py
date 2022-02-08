@@ -40,8 +40,32 @@ def new_file():
 
 # This function will help open files.
 def open_file():
-    # Temporary statement.
-    pass
+    # Helps choose a file to open.
+    # Sets the default file types.
+    file = askopenfile(defaultextension = ".txt", file = [("All Files", "*.*"), ("Text Documents", "*.txt")])
+
+    # Selects the file using the directory.
+    try:
+        # Window title changes to file name.
+        window.title(os.path.basename(file))
+        # Helps clear the screen.
+        text_area.delete(1.0, END)
+
+        # Opens and reads the file.
+        # "r" means "read"
+        file = open(file, "r")
+
+        # Displays the read file.
+        text_area.insert(1.0, file.read())
+
+    except Exception:
+        # Displays error message.
+        print("Could not read file!")
+
+    # Closes the file.
+    finally:
+        # Closes the file.
+        file.close()
 
 # This function will help save files.
 def save_file():
