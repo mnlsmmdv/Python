@@ -130,6 +130,13 @@ font_box.grid(row = 0, column = 1)
 size_box = Spinbox(frame, from_ =1, to = 100, textvariable = font_size, command = change_font)
 size_box.grid(row = 0, column = 2)
 
+# Drop down menu's.
+# Main menu bar.
+menu_bar = Menu(window)
+window.config(menu = menu_bar)
+
+
+
 # Window end point.
 window.mainloop()
 
