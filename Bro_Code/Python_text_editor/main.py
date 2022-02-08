@@ -135,7 +135,9 @@ size_box.grid(row = 0, column = 2)
 menu_bar = Menu(window)
 window.config(menu = menu_bar)
 
-
+# File menu bar.
+file_menu = Menu(menu_bar, tearoff = 0)
+menu_bar.add_cascade(label = "File", menu = file_menu)
 
 # Window end point.
 window.mainloop()
