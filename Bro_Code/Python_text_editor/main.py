@@ -53,8 +53,8 @@ def cut():
 
 # This function will help copy.
 def copy():
-    # Temporary statement.
-    pass
+    # Helps copy text.
+    text_area.event_generate("<<Copy>>")
 
 # This function will help paste.
 def paste():
