@@ -138,6 +138,12 @@ window.config(menu = menu_bar)
 # File menu bar.
 file_menu = Menu(menu_bar, tearoff = 0)
 menu_bar.add_cascade(label = "File", menu = file_menu)
+# File menu bar options.
+file_menu.add_command(label = "New", command = new_file)
+file_menu.add_command(label = "Open", command = open_file)
+file_menu.add_command(label = "Save", command = save_file)
+# Separator line.
+file_menu.add_command(label = "Exit", command = quit)
 
 # Window end point.
 window.mainloop()
