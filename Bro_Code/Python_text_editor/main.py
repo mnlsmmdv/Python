@@ -111,6 +111,10 @@ window.grid_rowconfigure(0, weight = 1)
 window.grid_columnconfigure(0, weight = 1)
 text_area.grid(sticky = N + E + S + W)
 
+# This will help initialise the scroll bar.
+scroll_bar.pack(side = RIGHT, fill = Y)
+text_area.config(yscrollcommand = scroll_bar.set)
+
 # Widgets placed within a frame.
 frame = Frame(window)
 frame.grid()
@@ -127,9 +131,7 @@ font_box.grid(row = 0, column = 1)
 size_box = Spinbox(frame, from_ =1, to = 100, textvariable = font_size, command = change_font)
 size_box.grid(row = 0, column = 2)
 
-# This will help initialise the scroll bar.
-scroll_bar.pack(side = RIGHT, fill = Y)
-text_area.config(yscrollcommand = scroll_bar.set)
+
 
 # Window end point.
 window.mainloop()
