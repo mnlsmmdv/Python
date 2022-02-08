@@ -147,7 +147,8 @@ file_menu.add_command(label = "Exit", command = quit)
 
 # Edit menu bar.
 edit_menu = Menu(menu_bar, tearoff = 0)
-menu_bar.add_cascade(label = "Edit", menu = file_menu)
+menu_bar.add_cascade(label = "Edit", menu = edit_menu)
+
 
 # Window end point.
 window.mainloop()
