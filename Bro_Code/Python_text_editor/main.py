@@ -156,6 +156,8 @@ edit_menu.add_command(label = "Paste", command = paste)
 # Help menu bar.
 help_menu = Menu(menu_bar, tearoff = 0)
 menu_bar.add_cascade(label = "Help", menu = help_menu)
+# Help menu bar options.
+help_menu.add_command(label = "About", command = about)
 
 # Window end point.
 window.mainloop()
