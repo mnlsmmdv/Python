@@ -153,6 +153,10 @@ edit_menu.add_command(label = "Cut", command = cut)
 edit_menu.add_command(label = "Copy", command = copy)
 edit_menu.add_command(label = "Paste", command = paste)
 
+# Help menu bar.
+help_menu = Menu(menu_bar, tearoff = 0)
+menu_bar.add_cascade(label = "Help", menu = help_menu)
+
 # Window end point.
 window.mainloop()
 
