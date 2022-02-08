@@ -33,8 +33,10 @@ def change_font(*args):
 
 # This function will help create new files.
 def new_file():
-    # Temporary statement.
-    pass
+    # Remains untitled until we save a file.
+    window.title("Untitled")
+    # Helps clear the screen.
+    text_area.delete(1.0, END)
 
 # This function will help open files.
 def open_file():
