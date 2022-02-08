@@ -96,7 +96,7 @@ window.geometry("{}x{}+{}+{}".format(window_width, window_height, x, y))
 
 # This will set font name and type.
 font_name = StringVar(window)
-font_name.set("Arial")
+font_name.set("Times New Roman")
 
 # This will set the font's size.
 font_size = StringVar(window)
