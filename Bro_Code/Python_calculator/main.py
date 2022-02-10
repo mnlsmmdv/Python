@@ -20,4 +20,8 @@ def button_press(num):
     # Temporary statement.
     pass
 
+# This function calculates expressions.
+def equals():
+    
+
 # Program end.
