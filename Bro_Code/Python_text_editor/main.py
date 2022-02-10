@@ -69,8 +69,33 @@ def open_file():
 
 # This function will help save files.
 def save_file():
-    # Temporary statement.
-    pass
+    # Asks to save file as save as.
+    # Defualt file name and extension.
+    file = filedialog.asksaveasfilename(initialfile = "Untitled.txt", defualtextension = ".txt", filetypes = [("All Files", "*.*"), ("Text Documents", "*.txt")])
+
+    # If no file it will return.
+    if file is None:
+        return
+    # If there is a file this will happen.
+    else:
+        try:
+            window.title(os.path.basename(file))
+            # Opens the file.
+            # "w" means write.
+            file = open(file, "w")
+
+            # Gets text written on the whole file.
+            file.write(text_area.get(1, END))
+        
+        # When the file can't be saved.
+        except Exception:
+            # Error message.
+            print("Couldn't save file!")
+
+        # Closes the file after writing to it.
+        finally:
+            file.close()
+
 
 # This function will help cut.
 def cut():
