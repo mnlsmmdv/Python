@@ -18,6 +18,6 @@ from tkinter import *
 # This functions helps press buttons.
 def button_press(num):
     # Temporary statement.
-    
+    pass
 
 # Program end.
