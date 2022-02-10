@@ -40,6 +40,9 @@ window.geometry("500x500")
 # Will display the equation.
 equation_text = ""
 
+# String variable.
+equation_label = StringVar
+
 
 
 # Window end point.
