@@ -13,5 +13,6 @@ them when not in use.
 
 # Importing modules.
 import tkinter
+from tkinter import *
 
 # Program end.
