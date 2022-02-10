@@ -60,7 +60,9 @@ button1.grid(row = 0, column = 0)
 button2 = Button(frame, text = 2, height = 4, width = 9, font = 35, command = lambda: button_press(2))
 button2.grid(row = 0, column = 1)
 
-
+# Button 3.
+button3 = Button(frame, text = 3, height = 4, width = 9, font = 35, command = lambda: button_press(3))
+button3.grid(row = 0, column = 2)
 
 # Window end point.
 window.mainloop()
