@@ -33,5 +33,7 @@ def clear():
 # Creating the main GUI window.
 window = Tk()
 
+# Window end point.
+window.mainloop()
 
 # Program end.
