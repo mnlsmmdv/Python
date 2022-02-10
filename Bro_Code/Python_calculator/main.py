@@ -22,6 +22,7 @@ def button_press(num):
 
 # This function calculates expressions.
 def equals():
-    
+    # Temporary statement.
+    pass
 
 # Program end.
