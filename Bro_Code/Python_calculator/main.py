@@ -27,6 +27,9 @@ def equals():
 
 # This function clears the calculator.
 def clear():
-    
+    # Temporary statement.
+    pass
+
+
 
 # Program end.
