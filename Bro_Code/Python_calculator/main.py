@@ -15,4 +15,9 @@ them when not in use.
 import tkinter
 from tkinter import *
 
+# This functions helps press buttons.
+def button_press(num):
+    # Temporary statement.
+    
+
 # Program end.
