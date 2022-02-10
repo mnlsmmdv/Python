@@ -32,6 +32,8 @@ def clear():
 
 # Creating the main GUI window.
 window = Tk()
+# Window title.
+window.title("Calculator")
 
 # Window end point.
 window.mainloop()
