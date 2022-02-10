@@ -34,6 +34,8 @@ def clear():
 window = Tk()
 # Window title.
 window.title("Calculator")
+# Size of the window.
+window.geometry("500x500")
 
 # Window end point.
 window.mainloop()
