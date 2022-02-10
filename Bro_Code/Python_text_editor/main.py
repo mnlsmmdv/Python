@@ -76,6 +76,7 @@ def save_file():
     # If no file it will return.
     if file is None:
         return
+        
     # If there is a file this will happen.
     else:
         try:
