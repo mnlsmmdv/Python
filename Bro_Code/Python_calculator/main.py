@@ -37,6 +37,11 @@ window.title("Calculator")
 # Size of the window.
 window.geometry("500x500")
 
+# Will display the equation.
+equation_text = ""
+
+
+
 # Window end point.
 window.mainloop()
 
