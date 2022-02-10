@@ -30,6 +30,8 @@ def clear():
     # Temporary statement.
     pass
 
+# Creating the main GUI window.
+window = Tk()
 
 
 # Program end.
