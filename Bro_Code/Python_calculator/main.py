@@ -92,6 +92,10 @@ button9.grid(row = 2, column = 2)
 button10 = Button(frame, text = "+", height = 4, width = 9, font = 35, command = lambda: button_press(10))
 button10.grid(row = 3, column = 0)
 
+# Button 11.
+button11 = Button(frame, text = "-", height = 4, width = 9, font = 35, command = lambda: button_press(11))
+button11.grid(row = 3, column = 1)
+
 
 
 # Window end point.
