@@ -65,8 +65,8 @@ button3 = Button(frame, text = 3, height = 4, width = 9, font = 35, command = la
 button3.grid(row = 0, column = 2)
 
 # Button 4.
-button4 = Button(frame, text = "+", height = 4, width = 9, font = 35, command = lambda: button_press(4))
-button4.grid(row = 0, column = 3)
+plus = Button(frame, text = "+", height = 4, width = 9, font = 35, command = lambda: button_press(4))
+plus.grid(row = 0, column = 3)
 
 # Button 5.
 button5 = Button(frame, text = 4, height = 4, width = 9, font = 35, command = lambda: button_press(5))
@@ -81,8 +81,8 @@ button7 = Button(frame, text = 6, height = 4, width = 9, font = 35, command = la
 button7.grid(row = 1, column = 2)
 
 # Button 8.
-button8 = Button(frame, text = "-", height = 4, width = 9, font = 35, command = lambda: button_press(8))
-button8.grid(row = 1, column = 3)
+minus = Button(frame, text = "-", height = 4, width = 9, font = 35, command = lambda: button_press(8))
+minus.grid(row = 1, column = 3)
 
 # Button 9.
 button9 = Button(frame, text = 7, height = 4, width = 9, font = 35, command = lambda: button_press(9))
@@ -97,24 +97,24 @@ button11 = Button(frame, text = 9, height = 4, width = 9, font = 35, command = l
 button11.grid(row = 2, column = 2)
 
 # Button 12.
-button12 = Button(frame, text = "*", height = 4, width = 9, font = 35, command = lambda: button_press(12))
-button12.grid(row = 2, column = 3)
+multiply = Button(frame, text = "*", height = 4, width = 9, font = 35, command = lambda: button_press(12))
+multiply.grid(row = 2, column = 3)
 
 # Button 13.
 button13 = Button(frame, text = "0", height = 4, width = 9, font = 35, command = lambda: button_press(13))
 button13.grid(row = 4, column = 0)
 
 # Button 14.
-button14 = Button(frame, text = ".", height = 4, width = 9, font = 35, command = lambda: button_press(14))
-button14.grid(row = 4, column = 1)
+decimal = Button(frame, text = ".", height = 4, width = 9, font = 35, command = lambda: button_press(14))
+decimal.grid(row = 4, column = 1)
 
 # Button 15.
-button15 = Button(frame, text = "=", height = 4, width = 9, font = 35, command = lambda: button_press(15))
-button15.grid(row = 4, column = 2)
+equal = Button(frame, text = "=", height = 4, width = 9, font = 35, command = lambda: button_press(15))
+equal.grid(row = 4, column = 2)
 
 # Button 16.
-button16 = Button(frame, text = "/", height = 4, width = 9, font = 35, command = button_press(16))
-button16.grid(row = 4, column = 3)
+divide = Button(frame, text = "/", height = 4, width = 9, font = 35, command = button_press(16))
+divide.grid(row = 4, column = 3)
 
 # Window end point.
 window.mainloop()
