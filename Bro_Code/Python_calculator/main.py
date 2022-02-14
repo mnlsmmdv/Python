@@ -101,18 +101,20 @@ button12 = Button(frame, text = "*", height = 4, width = 9, font = 35, command =
 button12.grid(row = 3, column = 2)
 
 # Button 13.
-button13 = Button(frame, text = "/", height = 4, width = 9, font = 35, command = lambda: button_press(13))
+button13 = Button(frame, text = "0", height = 4, width = 9, font = 35, command = lambda: button_press(13))
 button13.grid(row = 4, column = 0)
 
 # Button 14.
-button14 = Button(frame, text = "=", height = 4, width = 9, font = 35, command = lambda: button_press(14))
+button14 = Button(frame, text = ".", height = 4, width = 9, font = 35, command = lambda: button_press(14))
 button14.grid(row = 4, column = 1)
 
 # Button 15.
-button15 = Button(frame, text = ".", height = 4, width = 9, font = 35, command = lambda: button_press(15))
+button15 = Button(frame, text = "=", height = 4, width = 9, font = 35, command = lambda: button_press(15))
 button15.grid(row = 4, column = 2)
 
-
+# Button 16.
+button16 = Button(frame, text = "/", height = 4, width = 9, font = 35, command = button_press(16))
+button16.grid(row = 4, column = 3)
 
 # Window end point.
 window.mainloop()
