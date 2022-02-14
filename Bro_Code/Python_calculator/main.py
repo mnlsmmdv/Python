@@ -108,6 +108,12 @@ button13.grid(row = 4, column = 0)
 button14 = Button(frame, text = "=", height = 4, width = 9, font = 35, command = lambda: button_press(14))
 button14.grid(row = 4, column = 1)
 
+# Button 15.
+button15 = Button(frame, text = ".", height = 4, width = 9, font = 35, command = lambda: button_press(15))
+button15.grid(row = 4, column = 2)
+
+
+
 # Window end point.
 window.mainloop()
 
