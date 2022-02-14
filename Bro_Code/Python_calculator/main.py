@@ -44,7 +44,7 @@ equation_text = ""
 equation_label = StringVar
 
 # Adding label to the window.
-label = Label(window, textvariable = equation_label, font = ("consolas", 20), bg = "white", width = 24, height = 2)
+label = Label(window, textvariable = equation_label, font = ("consolas", 20), bg = "white", width = 29, height = 2)
 label.pack()
 
 # Main frame to house GUI contents.
