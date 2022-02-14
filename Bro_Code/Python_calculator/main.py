@@ -35,7 +35,7 @@ window = Tk()
 # Window title.
 window.title("Calculator")
 # Size of the window.
-window.geometry("500x500")
+window.geometry("500x550")
 
 # Will display the equation.
 equation_text = ""
