@@ -109,7 +109,7 @@ decimal = Button(frame, text = ".", height = 4, width = 9, font = 35, command = 
 decimal.grid(row = 4, column = 1)
 
 # Button 15.
-equal = Button(frame, text = "=", height = 4, width = 9, font = 35, command = lambda: button_press("="))
+equal = Button(frame, text = "=", height = 4, width = 9, font = 35, command = equals)
 equal.grid(row = 4, column = 2)
 
 # Button 16.
