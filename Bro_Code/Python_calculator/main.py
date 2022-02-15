@@ -35,7 +35,7 @@ window = Tk()
 # Window title.
 window.title("Calculator")
 # Size of the window.
-window.geometry("550x500")
+window.geometry("550x550")
 # Keeping window at constant size.
 window.resizable(0, 0)
 # Window main colour.
@@ -119,6 +119,10 @@ equal.grid(row = 4, column = 2)
 # Button 16.
 divide = Button(frame, text = "/", height = 4, width = 9, font = 35, bg = "#303952", fg = "#42ada6", command = button_press("/"))
 divide.grid(row = 4, column = 3)
+
+# Button 17.
+clear_screen = Button(frame, text = "AC", height = 4, width = 9, font = 35, bg = "#303952", fg = "#42ada6", command = clear)
+clear_screen.grid(row = 5, column = 3)
 
 # Window end point.
 window.mainloop()
