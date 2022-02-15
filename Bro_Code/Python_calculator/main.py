@@ -55,6 +55,9 @@ label.pack()
 frame = Frame(window)
 frame.pack()
 
+# Main frame general colour.
+frame.configure(bg = "#303952")
+
 # Button configurations.
 # Button 1.
 button1 = Button(frame, text = 1, height = 4, width = 9, font = 35, bg = "#303952", fg = "#42ada6", command = lambda: button_press(1))
