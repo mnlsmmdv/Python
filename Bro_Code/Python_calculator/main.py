@@ -130,7 +130,7 @@ equal.grid(row = 4, column = 2)
 divide = Button(frame, text = "/", height = 4, width = 9, font = 35, bg = "#303952", fg = "#42ada6", command = lambda: button_press("/"))
 divide.grid(row = 4, column = 3)
 
-# Button 17.
+# Button 17 (clear)
 clear_screen = Button(frame, text = "AC", height = 4, width = 9, font = 35, bg = "#303952", fg = "#42ada6", command = clear)
 clear_screen.grid(row = 5, column = 3)
 
