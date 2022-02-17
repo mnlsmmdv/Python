@@ -52,7 +52,7 @@ window.configure(bg = "#303952")
 equation_text = ""
 
 # String variable.
-equation_label = StringVar
+equation_label = StringVar()
 
 # Adding label to the window.
 label = Label(window, textvariable = equation_label, font = ("consolas", 20), bg = "#596275", fg = "#42ada6", width = 29, height = 2)
