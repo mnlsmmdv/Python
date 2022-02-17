@@ -17,6 +17,7 @@ from tkinter import *
 
 # Creating the main GUI window.
 window = Tk()
-
+# Window title.
+window.title("Snake Game")
 
 # Program end.
