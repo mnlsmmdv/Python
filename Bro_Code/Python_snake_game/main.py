@@ -30,6 +30,11 @@ def next_turn():
     # Temporary statement.
     pass
 
+# This function helps the snake to change directions.
+def change_direction():
+    # Temporary statement.
+    pass
+
 # Creating the main GUI window.
 window = Tk()
 # Window title.
