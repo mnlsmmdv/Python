@@ -17,8 +17,15 @@ from tkinter import *
 
 # This functions helps press buttons.
 def button_press(num):
-    # Temporary statement.
-    pass
+    # Making Equation Text public.
+    global equation_text
+
+    # These will display content on the calculator label.
+    # Initialising Equation Text.
+    equation_text = equation_text + str(num)
+    
+    # Equation label.
+    equation_label.set(equation_text)
 
 # This function calculates expressions.
 def equals():
