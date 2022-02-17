@@ -94,7 +94,7 @@ button6.grid(row = 1, column = 1)
 button7 = Button(frame, text = 6, height = 4, width = 9, font = 35, bg = "#303952", fg = "#42ada6", command = lambda: button_press(7))
 button7.grid(row = 1, column = 2)
 
-# Button 8.
+# Button 8 (minus)
 minus = Button(frame, text = "-", height = 4, width = 9, font = 35, bg = "#303952", fg = "#42ada6", command = lambda: button_press("-"))
 minus.grid(row = 1, column = 3)
 
