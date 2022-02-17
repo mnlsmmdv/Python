@@ -24,7 +24,7 @@ def button_press(num):
     # Initialising Equation Text.
     equation_text = equation_text + str(num)
 
-    # Equation label.
+    # Displays the content.
     equation_label.set(equation_text)
 
 # This function calculates expressions.
@@ -35,7 +35,7 @@ def equals():
     # Converts values to strings.
     total = str(eval(equation_text))
 
-    # Equation label.
+    # Displays the content.
     equation_label.set(total)
 
     # Calculates the total.
