@@ -38,6 +38,9 @@ def equals():
     # Equation label.
     equation_label.set(total)
 
+    # Calculates the total.
+    equation_text = total
+
 # This function clears the calculator.
 def clear():
     # Temporary statement.
