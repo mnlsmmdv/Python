@@ -16,7 +16,7 @@ import tkinter
 from tkinter import *
 
 # This function describes the snakes movement.
-def snake():
+def Snake():
     # Temporary statement.
     pass
 
@@ -24,6 +24,8 @@ def snake():
 def Food():
     # Temporary statement.
     pass
+
+
 
 # Creating the main GUI window.
 window = Tk()
