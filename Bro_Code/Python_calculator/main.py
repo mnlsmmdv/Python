@@ -43,7 +43,7 @@ def equals():
         # Calculates the total.
         equation_text = total
 
-    # Error message for Syntax Errors.
+    # Error message for Syntax Error's.
     except SyntaxError:
         # Error message.
         equation_label.set("Syntax Error!")
