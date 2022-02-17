@@ -51,5 +51,7 @@ window = Tk()
 window.title("Snake Game")
 # Keeping the window at constant size.
 window.resizable(0, 0)
+# Window's main background colour.
+window.configure(bg = "#000000", fg = "#ffffff")
 
 # Program end.
