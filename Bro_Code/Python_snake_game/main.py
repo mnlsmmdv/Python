@@ -15,6 +15,11 @@ them when not in use.
 import tkinter
 from tkinter import *
 
+# This function describes the snakes movement.
+def snake():
+    # Temporary statement.
+    pass
+
 # Creating the main GUI window.
 window = Tk()
 # Window title.
