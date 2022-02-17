@@ -126,7 +126,7 @@ decimal.grid(row = 4, column = 1)
 equal = Button(frame, text = "=", height = 4, width = 9, font = 35, bg = "#303952", fg = "#42ada6", command = equals)
 equal.grid(row = 4, column = 2)
 
-# Button 16.
+# Button 16 (divide)
 divide = Button(frame, text = "/", height = 4, width = 9, font = 35, bg = "#303952", fg = "#42ada6", command = lambda: button_press("/"))
 divide.grid(row = 4, column = 3)
 
