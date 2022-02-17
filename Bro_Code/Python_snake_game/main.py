@@ -40,6 +40,11 @@ def check_collisions():
     # Temporary statement.
     pass
 
+# This function checks if the game was over.
+def game_over():
+    # Temporary statement.
+    pass
+
 # Creating the main GUI window.
 window = Tk()
 # Window title.
