@@ -51,6 +51,7 @@ def equals():
         # Clears the screen.
         equation_text = ""
 
+    # Error message for ZeroDivisonError's
     except ZeroDivisionError:
         # Error message.
         equation_label.set("Arithmetic Error!")
