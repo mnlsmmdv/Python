@@ -32,14 +32,23 @@ def equals():
     # Making Equation Text public.
     global equation_text
 
-    # Converts values to strings.
-    total = str(eval(equation_text))
+    # Will get rid of ZeroDivisionError
+    try:
+        # Converts values to strings.
+        total = str(eval(equation_text))
+        
+        # Displays the content.
+        equation_label.set(total)
 
-    # Displays the content.
-    equation_label.set(total)
+        # Calculates the total.
+        equation_text = total
 
-    # Calculates the total.
-    equation_text = total
+    except ZeroDivisionError:
+        # Error message.
+        equation_label.set("Arithmetic Error!")
+        
+        # Clears the screen.
+        equation_text = ""
 
 # This function clears the calculator.
 def clear():
