@@ -43,6 +43,14 @@ def equals():
         # Calculates the total.
         equation_text = total
 
+    # Error message for Syntax Errors.
+    except SyntaxError:
+        # Error message.
+        equation_label.set("Syntax Error!")
+
+        # Clears the screen.
+        equation_text = ""
+
     except ZeroDivisionError:
         # Error message.
         equation_label.set("Arithmetic Error!")
