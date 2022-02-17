@@ -25,7 +25,10 @@ def Food():
     # Temporary statement.
     pass
 
-
+# This function describes snake's next turn.
+def next_turn():
+    # Temporary statement.
+    pass
 
 # Creating the main GUI window.
 window = Tk()
