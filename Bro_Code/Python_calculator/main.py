@@ -61,8 +61,14 @@ def equals():
 
 # This function clears the calculator.
 def clear():
-    # Temporary statement.
-    pass
+    # Making Equation Text global.
+    global equation_text
+
+    # Clears the whole screen (Errors + Total).
+    # Clears content on the label.
+    equation_label.set("")
+    # Clears Equation Text content on the label.
+    equation_text = ""
 
 # Creating the main GUI window.
 window = Tk()
