@@ -23,7 +23,7 @@ def button_press(num):
     # These will display content on the calculator label.
     # Initialising Equation Text.
     equation_text = equation_text + str(num)
-    
+
     # Equation label.
     equation_label.set(equation_text)
 
