@@ -54,4 +54,7 @@ window.resizable(0, 0)
 # Window's main background colour.
 window.configure(bg = "#000000", fg = "#ffffff")
 
+# Window end point.
+window.mainloop()
+
 # Program end.
