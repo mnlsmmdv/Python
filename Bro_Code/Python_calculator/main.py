@@ -29,8 +29,14 @@ def button_press(num):
 
 # This function calculates expressions.
 def equals():
-    # Temporary statement.
-    pass
+    # Making Equation Text public.
+    global equation_text
+
+    # Converts values to strings.
+    total = str(eval(equation_text))
+
+    # Equation label.
+    equation_label.set(total)
 
 # This function clears the calculator.
 def clear():
