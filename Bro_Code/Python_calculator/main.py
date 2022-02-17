@@ -110,7 +110,7 @@ button10.grid(row = 2, column = 1)
 button11 = Button(frame, text = 9, height = 4, width = 9, font = 35, bg = "#303952", fg = "#42ada6", command = lambda: button_press(11))
 button11.grid(row = 2, column = 2)
 
-# Button 12.
+# Button 12 (multiply)
 multiply = Button(frame, text = "*", height = 4, width = 9, font = 35, bg = "#303952", fg = "#42ada6", command = lambda: button_press("*"))
 multiply.grid(row = 2, column = 3)
 
