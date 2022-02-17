@@ -35,6 +35,11 @@ def change_direction():
     # Temporary statement.
     pass
 
+# This function checks for collisions.
+def check_collisions():
+    # Temporary statement.
+    pass
+
 # Creating the main GUI window.
 window = Tk()
 # Window title.
