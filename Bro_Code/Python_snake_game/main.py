@@ -20,6 +20,11 @@ def snake():
     # Temporary statement.
     pass
 
+# This function describes the food the snake eats.
+def Food():
+    # Temporary statement.
+    pass
+
 # Creating the main GUI window.
 window = Tk()
 # Window title.
