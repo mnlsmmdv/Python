@@ -15,6 +15,8 @@ them when not in use.
 import tkinter
 from tkinter import *
 
+# Creating the main GUI window.
+window = Tk()
 
 
 # Program end.
