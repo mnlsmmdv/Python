@@ -72,8 +72,8 @@ class Food:
 
 # This function will handle the next turn.
 def next_turn(snake, food):
-    # Temporary statement.
-    pass
+    # Coordinates of Snake's head.
+    x, y = snake.coordinates[0]
 
 # Handles changing Snake's direction.
 def change_direction(new_direction):
