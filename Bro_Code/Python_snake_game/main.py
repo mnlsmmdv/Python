@@ -41,8 +41,9 @@ class Snake:
 
 # Class for Food object.
 class Food:
-    # Temporary statement.
-    pass
+    # Initializes the Food object.
+    def __init__(self):
+        
 
 # This function will handle the next turn.
 def next_turn():
