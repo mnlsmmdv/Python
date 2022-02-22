@@ -75,6 +75,22 @@ def next_turn(snake, food):
     # Coordinates of Snake's head.
     x, y = snake.coordinates[0]
 
+    if direction == "up":
+        # Snake direction.
+        y -= SPACE_SIZE
+
+    elif direction == "down":
+        # Snake direction.
+        y += SPACE_SIZE
+
+    elif direction == "left":
+        # Snake direction.
+        x -= SPACE_SIZE
+
+    elif direction == "right":
+        # Snake direction.
+        x += SPACE_SIZE
+
 # Handles changing Snake's direction.
 def change_direction(new_direction):
     # Temporary statement.
