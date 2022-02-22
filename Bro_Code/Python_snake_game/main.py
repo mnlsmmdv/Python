@@ -73,6 +73,8 @@ window.resizable(0, 0)
 
 # Game default score.
 score = 0
+# Game default direction.
+direction = "down"
 
 # Window end point.
 window.mainloop()
