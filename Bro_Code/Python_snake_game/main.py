@@ -36,4 +36,11 @@ def change_direction():
     # Temporary statement.
     pass
 
+# Handles checking object collisions.
+def check_collisions():
+    # Temporary statement.
+    pass
+
+
+
 # Program end.
