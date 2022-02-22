@@ -31,6 +31,9 @@ def next_turn():
     # Temporary statement.
     pass
 
-
+# Handles changing Snake's direction.
+def change_direction():
+    # Temporary statement.
+    pass
 
 # Program end.
