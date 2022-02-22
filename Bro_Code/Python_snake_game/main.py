@@ -36,8 +36,9 @@ BACKGROUND_COLOR = "#000000"
 
 # Class for Snake object.
 class Snake:
-    # Temporary statement.
-    pass
+    # Initializing the Snake object.
+    def __init__(self):
+        
 
 # Class for Food object.
 class Food:
