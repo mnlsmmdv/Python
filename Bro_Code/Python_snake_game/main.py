@@ -16,6 +16,24 @@ import tkinter
 from tkinter import *
 import random
 
+# Setting program constants.
+# Game Height.
+GAME_HEIGHT = 700
+# Game Width.
+GAME_WIDTH = 700
+# Speed of the snake.
+SPEED = 50
+# Object sizes (Food and body parts etc).
+SPACE_SIZE = 50
+# Snake's default body size.
+BODY_PARTS = 3
+# Snake's Colour.
+SNAKE_COLOR = "#00FF00"
+# Food Colour.
+FOOD_COLOR = "#FF0000"
+# Background Colour.
+BACKGROUND_COLOR = "#000000"
+
 # Class for Snake object.
 class Snake:
     # Temporary statement.
