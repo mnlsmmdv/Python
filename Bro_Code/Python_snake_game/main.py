@@ -105,7 +105,8 @@ window.geometry(f"{window_height}x{window_width}+{x}+{y}")
 
 # Creating the Snake object.
 snake = Snake()
-
+# Creating the Food object.
+food = Food()
 
 # Window end point.
 window.mainloop()
