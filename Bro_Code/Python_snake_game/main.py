@@ -43,7 +43,17 @@ class Snake:
 class Food:
     # Initializes the Food object.
     def __init__(self):
-        
+        # Places Food object randomly.
+        # Calculates the exact point to place randomly.
+        x = random.randint(0, (GAME_WIDTH / SPACE_SIZE) -1) * SPACE_SIZE
+        y = random.randint(0, (GAME_HEIGHT / SPACE_SIZE) -1) * SPACE_SIZE 
+
+        # Food objects coordinates.
+        self.coordinates = [x, y]
+
+        # Displays the Food object on the Canvas.
+        # This will create a circle.
+        canvas.create_oval(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=FOOD_COLOR, tag="food")
 
 # This function will handle the next turn.
 def next_turn():
