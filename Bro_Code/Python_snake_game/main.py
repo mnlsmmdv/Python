@@ -71,6 +71,9 @@ window.title("Snake Game")
 # Keeps GUI window size constant.
 window.resizable(0, 0)
 
+# Game default score.
+score = 0
+
 # Window end point.
 window.mainloop()
 
