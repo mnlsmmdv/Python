@@ -18,6 +18,9 @@ import random
 
 # Class for Snake object.
 class Snake:
-    
+    # Temporary statement.
+    pass
+
+
 
 # Program end.
