@@ -85,6 +85,24 @@ label.pack()
 canvas = Canvas(window, bg=BACKGROUND_COLOR, height=GAME_HEIGHT, width=GAME_WIDTH)
 canvas.pack()
 
+# Refreshes the window.
+window.update()
+
+# Centers the window on default on opening.
+# This will find the exact dimensions.
+window_height = window.winfo_height()
+window_width = window.winfo_width()
+screen_height = window.winfo_screenheight()
+screen_width = window.winfo_screenwidth()
+
+# Setting the x and y axis.
+x = int((screen_width / 2) - (window_width / 2))
+y = int((screen_height / 2) - (window_height / 2))
+
+# Windows display geometry.
+# Will make it show in the middle.
+window.geometry(f"{window_height}x{window_width}+{x}+{y}")
+
 # Window end point.
 window.mainloop()
 
