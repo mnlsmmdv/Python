@@ -76,6 +76,12 @@ score = 0
 # Game default direction.
 direction = "down"
 
+# Adding label to the window.
+label = Label(window, text="Score:{}".format(score), font=("consolas", 40))
+label.pack()
+
+
+
 # Window end point.
 window.mainloop()
 
