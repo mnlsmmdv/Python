@@ -43,6 +43,13 @@ class Snake:
         self.coordinates = []
         self.squares = []
 
+        # Creates a list of coordinates.
+        for i in range(0, BODY_PARTS):
+            # Snake will spawn on the top left corner.
+            self.coordinates.append([0, 0])
+
+        
+
 # Class for Food object.
 class Food:
     # Initializes the Food object.
