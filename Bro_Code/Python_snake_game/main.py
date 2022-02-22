@@ -23,6 +23,7 @@ class Snake:
 
 # Class for Food object.
 class Food:
-    
+    # Temporary statement.
+    pass
 
 # Program end.
