@@ -38,6 +38,8 @@ BACKGROUND_COLOR = "#000000"
 class Snake:
     # Initializing the Snake object.
     def __init__(self):
+        # Setting Snake's body size.
+        self.body_size = BODY_PARTS
         
 
 # Class for Food object.
