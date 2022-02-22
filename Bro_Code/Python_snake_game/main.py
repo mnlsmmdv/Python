@@ -28,6 +28,9 @@ class Food:
 
 # This function will handle the next turn.
 def next_turn():
-    
+    # Temporary statement.
+    pass
+
+
 
 # Program end.
