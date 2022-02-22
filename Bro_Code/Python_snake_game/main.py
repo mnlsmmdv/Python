@@ -32,7 +32,7 @@ def next_turn():
     pass
 
 # Handles changing Snake's direction.
-def change_direction():
+def change_direction(new_direction):
     # Temporary statement.
     pass
 
