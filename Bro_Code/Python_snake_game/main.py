@@ -66,6 +66,8 @@ def game_over():
 
 # Creating the main GUI window.
 window = Tk()
+# Window's title.
+window.title("Snake Game")
 
 
 # Window end point.
