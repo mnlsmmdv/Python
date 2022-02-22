@@ -103,7 +103,7 @@ y = int((screen_height / 2) - (window_height / 2))
 # Will make it show in the middle.
 window.geometry(f"{window_height}x{window_width}+{x}+{y}")
 
-# Creating the Snake object.
+# Creating Snake and Food objects.
 snake = Snake()
 food = Food()
 
