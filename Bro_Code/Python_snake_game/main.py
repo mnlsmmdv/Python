@@ -41,6 +41,11 @@ def check_collisions():
     # Temporary statement.
     pass
 
+# Function to check if the user has lost.
+def game_over():
+    # Temporary statement.
+    pass
+
 
 
 # Program end.
