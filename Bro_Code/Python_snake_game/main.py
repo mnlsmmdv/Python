@@ -68,7 +68,8 @@ def game_over():
 window = Tk()
 # Window's title.
 window.title("Snake Game")
-
+# Keeps GUI window size constant.
+window.resizable(0, 0)
 
 # Window end point.
 window.mainloop()
