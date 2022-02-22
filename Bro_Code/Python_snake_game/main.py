@@ -16,6 +16,8 @@ import tkinter
 from tkinter import *
 import random
 
-
+# Class for Snake object.
+class Snake:
+    
 
 # Program end.
