@@ -41,7 +41,7 @@ class Snake:
         # Setting Snake's body size.
         self.body_size = BODY_PARTS
         self.coordinates = []
-        
+        self.squares = []
 
 # Class for Food object.
 class Food:
