@@ -71,7 +71,7 @@ class Food:
         canvas.create_oval(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=FOOD_COLOR, tag="food")
 
 # This function will handle the next turn.
-def next_turn():
+def next_turn(snake, food):
     # Temporary statement.
     pass
 
