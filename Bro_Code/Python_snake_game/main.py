@@ -45,7 +45,7 @@ class Snake:
 
         # Creates a list of coordinates.
         for i in range(0, BODY_PARTS):
-            # Snake will spawn on the top left corner.
+            # Snake will spawn randomly.
             self.coordinates.append([0, 0])
 
         # Creates squares for Snake's body.
