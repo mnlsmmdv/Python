@@ -40,6 +40,7 @@ class Snake:
     def __init__(self):
         # Setting Snake's body size.
         self.body_size = BODY_PARTS
+        self.coordinates = []
         
 
 # Class for Food object.
