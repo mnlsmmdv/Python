@@ -64,6 +64,11 @@ def game_over():
     # Temporary statement.
     pass
 
+# Creating the main GUI window.
+window = Tk()
 
+
+# Window end point.
+window.mainloop()
 
 # Program end.
