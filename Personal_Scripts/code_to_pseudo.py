@@ -1,7 +1,6 @@
 """
 Name: Ahmed Affaan                                  
-Title: code_to_pseudo.py
-Folder: DADSA                            
+Title: code_to_pseudo.py                            
 Date: 23/03/2022                                    
 Country: Republic of Maldives                       
 Code version: 3.8.10                                
