@@ -1,6 +1,6 @@
 """
 Name: Ahmed Affaan                                  
-Title: code_to_pseudo.py
+Title: main.py
 Folder: Python_calculator                            
 Date: 23/03/2022                                    
 Country: Republic of Maldives                       
