@@ -23,6 +23,10 @@ def button_press(num):
 def equals():
     pass
 
+# This function will help clear the screen.
+def clear():
+    pass
+
 
 
 # Program end.
