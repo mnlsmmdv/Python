@@ -15,6 +15,10 @@ them when not in use.
 # Importing modules.
 from tkinter import *
 
+# This function will help press the button.
+def button_press(num):
+    pass
+
 
 
 # Program end.
