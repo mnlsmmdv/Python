@@ -40,7 +40,8 @@ equation_text = ""
 equation_label = StringVar()
 
 # Window label.
-label = Label(window)
+label = Label(window, textvariable=equation_label, font=("consolas",20), bg="white", width=24, height=2)
+label.pack()
 
 # Helps loop the window.
 window.mainloop()
