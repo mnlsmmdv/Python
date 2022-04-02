@@ -33,6 +33,9 @@ window = Tk()
 window.title("Calculator")
 window.geometry("500x500")
 
+# Stores equation text.
+equation_text = ""
+
 
 
 # Helps loop the window.
