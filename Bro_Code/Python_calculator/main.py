@@ -47,6 +47,9 @@ label.pack()
 frame = Frame(window)
 frame.pack()
 
+# BUTTONS
+button1 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(1))
+
 # Helps loop the window.
 window.mainloop()
 
