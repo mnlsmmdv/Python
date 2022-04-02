@@ -36,6 +36,9 @@ window.geometry("500x500")
 # Stores equation text.
 equation_text = ""
 
+# Helps store the equation label.
+equation_label = StringVar()
+
 
 
 # Helps loop the window.
