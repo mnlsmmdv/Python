@@ -30,6 +30,10 @@ def clear():
 # Window initialized.
 window = Tk()
 
+# Window title.
+window.title("Calculator")
+
+
 # Helps loop the window.
 window.mainloop()
 
