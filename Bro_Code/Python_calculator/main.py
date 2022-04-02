@@ -55,6 +55,8 @@ button4 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: but
 button5 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(5))
 button6 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(6))
 button7 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(7))
+button8 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(8))
+
 
 # Helps loop the window.
 window.mainloop()
