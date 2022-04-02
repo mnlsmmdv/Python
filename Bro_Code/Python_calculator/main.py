@@ -30,5 +30,7 @@ def clear():
 # Window initialized.
 window = Tk()
 
+# Helps loop the window.
+window.mainloop()
 
 # Program end.
