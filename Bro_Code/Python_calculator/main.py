@@ -50,6 +50,8 @@ frame.pack()
 # BUTTONS
 button1 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(1))
 button2 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(2))
+button3 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(3))
+
 
 # Helps loop the window.
 window.mainloop()
