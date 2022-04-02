@@ -39,7 +39,8 @@ equation_text = ""
 # Helps store the equation label.
 equation_label = StringVar()
 
-
+# Window label.
+label = Label(window)
 
 # Helps loop the window.
 window.mainloop()
