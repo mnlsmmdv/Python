@@ -19,6 +19,10 @@ from tkinter import *
 def button_press(num):
     pass
 
+# This function will handle calculations.
+def equals():
+    pass
+
 
 
 # Program end.
