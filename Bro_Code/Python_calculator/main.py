@@ -29,9 +29,10 @@ def clear():
 
 # Window initialized.
 window = Tk()
-
-# Window title.
+# Window title and geometry.
 window.title("Calculator")
+window.geometry("500x500")
+
 
 
 # Helps loop the window.
