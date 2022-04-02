@@ -27,6 +27,8 @@ def equals():
 def clear():
     pass
 
+# Window initialized.
+window = Tk()
 
 
 # Program end.
