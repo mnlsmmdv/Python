@@ -28,7 +28,21 @@ BACKGROUND_COLOR = "#000000"
 
 # Class for Snake object.
 class Snake:
-    pass
+    # Constructor.
+    def __init__(self):
+        self.body_size = BODY_PARTS
+        self.coordinates = []
+        self.squares = []
+
+        # Creates lists of coordinates.
+        for i in range(0, BODY_PARTS):
+            # Appears in the top left corner.
+            self.coordinates.append([0, 0])
+
+        # Creates squares.
+        for x, y in self.coordinates:
+            square = canvas.create_rectangle(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=SNAKE_COLOR, tag="snake")
+            self.squares.append(square)
 
 # Class for Food object.
 class Food:
