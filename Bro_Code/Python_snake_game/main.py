@@ -56,6 +56,10 @@ window = Tk()
 window.title("Snake Game")
 window.resizable(False, False)
 
+# This will store the users score and snake initial direction.
+score = 0
+direction = "down"
+
 # Window loops the whole program.
 window.mainloop()
 
