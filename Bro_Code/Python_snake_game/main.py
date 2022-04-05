@@ -29,7 +29,7 @@ def next_turn():
     pass
 
 # Function changes snakes direction.
-def change_direction():
+def change_direction(new_direction):
     pass
 
 # Function checks collisions.
