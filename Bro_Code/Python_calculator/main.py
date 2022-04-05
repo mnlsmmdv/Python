@@ -31,7 +31,7 @@ def clear():
 window = Tk()
 # Window title and geometry.
 window.title("Calculator")
-window.geometry("500x500")
+window.geometry("500x550")
 
 # Stores equation text.
 equation_text = ""
