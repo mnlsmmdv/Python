@@ -64,6 +64,10 @@ direction = "down"
 label = Label(window, text="Score:{}".format(score), font=("consolas", 40))
 label.pack()
 
+# Canvas for the snake game.
+canvas = Canvas(window, bg=BACKGROUND_COLOR, height=GAME_HEIGHT, width=GAME_WIDTH)
+canvas.pack()
+
 # Window loops the whole program.
 window.mainloop()
 
