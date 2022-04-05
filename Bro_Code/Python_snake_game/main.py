@@ -32,7 +32,7 @@ class Snake:
 
 # Class for Food object.
 class Food:
-    # Initial function.
+    # Constructor.
     def __init__(self):
         # Randomizes starting point.
         x = random.randint(0, (GAME_WIDTH / SPACE_SIZE)-1) * SPACE_SIZE
