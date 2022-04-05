@@ -16,9 +16,11 @@ them when not in use.
 from tkinter import *
 import random
 
+# Class for Snake object.
 class Snake:
     pass
 
+# Class for Food object.
 class Food:
     pass
 
