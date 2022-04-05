@@ -16,7 +16,7 @@ them when not in use.
 from tkinter import *
 import random
 
-# Constants.
+# Program constants.
 GAME_WIDTH = 700
 GAME_HEIGHT = 700
 SPEED = 50
