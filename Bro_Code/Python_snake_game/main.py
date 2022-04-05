@@ -60,6 +60,10 @@ window.resizable(False, False)
 score = 0
 direction = "down"
 
+# Score label.
+label = Label(window, text="Score:{}".format(score), font=("consolas", 40))
+label.pack()
+
 # Window loops the whole program.
 window.mainloop()
 
