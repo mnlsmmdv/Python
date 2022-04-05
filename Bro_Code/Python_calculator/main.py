@@ -23,7 +23,10 @@ def button_press(num):
 
 # This function will handle calculations.
 def equals():
-    pass
+    global equation_text
+    total = str(eval(equation_text))
+    equation_label.set(total)
+    equation_text = total
 
 # This function will help clear the screen.
 def clear():
