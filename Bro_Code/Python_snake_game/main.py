@@ -49,6 +49,10 @@ def check_collisions():
 def game_over():
     pass
 
+# Initializing the window.
+window = Tk()
 
+# Window loops the whole program.
+window.mainloop()
 
 # Program end.
