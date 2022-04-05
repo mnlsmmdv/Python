@@ -74,6 +74,9 @@ minus = Button(frame, text="-", height=4, width=9, font=35, command= lambda: but
 minus.grid(row=1, column=3)
 multiply = Button(frame, text="*", height=4, width=9, font=35, command= lambda: button_press("*"))
 multiply.grid(row=2, column=3)
+divide = Button(frame, text="/", height=4, width=9, font=35, command= lambda: button_press("/"))
+divide.grid(row=3, column=3)
+
 
 
 
