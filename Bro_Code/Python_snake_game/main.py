@@ -24,6 +24,10 @@ class Snake:
 class Food:
     pass
 
+# Function takes the next turn.
+def next_turn():
+    pass
+
 
 
 # Program end.
