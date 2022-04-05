@@ -49,14 +49,17 @@ frame.pack()
 
 # BUTTONS
 button1 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(1))
-button2 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(2))
-button3 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(3))
-button4 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(4))
-button5 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(5))
-button6 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(6))
-button7 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(7))
-button8 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(8))
-button9 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(9))
+button2 = Button(frame, text=2, height=4, width=9, font=35, command= lambda: button_press(2))
+button3 = Button(frame, text=3, height=4, width=9, font=35, command= lambda: button_press(3))
+button4 = Button(frame, text=4, height=4, width=9, font=35, command= lambda: button_press(4))
+button5 = Button(frame, text=5, height=4, width=9, font=35, command= lambda: button_press(5))
+button6 = Button(frame, text=6, height=4, width=9, font=35, command= lambda: button_press(6))
+button7 = Button(frame, text=7, height=4, width=9, font=35, command= lambda: button_press(7))
+button8 = Button(frame, text=8, height=4, width=9, font=35, command= lambda: button_press(8))
+button9 = Button(frame, text=9, height=4, width=9, font=35, command= lambda: button_press(9))
+button0 = Button(frame, text=0, height=4, width=9, font=35, command= lambda: button_press(0))
+
+
 
 # Helps loop the window.
 window.mainloop()
