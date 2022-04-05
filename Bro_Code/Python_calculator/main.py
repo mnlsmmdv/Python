@@ -76,7 +76,7 @@ multiply = Button(frame, text="*", height=4, width=9, font=35, command= lambda: 
 multiply.grid(row=2, column=3)
 divide = Button(frame, text="/", height=4, width=9, font=35, command= lambda: button_press("/"))
 divide.grid(row=3, column=3)
-equal = Button(frame, text="=", height=4, width=9, font=35, command= lambda: button_press("="))
+equal = Button(frame, text="=", height=4, width=9, font=35, command=equals)
 equal.grid(row=3, column=2)
 
 
