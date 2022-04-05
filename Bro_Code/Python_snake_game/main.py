@@ -19,6 +19,9 @@ import random
 class Snake:
     pass
 
+class Food:
+    pass
+
 
 
 # Program end.
