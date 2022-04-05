@@ -32,6 +32,10 @@ def next_turn():
 def change_direction():
     pass
 
+# Function checks collisions.
+def check_collisions():
+    pass
+
 
 
 # Program end.
