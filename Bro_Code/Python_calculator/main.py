@@ -70,6 +70,9 @@ button0 = Button(frame, text=0, height=4, width=9, font=35, command= lambda: but
 button0.grid(row=3, column=0)
 plus = Button(frame, text="+", height=4, width=9, font=35, command= lambda: button_press("+"))
 plus.grid(row=0, column=3)
+minus = Button(frame, text="-", height=4, width=9, font=35, command= lambda: button_press("-"))
+minus.grid(row=1, column=3)
+
 
 
 
