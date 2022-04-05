@@ -36,6 +36,9 @@ def change_direction():
 def check_collisions():
     pass
 
+def game_over():
+    pass
+
 
 
 # Program end.
