@@ -29,8 +29,12 @@ def equals():
         equation_label.set(total)
         equation_text = total
 
+    except SyntaxError:
+        equation_label.set("SYNTAX ERROR!")
+        equation_text = ""
+
     except ZeroDivisionError:
-        equation_label.set("ARITHMETIC ERROR")
+        equation_label.set("ARITHMETIC ERROR!")
         equation_text = ""
 
 # This function will help clear the screen.
