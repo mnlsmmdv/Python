@@ -39,7 +39,9 @@ def equals():
 
 # This function will help clear the screen.
 def clear():
-    pass
+    global equation_text
+    equation_label.set("")
+    equation_text.set("")
 
 # Window initialized.
 window = Tk()
