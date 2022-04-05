@@ -24,9 +24,14 @@ def button_press(num):
 # This function will handle calculations.
 def equals():
     global equation_text
-    total = str(eval(equation_text))
-    equation_label.set(total)
-    equation_text = total
+    try:
+        total = str(eval(equation_text))
+        equation_label.set(total)
+        equation_text = total
+
+    except ZeroDivisionError:
+        equation_label.set("ARITHMETIC ERROR")
+        equation_text = ""
 
 # This function will help clear the screen.
 def clear():
