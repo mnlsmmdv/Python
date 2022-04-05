@@ -83,7 +83,7 @@ divide = Button(frame, text="/", height=4, width=9, font=35, command= lambda: bu
 divide.grid(row=3, column=3)
 equal = Button(frame, text="=", height=4, width=9, font=35, command=equals)
 equal.grid(row=3, column=2)
-decimal = Button(frame, text=".", height=4, width=9, font=35, command= button_press("."))
+decimal = Button(frame, text=".", height=4, width=9, font=35, command= lambda: button_press("."))
 decimal.grid(row=3, column=1)
 clear = Button(frame, text="AC", height=4, width=9, font=35, command=clear)
 clear.grid(row=4, column=3)
