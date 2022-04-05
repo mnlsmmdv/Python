@@ -28,6 +28,10 @@ class Food:
 def next_turn():
     pass
 
+# Function changes snakes direction.
+def change_direction():
+    pass
+
 
 
 # Program end.
