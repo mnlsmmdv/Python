@@ -12,6 +12,10 @@ them when not in use.
 
 # Program start.
 
+# Importing modules.
+from tkinter import *
+import random
+
 # Constants.
 GAME_WIDTH = 700
 GAME_HEIGHT = 700
@@ -21,10 +25,6 @@ BODY_PARTS = 3
 SNAKE_COLOR = "#00FF00"
 FOOD_COLOR = "#FF0000"
 BACKGROUND_COLOR = "#000000"
-
-# Importing modules.
-from tkinter import *
-import random
 
 # Class for Snake object.
 class Snake:
