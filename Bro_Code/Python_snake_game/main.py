@@ -54,6 +54,7 @@ window = Tk()
 
 # Window title.
 window.title("Snake Game")
+window.resizable(False, False)
 
 # Window loops the whole program.
 window.mainloop()
