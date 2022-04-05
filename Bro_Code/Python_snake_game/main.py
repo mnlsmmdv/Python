@@ -16,6 +16,9 @@ them when not in use.
 from tkinter import *
 import random
 
+class Snake:
+    pass
+
 
 
 # Program end.
