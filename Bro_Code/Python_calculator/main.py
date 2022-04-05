@@ -67,6 +67,8 @@ button8.grid(row=2, column=1)
 button9 = Button(frame, text=9, height=4, width=9, font=35, command= lambda: button_press(9))
 button9.grid(row=2, column=2)
 button0 = Button(frame, text=0, height=4, width=9, font=35, command= lambda: button_press(0))
+button0.grid(row=3, column=0)
+
 
 
 
