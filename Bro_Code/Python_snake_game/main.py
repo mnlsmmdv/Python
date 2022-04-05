@@ -52,6 +52,9 @@ def game_over():
 # Initializing the window.
 window = Tk()
 
+# Window title.
+window.title("Snake Game")
+
 # Window loops the whole program.
 window.mainloop()
 
