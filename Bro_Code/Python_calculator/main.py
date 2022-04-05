@@ -17,7 +17,9 @@ from tkinter import *
 
 # This function will help press the button.
 def button_press(num):
-    pass
+    global equation_text
+    equation_text = equation_text + str(num)
+    equation_label.set(equation_text)
 
 # This function will handle calculations.
 def equals():
