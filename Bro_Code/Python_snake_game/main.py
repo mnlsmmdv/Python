@@ -114,7 +114,7 @@ def change_direction(new_direction):
             direction == new_direction
 
 # Function checks collisions.
-def check_collisions():
+def check_collisions(snake):
     pass
 
 def game_over():
