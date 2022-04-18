@@ -19,7 +19,7 @@ from time import *
 # This function will update the time.
 def update():
     # Assigning string to time function.
-    time_string = strftime("%I%M%S")
+    time_string = strftime("%I:%M:%S")
     # Updating the time label.
     time_label.config(text=time_string)
 
