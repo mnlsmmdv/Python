@@ -16,6 +16,10 @@ them when not in use.
 from tkinter import *
 from time import *
 
+# Initializing the window.
+window = Tk()
 
+# Closing the window.
+window.mainloop()
 
 # Program end.
