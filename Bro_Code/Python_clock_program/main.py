@@ -23,6 +23,12 @@ window = Tk()
 time_label = Label(window, font=("Ariel", 50), fg="#00FF00", bg="#000000")
 time_label.pack()
 
+# Label to display day of the week.
+
+
+# Label to display date.
+
+
 # Closing the window.
 window.mainloop()
 
