@@ -25,6 +25,8 @@ def update():
 
 # Initializing the window.
 window = Tk()
+# Window title.
+window.title("Clock")
 
 # Label to display time.
 time_label = Label(window, font=("Ariel", 50), fg="#00FF00", bg="#000000")
