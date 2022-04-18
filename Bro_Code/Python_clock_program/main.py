@@ -23,6 +23,9 @@ window = Tk()
 time_label = Label(window, font=("Ariel", 50), fg="#00FF00", bg="#000000")
 time_label.pack()
 
+# Recursive function to update the time.
+update()
+
 # Label to display day of the week.
 
 
