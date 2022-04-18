@@ -19,6 +19,10 @@ from time import *
 # Initializing the window.
 window = Tk()
 
+# Label to display time.
+time_label = Label(window, font=("Ariel", 50), fg="#00FF00", bg="#000000")
+time_label.pack()
+
 # Closing the window.
 window.mainloop()
 
