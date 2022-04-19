@@ -17,7 +17,7 @@ from tkinter import *
 from time import *
 
 # This function will update the time.
-def update():
+def update_clock():
     # Calling the get time function.
     time_string = strftime("%I:%M:%S %p")
     time_label.config(text=time_string)
@@ -31,7 +31,7 @@ def update():
     date_label.config(text=date_string)
 
     # Updates label every one second.
-    window.after(1000, update)
+    window.after(1000, update_clock)
 
 # Window initialization.
 window = Tk()
@@ -53,7 +53,7 @@ date_label = Label(window, font=("Monospace", 50), fg="#42ada6", bg="#111111")
 date_label.pack()
 
 # Calling the update time function.
-update()
+update_clock()
 
 # Window initialization end.
 window.mainloop()
