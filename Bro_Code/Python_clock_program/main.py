@@ -25,6 +25,9 @@ window.title("Clock")
 time_label = Label(window, font=("Ariel", 50), fg="#42ada6", bg="#111111")
 time_label.pack()
 
+# Calling the update time function.
+update()
+
 # Label for day of the week.
 
 
