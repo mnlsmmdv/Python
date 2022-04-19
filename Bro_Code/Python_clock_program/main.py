@@ -22,6 +22,9 @@ def update():
     time_string = strftime("%I:%M:%S %p")
     time_label.config(text=time_string)
 
+    # Updates label every one second.
+    time_label.after(1000, update)
+
 # Window initialization.
 window = Tk()
 # Window title.
