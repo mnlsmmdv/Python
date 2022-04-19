@@ -19,6 +19,15 @@ from time import *
 # Window initialization.
 window = Tk()
 
+# Label for time.
+
+
+# Label for day of the week.
+
+
+# Label for date.
+
+
 # Window initialization end.
 window.mainloop()
 
