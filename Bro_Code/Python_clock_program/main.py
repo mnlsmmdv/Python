@@ -16,6 +16,11 @@ them when not in use.
 from tkinter import *
 from time import *
 
+# This function will update the time.
+def update():
+    # Calling the ge time function.
+    time_string = strftime()
+
 # Window initialization.
 window = Tk()
 # Window title.
