@@ -18,6 +18,8 @@ from time import *
 
 # Window initialization.
 window = Tk()
+# Window title.
+window.title("Clock")
 
 # Label for time.
 time_label = Label(window, font=("Ariel", 50), fg="#42ada6", bg="#111111")
