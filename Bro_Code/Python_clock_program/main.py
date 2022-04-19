@@ -31,7 +31,7 @@ window = Tk()
 window.title("Clock")
 
 # Label for time.
-time_label = Label(window, font=("Ariel", 50), fg="#42ada6", bg="#111111")
+time_label = Label(window, font=("Monospace", 50), fg="#42ada6", bg="#111111")
 time_label.pack()
 
 # Calling the update time function.
