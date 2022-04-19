@@ -18,7 +18,7 @@ from time import *
 
 # This function will update the time.
 def update():
-    # Calling the ge time function.
+    # Calling the get time function.
     time_string = strftime("%I:%M:%S %p")
     time_label.config(text=time_string)
 
