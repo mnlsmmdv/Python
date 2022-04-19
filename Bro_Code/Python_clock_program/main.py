@@ -26,6 +26,10 @@ def update():
     day_string = strftime("%A")
     day_label.config(text=day_string)
 
+    # Calling the get date function.
+    date_string = strftime("%B %d, %Y")
+    date_label.config(text=date_string)
+
     # Updates label every one second.
     time_label.after(1000, update)
 
@@ -39,7 +43,7 @@ time_label = Label(window, font=("Monospace", 50), fg="#42ada6", bg="#111111")
 time_label.pack()
 
 # Label for day of the week.
-day_label = Label(window, font=("Monospace", 25), fg="#42ada6", bg="#111111")
+day_label = Label(window, font=("Monospace", 50), fg="#42ada6", bg="#111111")
 day_label.pack()
 
 # Label for date.
