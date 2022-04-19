@@ -31,7 +31,7 @@ def update():
     date_label.config(text=date_string)
 
     # Updates label every one second.
-    time_label.after(1000, update)
+    window.after(1000, update)
 
 # Window initialization.
 window = Tk()
