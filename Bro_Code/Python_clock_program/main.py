@@ -34,14 +34,14 @@ window.title("Clock")
 time_label = Label(window, font=("Monospace", 50), fg="#42ada6", bg="#111111")
 time_label.pack()
 
-# Calling the update time function.
-update()
-
 # Label for day of the week.
 
 
 # Label for date.
 
+
+# Calling the update time function.
+update()
 
 # Window initialization end.
 window.mainloop()
