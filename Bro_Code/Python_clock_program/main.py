@@ -48,7 +48,7 @@ time_label.pack()
 day_label = Label(window, font=("Monospace", 50), fg="#42ada6", bg="#111111")
 day_label.pack()
 
-# Label for date.
+# Label for the date.
 date_label = Label(window, font=("Monospace", 50), fg="#42ada6", bg="#111111")
 date_label.pack()
 
