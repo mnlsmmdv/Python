@@ -12,6 +12,10 @@ them when not in use.
 
 # Program start.
 
+# Importing modules.
+from tkinter import *
+from time import *
+
 
 
 # Program end.
