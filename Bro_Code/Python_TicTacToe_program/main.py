@@ -31,4 +31,9 @@ def empty_spaces():
     # Temporary statement.
     pass
 
+# This function will launch a new game.
+def new_game():
+    # Temporary statement.
+    pass
+
 # Program end.
