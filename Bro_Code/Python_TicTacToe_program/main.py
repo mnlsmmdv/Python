@@ -18,13 +18,78 @@ import random
 
 # This function will handle the next turn.
 def next_turn(row, column):
-    # Temporary statement.
-    pass
+    # Access to our player.
+    global player
 
+    # Checks if button clicked is empty.
+    if buttons[row][column]["text"] == "" and check_winner() is False:
+        if player == players[0]:
+            buttons[row][column]["text"] = player
+
+            # Checks winner after button fill and swaps player.
+            # Checks if winner is false.
+            if check_winner() is False:
+                player = players[1]
+                label.config(text=(players[1] + " turn"))
+
+            # Checks if any player won.
+            elif check_winner() is True:
+                label.config(text=players[0] + " wins")
+
+            # Checks for a tie.
+            elif check_winner() == "Tie":
+                label.config(text="Tie")
+
+        else:
+            buttons[row][column]["text"] = player
+
+            # Checks winner after button fill and swaps player.
+            # Checks if winner is false.
+            if check_winner() is False:
+                player = players[0]
+                label.config(text=(players[0] + " turn"))
+
+            # Checks if any player won.
+            elif check_winner() is True:
+                label.config(text=players[1] + " wins")
+
+            # Checks for a tie.
+            elif check_winner() == "Tie":
+                label.config(text="Tie")
+            
 # This function will check who's the winner.
 def check_winner():
-    # Temporary statement.
-    pass
+    # Horizontal win conditions.
+    for row in range(3):
+        if buttons[row][0]["text"] == buttons[row][1]["text"] == buttons[row][2]["text"] != "":
+            # Somebody won horizontally.
+            return True
+
+    # Vertical win conditions.
+    for column in range(3):
+        if buttons[0][column]["text"] == buttons[1][column]["text"] == buttons[2][column]["text"] != "":
+            # Somebody won vertically.
+            return True
+
+    # First Diagonal win conditions.
+    if buttons[0][0]["text"] == buttons[1][1]["text"] == buttons[2][2]["text"] != "":
+        # Someone wins diagonally.
+        return True
+
+    # Second Diagonal win condition.
+    elif buttons[0][2]["text"] == buttons[1][1]["text"] == buttons[2][0]["text"] != "":
+        # Somebody wins diagonally.
+        return True
+
+    # Checks for remaining spaces.
+    elif empty_spaces() is False:
+        # Returns there is a tie.
+        return "Tie"
+
+    # No winner and no tie.
+    else:
+        return False
+
 
 # This function will check for any empty spaces.
 def empty_spaces():
