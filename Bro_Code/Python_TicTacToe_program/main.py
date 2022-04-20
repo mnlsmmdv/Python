@@ -49,6 +49,10 @@ player = random.choice(players)
 # List of buttons.
 buttons = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
 
+# Label to display turn.
+label = Label(text=player + " turn", font=("Monospace", 40))
+label.pack(side="top")
+
 # Window initialization end.
 window.mainloop()
 
