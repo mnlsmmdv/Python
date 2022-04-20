@@ -21,4 +21,9 @@ def next_turn():
     # Temporary statement.
     pass
 
+# This function will check who's the winner.
+def check_winner():
+    # Temporary statement.
+    pass
+
 # Program end.
