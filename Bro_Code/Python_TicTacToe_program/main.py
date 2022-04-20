@@ -46,6 +46,9 @@ players = ["x", "o"]
 # Picking a random player to begin.
 player = random.choice(players)
 
+# List of buttons.
+buttons = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
+
 # Window initialization end.
 window.mainloop()
 
