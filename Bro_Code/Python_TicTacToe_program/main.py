@@ -47,7 +47,9 @@ players = ["x", "o"]
 player = random.choice(players)
 
 # 2D List of buttons.
-buttons = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
+buttons = [[0,0,0],
+            [0,0,0],
+            [0,0,0]]
 
 # Label to display turn.
 label = Label(text=player + " turn", font=("Monospace", 40))
@@ -56,6 +58,10 @@ label.pack(side="top")
 # Reset game button.
 reset_button = Button(text="Restart", font=("Monospace", 20), command = new_game)
 reset_button.pack(side="top")
+
+# Frame to display 2D buttons.
+frame = Frame(window)
+frame.pack()
 
 # Window initialization end.
 window.mainloop()
