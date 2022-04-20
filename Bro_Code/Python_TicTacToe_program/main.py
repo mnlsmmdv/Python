@@ -17,7 +17,7 @@ from tkinter import *
 import random
 
 # This function will handle the next turn.
-def next_turn():
+def next_turn(row, column):
     # Temporary statement.
     pass
 
@@ -62,6 +62,13 @@ reset_button.pack(side="top")
 # Frame to display 2D buttons.
 frame = Frame(window)
 frame.pack()
+
+# To display buttons (Row - Column).
+for row in range(3):
+    for column in range(3):
+        # Creates new buttons and adds it to the grid.
+        buttons[row][column] = Button(frame, text="", font=("Monospace",40), width=5, height=2, command = lambda row=row, column=column: next_turn(row,column))
+        buttons[row][column].grid(row=row, column=column) 
 
 # Window initialization end.
 window.mainloop()
