@@ -41,6 +41,9 @@ window = Tk()
 # Window's title.
 window.title("Tic-Tac-Toe")
 
+# List of players.
+players = ["x", "o"]
+
 # Window initialization end.
 window.mainloop()
 
