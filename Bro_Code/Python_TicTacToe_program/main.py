@@ -39,7 +39,7 @@ def new_game():
 # Window initialization.
 window = Tk()
 # Window's title.
-window.title("TicTacToe")
+window.title("Tic-Tac-Toe")
 
 # Window initialization end.
 window.mainloop()
