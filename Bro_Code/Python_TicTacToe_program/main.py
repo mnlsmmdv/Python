@@ -36,4 +36,10 @@ def new_game():
     # Temporary statement.
     pass
 
+# Window initialization.
+window = Tk()
+
+# Window initialization end.
+window.mainloop()
+
 # Program end.
