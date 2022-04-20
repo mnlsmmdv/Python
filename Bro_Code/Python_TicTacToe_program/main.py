@@ -46,7 +46,7 @@ players = ["x", "o"]
 # Picking a random player to begin.
 player = random.choice(players)
 
-# List of buttons.
+# 2D List of buttons.
 buttons = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
 
 # Label to display turn.
