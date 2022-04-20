@@ -16,6 +16,9 @@ them when not in use.
 from tkinter import *
 import random
 
-
+# This function will handle the next turn.
+def next_turn():
+    # Temporary statement.
+    pass
 
 # Program end.
