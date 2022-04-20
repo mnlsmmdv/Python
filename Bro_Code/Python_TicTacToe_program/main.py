@@ -53,6 +53,10 @@ buttons = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
 label = Label(text=player + " turn", font=("Monospace", 40))
 label.pack(side="top")
 
+# Reset game button.
+reset_button = Button(text="Restart", font=("Monospace", 20), command = new_game)
+reset_button.pack(side="top")
+
 # Window initialization end.
 window.mainloop()
 
