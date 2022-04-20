@@ -43,6 +43,8 @@ window.title("Tic-Tac-Toe")
 
 # List of players.
 players = ["x", "o"]
+# Picking a random player to begin.
+player = random.choice(players)
 
 # Window initialization end.
 window.mainloop()
