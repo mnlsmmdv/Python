@@ -26,4 +26,9 @@ def check_winner():
     # Temporary statement.
     pass
 
+# This function will check for any empty spaces.
+def empty_spaces():
+    # Temporary statement.
+    pass
+
 # Program end.
