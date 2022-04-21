@@ -1,0 +1,17 @@
+"""
+Name: Ahmed Affaan                                  
+Title: main.py
+Folder: Python_quiz_game                            
+Date: 21/04/2022                                    
+Country: Republic of Maldives                       
+Code version: 3.8.10                                
+Description: Simple clock GUI in Python.                                        
+Note: Uncomment codes to execute and comment 
+them when not in use.                         
+"""
+
+# Program start.
+
+
+
+# Program end.
