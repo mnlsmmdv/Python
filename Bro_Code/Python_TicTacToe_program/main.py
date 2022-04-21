@@ -93,8 +93,20 @@ def check_winner():
 
 # This function will check for any empty spaces.
 def empty_spaces():
-    # Temporary statement.
-    pass
+    # Local variable for buttons.
+    spaces = 9
+  
+    # Checks the text of each button.
+    for row in range(3):
+        for column in range(3):
+            if buttons[row][column]["text"] != "":
+                spaces -=1
+
+    # No empty spaces left.
+    if spaces == 0:
+        return False
+    else:
+        return True
 
 # This function will launch a new game.
 def new_game():
