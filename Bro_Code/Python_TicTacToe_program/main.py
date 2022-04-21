@@ -30,11 +30,11 @@ def next_turn(row, column):
             # Checks if winner is false.
             if check_winner() is False:
                 player = players[1]
-                label.config(text=(players[1] + " turn"))
+                label.config(text=(players[1] + " Turn"))
 
             # Checks if any player won.
             elif check_winner() is True:
-                label.config(text=players[0] + " wins")
+                label.config(text=players[0] + " Wins")
 
             # Checks for a tie.
             elif check_winner() == "Tie":
@@ -47,11 +47,11 @@ def next_turn(row, column):
             # Checks if winner is false.
             if check_winner() is False:
                 player = players[0]
-                label.config(text=(players[0] + " turn"))
+                label.config(text=(players[0] + " Turn"))
 
             # Checks if any player won.
             elif check_winner() is True:
-                label.config(text=players[1] + " wins")
+                label.config(text=players[1] + " Wins")
 
             # Checks for a tie.
             elif check_winner() == "Tie":
@@ -131,7 +131,7 @@ window = Tk()
 window.title("Tic-Tac-Toe")
 
 # List of players.
-players = ["x", "o"]
+players = ["X", "O"]
 # Picking a random player to begin.
 player = random.choice(players)
 
@@ -141,7 +141,7 @@ buttons = [[0,0,0],
             [0,0,0]]
 
 # Label to display turn.
-label = Label(text=player + " turn", font=("Monospace", 40))
+label = Label(text=player + " Turn", font=("Monospace", 40))
 label.pack(side="top")
 
 # Reset game button.
