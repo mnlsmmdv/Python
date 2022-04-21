@@ -96,6 +96,11 @@ def check_winner():
     # Checks for remaining spaces.
     elif empty_spaces() is False:
         # Returns there is a tie.
+        # Changes tie button.
+        for row in range(3):
+            for column in range(3):
+                buttons[row][column].config(bg="yellow")
+
         return "Tie"
 
     # No winner and no tie.
@@ -122,8 +127,17 @@ def empty_spaces():
 
 # This function will launch a new game.
 def new_game():
-    # Temporary statement.
-    pass
+    # Access to our player.
+    global player
+
+    # Chooses a player randomly.
+    player = random.choice(players)
+    label.config(text= player + " Turn")
+
+    # Resets buttons.
+    for row in range(3):
+        for column in range(3):
+            buttons[row][column].config(text="", bg="#F0F0F0")
 
 # Window initialization.
 window = Tk()
