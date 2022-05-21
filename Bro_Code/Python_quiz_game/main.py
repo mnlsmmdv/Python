@@ -12,26 +12,34 @@ them when not in use.
 
 # Program start.
 
+# --------------------------------------------------------- 
+
 # This function will create new quiz game.
 def new_game():
     # Temporary statement.
     pass
+
+# ---------------------------------------------------------
 
 # This function will check answers.
 def check_answer():
     # Temporary statement.
     pass
 
+# ---------------------------------------------------------
+
 # This function will display the score.
 def display_score():
     # Temporary statement.
     pass
+
+# ---------------------------------------------------------
 
 # This function will let the user play the game again.
 def play_again():
     # Temporary statement.
     pass
 
-
+# ---------------------------------------------------------
 
 # Program end.
