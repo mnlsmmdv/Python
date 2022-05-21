@@ -27,6 +27,11 @@ def display_score():
     # Temporary statement.
     pass
 
+# This function will let the user play the game again.
+def play_again():
+    # Temporary statement.
+    pass
+
 
 
 # Program end.
