@@ -22,6 +22,11 @@ def check_answer():
     # Temporary statement.
     pass
 
+# This function will display the score.
+def display_score():
+    # Temporary statement.
+    pass
+
 
 
 # Program end.
