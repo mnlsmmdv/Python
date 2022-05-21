@@ -17,6 +17,11 @@ def new_game():
     # Temporary statement.
     pass
 
+# This function will check answers.
+def check_answer():
+    # Temporary statement.
+    pass
+
 
 
 # Program end.
