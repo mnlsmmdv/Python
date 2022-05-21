@@ -50,4 +50,10 @@ questions = {
     "Is the Earth round?: " : "A"
 }
 
+# 2D list to hold answer combinations.
+options = [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuckerberg"],
+           ["A. 1989", "1991", "2000", "2016"],
+           ["A. Lonely Island", "B. Smosh", "C. Monty Python", "D. SNL"],
+           ["A. True", "B. False", "C. Sometimes", "D. What's Earth?"]]
+
 # Program end.
