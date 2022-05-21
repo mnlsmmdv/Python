@@ -12,6 +12,11 @@ them when not in use.
 
 # Program start.
 
+# This function will create new quiz game.
+def new_game():
+    # Temporary statement.
+    pass
+
 
 
 # Program end.
