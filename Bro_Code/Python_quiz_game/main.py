@@ -37,16 +37,22 @@ def new_game():
         guesses.append(guess)
 
         # Calling function to check answer.
-        check_answer(questions.get(key),guess)
+        correct_guesses += check_answer(questions.get(key),guess)
         # Increments question number.
         question_number += 1
 
 # ---------------------------------------------------------
 
-# This function will check answers.
-def check_answer():
-    # Temporary statement.
-    pass
+# This function will check answers to guesses.
+def check_answer(answer,guess):
+    if answer == guess:
+        # Increments user point.
+        print("CORRECT!")
+        return 1
+    else:
+        # Decreases user point.
+        print("WRONG")
+        return 0
 
 # ---------------------------------------------------------
 
