@@ -85,8 +85,15 @@ def display_score(correct_guesses, guesses):
 
 # This function will let the user play the game again.
 def play_again():
-    # Temporary statement.
-    pass
+    # Asking user if they want to play again.
+    response = input("Do you want to play again? (yes/no): ")
+    responese = response.upper()
+
+    # Checks user response to continue game.
+    if responese == "YES":
+        return True
+    else:
+        return False
 
 # ---------------------------------------------------------
 
@@ -106,5 +113,13 @@ options = [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuc
 
 # Calling the new game function.
 new_game()
+
+# Iterates the game depending on users response.
+while play_again():
+    # Calling the new game function.
+    new_game()
+
+# Message when user chooses to exit game.
+print("GOODBYE!")
 
 # Program end.
