@@ -40,6 +40,9 @@ def new_game():
         correct_guesses += check_answer(questions.get(key),guess)
         # Increments question number.
         question_number += 1
+    
+    # This will display the final score.
+    display_score(correct_guesses, guesses)
 
 # ---------------------------------------------------------
 
@@ -57,9 +60,26 @@ def check_answer(answer,guess):
 # ---------------------------------------------------------
 
 # This function will display the score.
-def display_score():
-    # Temporary statement.
-    pass
+def display_score(correct_guesses, guesses):
+    print("---------------------------------------------------------")
+    print("RESULTS")
+    print("---------------------------------------------------------")
+    
+    # Will display all the answers.
+    print("Answers: ", end="")
+    for i in questions:
+        print(questions.get(i), end=" ")
+    print()
+
+    # Will display all the guesses.
+    print("Guesses: ", end="")
+    for i in guesses:
+        print(i, end=" ")
+    print()
+    
+    # Calculates the final score and prints it.
+    score = int((correct_guesses / len(questions)) * 100)
+    print("Your score is: " + str(score) + "% ") 
 
 # ---------------------------------------------------------
 
@@ -80,7 +100,7 @@ questions = {
 
 # 2D list to hold answer combinations.
 options = [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuckerberg"],
-           ["A. 1989", "1991", "2000", "2016"],
+           ["A. 1989", "B. 1991", "C. 2000", "D. 2016"],
            ["A. Lonely Island", "B. Smosh", "C. Monty Python", "D. SNL"],
            ["A. True", "B. False", "C. Sometimes", "D. What's Earth?"]]
 
