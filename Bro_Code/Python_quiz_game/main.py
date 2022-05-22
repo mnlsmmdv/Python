@@ -16,8 +16,30 @@ them when not in use.
 
 # This function will create new quiz game.
 def new_game():
-    # Temporary statement.
-    pass
+    # This will store users guesses.
+    guesses = []
+    # Stores correct guesses.
+    correct_guesses = 0
+    # Stores the current question number.
+    question_number = 1
+    
+    # Will display all questions inside "questions" dictionary.
+    for key in questions:
+        print("--------------------------------------------------------- ")
+        print(key)
+        # Will display options for questions.
+        for i in options[question_number - 1]:
+            print(i)
+        # Gets the user input.
+        guess = input("Enter (A, B, C, or D): ")
+        guess = guess.upper()
+        # Adding to our "guesses" list.
+        guesses.append(guess)
+
+        # Calling function to check answer.
+        check_answer(questions.get(key),guess)
+        # Increments question number.
+        question_number += 1
 
 # ---------------------------------------------------------
 
