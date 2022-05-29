@@ -73,6 +73,9 @@ def quit():
 window = Tk()
 # Title for window.
 window.title("Text Editor")
+# Window width and height.
+window_width = 500
+window_height = 500
 # File to work with.
 file = None
 
