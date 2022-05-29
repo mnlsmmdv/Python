@@ -86,6 +86,17 @@ window.geometry("{}x{}+{}+{}".format(window_width, window_height, x, y))
 # File to work with.
 file = None
 
+"""
+font_name : Stores font names
+font_name.set() : Sets the initial font
+font_size : Stores the font sizes
+font_size.set() : Sets the initial font size
+"""
+font_name = StringVar(window)
+font_name.set("Times New Roman")
+font_size = StringVar
+font_size.set("12")
+
 # Looping the window.
 window.mainloop()
 
