@@ -71,6 +71,8 @@ def quit():
 
 # Opening the main window.
 window = Tk()
+# Title for window.
+window.title("Text Editor")
 
 # Looping the window.
 window.mainloop()
