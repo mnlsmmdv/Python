@@ -97,6 +97,9 @@ font_name.set("Times New Roman")
 font_size = StringVar
 font_size.set("12")
 
+# Text area to write content on the text editor.
+text_area = Text(window, font = (font_name.get(), font_size.get()))
+
 # Looping the window.
 window.mainloop()
 
