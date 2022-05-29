@@ -64,4 +64,9 @@ def about():
     # Placeholder.
     pass
 
+# This function will help quit the text editor.
+def quit():
+    # Placeholder.
+    pass
+
 # Program end.
