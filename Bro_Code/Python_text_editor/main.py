@@ -59,4 +59,9 @@ def paste():
     # Placeholder.
     pass
 
+# This function will help store the about section.
+def about():
+    # Placeholder.
+    pass
+
 # Program end.
