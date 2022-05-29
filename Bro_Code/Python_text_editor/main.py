@@ -100,6 +100,9 @@ font_size.set("12")
 # Text area to write content on the text editor.
 text_area = Text(window, font = (font_name.get(), font_size.get()))
 
+# Scrollbar for the text editor.
+scroll_bar = Scrollbar(text_area)
+
 # Looping the window.
 window.mainloop()
 
