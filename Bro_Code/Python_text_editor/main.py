@@ -69,4 +69,10 @@ def quit():
     # Placeholder.
     pass
 
+# Opening the main window.
+window = Tk()
+
+# Looping the window.
+window.mainloop()
+
 # Program end.
