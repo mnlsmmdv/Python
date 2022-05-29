@@ -54,4 +54,9 @@ def copy():
     # Placeholder.
     pass
 
+# This function will help paste contents.
+def paste():
+    # Placeholder.
+    pass
+
 # Program end.
