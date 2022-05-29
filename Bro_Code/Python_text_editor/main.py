@@ -102,6 +102,9 @@ text_area = Text(window, font = (font_name.get(), font_size.get()))
 
 # Scrollbar for the text editor.
 scroll_bar = Scrollbar(text_area)
+window.grid_rowconfigure(0, weight = 1)
+window.grid_columnconfigure(0, weight = 1)
+
 
 # Looping the window.
 window.mainloop()
