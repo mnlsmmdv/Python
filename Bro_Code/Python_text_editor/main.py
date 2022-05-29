@@ -39,6 +39,11 @@ def open_file():
     # Placeholder.
     pass
 
+# This function will help save files.
+def save_file():
+    # Placeholder.
+    pass
+
 
 
 # Program end.
