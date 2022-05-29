@@ -24,6 +24,11 @@ def change_colour():
     # Placeholder.
     pass
 
+# This function will help change the font.
+def change_font():
+    # Placeholder
+    pass
+
 
 
 # Program end.
