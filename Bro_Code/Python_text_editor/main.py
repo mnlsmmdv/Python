@@ -83,7 +83,6 @@ screen_height = window.winfo_screenheight()
 x = int((screen_width / 2) - (window_width / 2))
 y = int((screen_height / 2 ) - (window_height / 2))
 window.geometry("{}x{}+{}+{}".format(window_width, window_height, x, y))
-
 # File to work with.
 file = None
 
