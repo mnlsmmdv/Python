@@ -34,6 +34,11 @@ def new_file():
     # Placeholder.
     pass
 
+# This function will help open files.
+def open_file():
+    # Placeholder.
+    pass
+
 
 
 # Program end.
