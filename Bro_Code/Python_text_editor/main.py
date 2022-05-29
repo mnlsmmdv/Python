@@ -29,6 +29,11 @@ def change_font():
     # Placeholder
     pass
 
+# This function will help create new files.
+def new_file():
+    # Placeholder.
+    pass
+
 
 
 # Program end.
