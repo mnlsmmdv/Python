@@ -49,6 +49,9 @@ def cut():
     # Placeholder.
     pass
 
-
+# This function will help copy contents.
+def copy():
+    # Placeholder.
+    pass
 
 # Program end.
