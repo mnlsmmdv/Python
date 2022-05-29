@@ -25,7 +25,7 @@ def change_colour():
     pass
 
 # This function will help change the font.
-def change_font():
+def change_font(*args):
     # Placeholder
     pass
 
