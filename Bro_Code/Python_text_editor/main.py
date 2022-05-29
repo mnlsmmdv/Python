@@ -44,6 +44,11 @@ def save_file():
     # Placeholder.
     pass
 
+# This function will help cut contents.
+def cut():
+    # Placeholder.
+    pass
+
 
 
 # Program end.
