@@ -33,8 +33,10 @@ def change_font(*args):
 
 # This function will help create new files.
 def new_file():
-    # Placeholder.
-    pass
+    # Setting title of window until new file name given.
+    window.title("Untitled")
+    # Deletes any text on the text area.
+    text_area.delete(1.0, END)
 
 # This function will help open files.
 def open_file():
