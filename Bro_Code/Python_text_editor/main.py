@@ -68,8 +68,8 @@ def about():
 
 # This function will help quit the text editor.
 def quit():
-    # Placeholder.
-    pass
+    # Helps close out of the window.
+    window.destroy()
 
 # Opening the main window.
 window = Tk()
