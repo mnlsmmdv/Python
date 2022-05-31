@@ -120,6 +120,10 @@ colour_button.grid(row=0, column=0)
 font_box = OptionMenu(frame, font_name, *font.families(), command=change_font)
 font_box.grid(row=0, column=1)
 
+# This will let the user change the font size.
+size_box = Spinbox(frame, from_=1, to=100, textvariable=font_size, command=change_font)
+size_box.grid(row=0, column=2)
+
 # Scrollbar visual settings.
 scroll_bar.pack(side=RIGHT, fill=Y)
 text_area.config(yscrollcommand=scroll_bar.set)
