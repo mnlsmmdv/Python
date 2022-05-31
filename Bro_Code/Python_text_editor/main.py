@@ -58,8 +58,8 @@ def copy():
 
 # This function will help paste contents.
 def paste():
-    # Placeholder.
-    pass
+    # Helps paste content on the text editor.
+    text_area.event_generate("<<Paste>>")
 
 # This function will help store the about section.
 def about():
