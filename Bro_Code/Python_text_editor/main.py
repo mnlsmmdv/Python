@@ -28,8 +28,8 @@ def change_colour():
 
 # This function will help change the font.
 def change_font(*args):
-    # Placeholder
-    pass
+    # Gets the font name and font size.
+    text_area.config(font=(font_name.get(), size_box.get()))
 
 # This function will help create new files.
 def new_file():
