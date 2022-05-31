@@ -110,7 +110,7 @@ text_area.grid(sticky=N + E + S + W)
 # Spin box for font colour, size and style.
 frame = Frame(window)
 frame.grid()
-
+# Change colour button settings.
 colour_button = Button(frame, text="colour", command=change_colour)
 colour_button.grid(row=0, column=0)
 
