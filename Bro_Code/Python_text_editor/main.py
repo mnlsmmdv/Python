@@ -40,8 +40,25 @@ def new_file():
 
 # This function will help open files.
 def open_file():
-    # Placeholder.
-    pass
+    # Sets the initial opening file type.
+    file = askopenfilename(defaultextension=".txt", filetypes=[("All Files", "*.*"), ("Text Documents", "*.txt")])
+
+    # Handling erros while opening files.
+    try:
+        # Chooses the file path.
+        window.title(os.path.basename(file))
+        text_area.delete(1.0, END)
+        # Opens the file and reads it.
+        file = open(file, "r")
+        text_area.insert(1.0, file.read())
+
+    except Exception:
+        # Error message.
+        print("Could not read file!")
+
+    # Closes the file.
+    finally:
+        file.close()
 
 # This function will help save files.
 def save_file():
