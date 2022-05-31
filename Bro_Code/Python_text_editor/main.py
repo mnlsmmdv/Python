@@ -150,6 +150,10 @@ edit_menu.add_command(label="Copy", command=copy)
 edit_menu.add_command(label="Paste", command=paste)
 
 # Help menu for text editor.
+help_menu = Menu(menu_bar, tearoff=0)
+menu_bar.add_cascade(label="Help", menu=help_menu)
+# Buttons for About.
+help_menu.add_command(label="About", command=about)
 
 # Looping the window.
 window.mainloop()
