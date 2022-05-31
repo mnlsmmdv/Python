@@ -97,7 +97,7 @@ font_size.set() : Sets the initial font size
 font_name = StringVar(window)
 font_name.set("Times New Roman")
 font_size = StringVar(window)
-font_size.set("12")
+font_size.set("25")
 
 # Text area to write content on the text editor.
 text_area = Text(window, font = (font_name.get(), font_size.get()))
