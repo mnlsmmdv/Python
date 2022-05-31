@@ -63,8 +63,8 @@ def paste():
 
 # This function will help store the about section.
 def about():
-    # Placeholder.
-    pass
+    # Message box to show information.
+    showinfo("About this program", "This is a program written by Ahmed Affaan. Credits to Bro Code")
 
 # This function will help quit the text editor.
 def quit():
