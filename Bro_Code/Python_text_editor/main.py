@@ -127,6 +127,24 @@ font_box.grid(row=0, column=1)
 size_box = Spinbox(frame, from_=1, to=100, textvariable=font_size, command=change_font)
 size_box.grid(row=0, column=2)
 
+# Menu bar for text editor.
+menu_bar = Menu(window)
+window.config(menu=menu_bar)
+
+# File menu for text editor with drop downs.
+file_menu = Menu(menu_bar, tearoff=0)
+menu_bar.add_cascade(label="File", menu=file_menu)
+file_menu.add_command(label="New File", command=new_file)
+file_menu.add_command(label="Open File", command=open_file)
+file_menu.add_command(label="Save File", command=save_file)
+# Separator.
+file_menu.add_separator()
+file_menu.add_command(label="Exit", command=quit)
+
+# Edit menu for text editor.
+
+# Help menu for text editor.
+
 # Looping the window.
 window.mainloop()
 
