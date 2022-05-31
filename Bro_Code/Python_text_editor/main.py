@@ -5,7 +5,7 @@ Folder: Python_text_editor
 Date: 23/03/2022                                    
 Country: Republic of Maldives                       
 Code version: 3.8.10                                
-Description:                                        
+Description: Simple text editor written in Python.                                       
 Note: Uncomment codes to execute and comment 
 them when not in use.                         
 """
