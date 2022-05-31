@@ -107,6 +107,13 @@ window.grid_columnconfigure(0, weight = 1)
 # This will spread the text area to the whole window.
 text_area.grid(sticky = N + E + S + W)
 
+# Spin box for font colour, size and style.
+frame = Frame(window)
+frame.grid()
+
+colour_button = Button(frame, text="colour", command=change_colour)
+colour_button.grid(row=0, column=0)
+
 # Scrollbar visual settings.
 scroll_bar.pack(side = RIGHT, fill = Y)
 text_area.config(yscrollcommand = scroll_bar.set)
