@@ -116,6 +116,10 @@ frame.grid()
 colour_button = Button(frame, text="colour", command=change_colour)
 colour_button.grid(row=0, column=0)
 
+# This will display different fonts available.
+font_box = OptionMenu(frame, font_name, *font.families(), command=change_font)
+font_box.grid(row=0, column=1)
+
 # Scrollbar visual settings.
 scroll_bar.pack(side=RIGHT, fill=Y)
 text_area.config(yscrollcommand=scroll_bar.set)
