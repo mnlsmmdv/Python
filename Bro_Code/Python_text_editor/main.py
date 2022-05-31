@@ -108,6 +108,9 @@ window.grid_rowconfigure(0, weight=1)
 window.grid_columnconfigure(0, weight=1)
 # This will spread the text area to the whole window.
 text_area.grid(sticky=N + E + S + W)
+# Scrollbar visual settings.
+scroll_bar.pack(side=RIGHT, fill=Y)
+text_area.config(yscrollcommand=scroll_bar.set)
 
 # Spin box for font colour, size and style.
 frame = Frame(window)
@@ -123,10 +126,6 @@ font_box.grid(row=0, column=1)
 # This will let the user change the font size.
 size_box = Spinbox(frame, from_=1, to=100, textvariable=font_size, command=change_font)
 size_box.grid(row=0, column=2)
-
-# Scrollbar visual settings.
-scroll_bar.pack(side=RIGHT, fill=Y)
-text_area.config(yscrollcommand=scroll_bar.set)
 
 # Looping the window.
 window.mainloop()
