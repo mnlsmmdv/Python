@@ -53,8 +53,8 @@ def cut():
 
 # This function will help copy contents.
 def copy():
-    # Placeholder.
-    pass
+    # Helps copy content on the text editor.
+    text_area.event_generate("<<Copy>>")
 
 # This function will help paste contents.
 def paste():
