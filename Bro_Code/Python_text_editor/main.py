@@ -21,8 +21,10 @@ from tkinter.filedialog import *
 
 # This function will change the colours of the font.
 def change_colour():
-    # Placeholder.
-    pass
+    # Helps choose a colour.
+    colour = colorchooser.askcolor(title="Pick a colour")
+    # Chooses only one colour.
+    text_area.config(fg=colour[1])
 
 # This function will help change the font.
 def change_font(*args):
