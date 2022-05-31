@@ -142,6 +142,12 @@ file_menu.add_separator()
 file_menu.add_command(label="Exit", command=quit)
 
 # Edit menu for text editor.
+edit_menu = Menu(menu_bar, tearoff=0)
+menu_bar.add_cascade(label="Edit", menu=edit_menu)
+# Buttons for Cut, Copy and Paste.
+edit_menu.add_command(label="Cut", command=cut)
+edit_menu.add_command(label="Copy", command=copy)
+edit_menu.add_command(label="Paste", command=paste)
 
 # Help menu for text editor.
 
