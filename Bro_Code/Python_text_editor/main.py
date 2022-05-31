@@ -94,7 +94,7 @@ font_size.set() : Sets the initial font size
 """
 font_name = StringVar(window)
 font_name.set("Times New Roman")
-font_size = StringVar
+font_size = StringVar(window)
 font_size.set("12")
 
 # Text area to write content on the text editor.
@@ -104,7 +104,8 @@ text_area = Text(window, font = (font_name.get(), font_size.get()))
 scroll_bar = Scrollbar(text_area)
 window.grid_rowconfigure(0, weight = 1)
 window.grid_columnconfigure(0, weight = 1)
-
+# This will spread the text area to the whole window.
+text_area.grid(sticky = N + E + S + W)
 
 # Looping the window.
 window.mainloop()
