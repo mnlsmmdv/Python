@@ -3,7 +3,8 @@ Name: Ahmed Affaan
 Title: code_to_pseudo.py                            
 Date: 23/03/2022                                    
 Country: Republic of Maldives                       
-Code version: 3.8.10                                
+Code version: 3.8.10       
+Credit: https://gist.github.com/BlueNexus                         
 Description:                                        
 Note: Uncomment codes to execute and comment 
 them when not in use.                         
