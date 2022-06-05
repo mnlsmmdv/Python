@@ -65,6 +65,10 @@ window.resizable(False, False)
 score = 0
 direction = 'down'
 
+# Score label for the GUI window.
+label = Label(window, text="Score:{}".format(score), font=('consolas', 40))
+label.pack()
+
 # Looping the window.
 window.mainloop()
 
