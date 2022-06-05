@@ -62,8 +62,41 @@ class Food:
 
 # This function will decide the next turn.
 def next_turn(snake, food):
-    # Placeholder.
-    pass
+    # Unpacking the head of the Snake.
+    x, y = snake.coordinates[0]
+    
+    # This will check the initial direction.
+    if direction == "up":
+        # Moves one space up.
+        y -= SPACE_SIZE
+    elif direction == "down":
+        # Moves one space down.
+        y += SPACE_SIZE
+    elif direction == "left":
+        # Moves one space to the left.
+        x -= SPACE_SIZE
+    elif direction == "right":
+        # Moves one space to the right.
+        x += SPACE_SIZE
+
+    # Updates coordinates for the head of the Snake.
+    snake.coordinates.insert(0, (x, y))
+
+    # Creates new graphic for the head of the Snake.
+    square = canvas.create_rectangle(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=SNAKE_COLOR)
+
+    # Updates Snake's list of squares.
+    snake.squares.insert(0, square)
+
+    # Deletes the last body part of the Snake while moving.
+    del snake.coordinates[-1]
+
+    # Updates the canvas.
+    canvas.delete(snake.squares[-1])
+    del snake.squares[-1]
+
+    # Calling the next turn function.
+    window.after(SPEED, next_turn, snake, food)
 
 # This function will decide which direction to go.
 def change_direction(new_direction):
@@ -110,6 +143,9 @@ window.geometry(f"{window_width}x{window_height}+{x}+{y}")
 # Creating objects for Snake and Food and assigning them to classes.
 snake = Snake()
 food = Food()
+
+# Calling function.
+next_turn(snake, food)
 
 # Looping the window.
 window.mainloop()
