@@ -140,6 +140,12 @@ x = int((screen_width / 2) - (window_width / 2))
 y = int((screen_height / 2) - (window_height / 2))
 window.geometry(f"{window_width}x{window_height}+{x}+{y}")
 
+# Binding keys for the Snake to move.
+window.bind('<Left>', lambda event: change_direction('left')) # Left arrow key.
+window.bind('<Right>', lambda event: change_direction('right')) # Right arrow key.
+window.bind('<Up>', lambda event: change_direction('up')) # Up arrow key.
+window.bind('<Down>', lambda event: change_direction('down')) # Down arrow key.
+
 # Creating objects for Snake and Food and assigning them to classes.
 snake = Snake()
 food = Food()
