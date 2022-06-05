@@ -100,8 +100,30 @@ def next_turn(snake, food):
 
 # This function will decide which direction to go.
 def change_direction(new_direction):
-    # Placeholder.
-    pass
+    # Accesses the direction.
+    global direction
+
+    # Changes the directions.
+    # Left direction.
+    if new_direction == 'left':
+        if direction != 'right':
+            # Sets direction to left.
+            direction = new_direction
+    # Right direction.
+    elif new_direction == 'right':
+        if direction != 'left':
+            # Sets direction to right.
+            direction = new_direction
+    # Up direction.
+    elif new_direction == 'up':
+        if direction != 'down':
+            # Sets direction to up.
+            direction = new_direction
+    # Down direction.
+    elif new_direction == 'down':
+        if direction != 'up':
+            # Sets direction to down.
+            direction = new_direction
 
 # This function will check for collisions.
 def check_collisions():
