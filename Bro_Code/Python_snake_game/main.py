@@ -56,4 +56,12 @@ def game_over():
     # Placeholder.
     pass
 
+# GUI window settings.
+window = Tk()
+window.title("Snake Game")
+window.resizable(False, False)
+
+# Looping the window.
+window.mainloop()
+
 # Program end.
