@@ -36,6 +36,9 @@ def change_direction():
     # Placeholder.
     pass
 
-
+# This function will check for collisions.
+def check_collisions():
+    # Placeholder.
+    pass
 
 # Program end.
