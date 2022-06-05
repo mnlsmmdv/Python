@@ -83,6 +83,9 @@ x = int((screen_width / 2) - (window_width / 2))
 y = int((screen_height / 2) - (window_height / 2))
 window.geometry(f"{window_width}x{window_height}+{x}+{y}")
 
+# Creating objects for Snake and Food and assigning them to classes.
+snake = Snake()
+food = Food()
 
 # Looping the window.
 window.mainloop()
