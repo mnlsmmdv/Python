@@ -16,6 +16,9 @@ them when not in use.
 from tkinter import *
 import random
 
-
+# Class for the Snake object.
+class Snake:
+    # Placeholder.
+    pass
 
 # Program end.
