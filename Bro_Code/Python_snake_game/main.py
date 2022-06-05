@@ -32,7 +32,7 @@ def next_turn():
     pass
 
 # This function will decide which direction to go.
-def change_direction():
+def change_direction(new_direction):
     # Placeholder.
     pass
 
