@@ -33,7 +33,7 @@ class Snake:
 
 # Class for the Food object.
 class Food:
-    # Constructs our Food object.
+    # Constructor for our Food object.
     def __init__(self):
         # Places Food object randomly on canvas.
         x = random.randint(0, (GAME_WIDTH / SPACE_SIZE) - 1) * SPACE_SIZE
