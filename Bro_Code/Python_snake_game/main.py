@@ -31,4 +31,11 @@ def next_turn():
     # Placeholder.
     pass
 
+# This function will decide which direction to go.
+def change_direction():
+    # Placeholder.
+    pass
+
+
+
 # Program end.
