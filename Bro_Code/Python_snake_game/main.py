@@ -21,4 +21,11 @@ class Snake:
     # Placeholder.
     pass
 
+# Class for the Food object.
+class Food:
+    # Placeholder.
+    pass
+
+
+
 # Program end.
