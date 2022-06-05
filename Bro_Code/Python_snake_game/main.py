@@ -41,4 +41,9 @@ def check_collisions():
     # Placeholder.
     pass
 
+# This function will check if the user has lost the game.
+def game_over():
+    # Placeholder.
+    pass
+
 # Program end.
