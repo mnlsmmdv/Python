@@ -26,6 +26,9 @@ class Food:
     # Placeholder.
     pass
 
-
+# This function will decide the next turn.
+def next_turn():
+    # Placeholder.
+    pass
 
 # Program end.
