@@ -12,6 +12,10 @@ them when not in use.
 
 # Program start.
 
+# Importing libraries.
+from tkinter import *
+import random
+
 
 
 # Program end.
