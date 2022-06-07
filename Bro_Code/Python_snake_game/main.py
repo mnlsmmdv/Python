@@ -19,7 +19,7 @@ import random
 # Variable declarations.
 GAME_WIDTH = 1000
 GAME_HEIGHT = 700
-SPEED = 50
+SPEED = 100
 SPACE_SIZE = 50
 BODY_PARTS = 10
 SNAKE_COLOR = "#00FF00"
