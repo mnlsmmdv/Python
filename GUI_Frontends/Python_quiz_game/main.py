@@ -31,4 +31,12 @@ def clear_screen():
     # Placeholder.
     pass
 
+# GUI window settings.
+window = Tk()
+window.title("ކުއިޒް ގޭމް")
+window.resizable(False, False)
+
+# Looping the window.
+window.mainloop()
+
 # Program end.
