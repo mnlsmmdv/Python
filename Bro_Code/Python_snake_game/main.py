@@ -108,9 +108,15 @@ def next_turn(snake, food):
         # Updates the canvas.
         canvas.delete(snake.squares[-1])
         del snake.squares[-1]
-    
-    # Calling the next turn function.
-    window.after(SPEED, next_turn, snake, food)
+
+    # Checks if any collisions have occured.
+    if check_collisions(snake):
+        # Function called and user loses the game.
+        game_over()
+    # If there is no collisions updates the next turn.
+    else:
+        # Calling the next turn function.
+        window.after(SPEED, next_turn, snake, food)
 
 # This function will decide which direction to go.
 def change_direction(new_direction):
