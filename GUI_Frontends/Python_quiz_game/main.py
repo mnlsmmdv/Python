@@ -21,6 +21,9 @@ def press_button(letter):
     # Placeholder.
     pass
 
-
+# This function will validate button presses.
+def validate_option():
+    # Placeholder.
+    pass
 
 # Program end.
