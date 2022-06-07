@@ -37,6 +37,16 @@ window.title("ކުއިޒް ގޭމް")
 window.geometry("640x480")
 window.resizable(False, False)
 
+# Settings to center the GUI window on initial run.
+window.update() # Refreshes the window.
+window_width = window.winfo_width() # Gets the GUI window width.
+window_height = window.winfo_height() # Gets the GUI window height.
+screen_width = window.winfo_screenwidth() # Gets the screen width.
+screen_height = window.winfo_screenwidth() # Gets the screen height.
+x = int((screen_width / 2) - (window_width / 2)) # Calculates the x-axis.
+y = int((screen_height / 2) - (window_height / 2)) # Calculates the y-axis.
+window.geometry(f"{window_width}x{window_height}+{x}+{y}") # Sets the window height to the screen center.
+
 # Looping the window.
 window.mainloop()
 
