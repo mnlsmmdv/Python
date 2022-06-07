@@ -88,15 +88,29 @@ def next_turn(snake, food):
     # Updates Snake's list of squares.
     snake.squares.insert(0, square)
 
-    # Deletes the last body part of the Snake while moving.
-    del snake.coordinates[-1]
+    # This will update the Snake's score after the food has been eaten.
+    if x == food.coordinates[0] and y == food.coordinates[1]:
+        # Accesses the score and increments by 1.
+        global score
+        score += 1
 
-    # Updates the canvas.
-    canvas.delete(snake.squares[-1])
-    del snake.squares[-1]
+        # Changes the label with the current score.
+        label.config(text="Score:{}".format(score))
 
-    # Calling the next turn function.
-    window.after(SPEED, next_turn, snake, food)
+        # Deletes the food object and creates a new one.
+        canvas.delete("food")
+        food = Food()
+    # Deletes the body part if the food is not eaten.
+    else:
+        # Deletes the last body part of the Snake while moving.
+        del snake.coordinates[-1]
+
+        # Updates the canvas.
+        canvas.delete(snake.squares[-1])
+        del snake.squares[-1]
+
+        # Calling the next turn function.
+        window.after(SPEED, next_turn, snake, food)
 
 # This function will decide which direction to go.
 def change_direction(new_direction):
