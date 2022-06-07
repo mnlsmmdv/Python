@@ -146,7 +146,7 @@ def change_direction(new_direction):
             direction = new_direction
 
 # This function will check for collisions.
-def check_collisions():
+def check_collisions(snake):
     # Placeholder.
     pass
 
