@@ -208,7 +208,7 @@ window.bind('<Down>', lambda event: change_direction('down')) # Down arrow key.
 snake = Snake()
 food = Food()
 
-# Calling function.
+# Calling function with parameters.
 next_turn(snake, food)
 
 # Looping the window.
