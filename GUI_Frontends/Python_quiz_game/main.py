@@ -45,7 +45,7 @@ screen_width = window.winfo_screenwidth() # Gets the screen width.
 screen_height = window.winfo_screenheight() # Gets the screen height.
 x = int((screen_width / 2) - (window_width / 2)) # Calculates the x-axis.
 y = int((screen_height / 2) - (window_height / 2)) # Calculates the y-axis.
-window.geometry(f"{window_width}x{window_height}+{x}+{y}") # Sets the window height to the screen center.
+window.geometry(f"{window_width}x{window_height}+{x}+{y}") # Sets the window size to the screen center.
 
 # Looping the window.
 window.mainloop()
