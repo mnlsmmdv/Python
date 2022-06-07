@@ -7,7 +7,7 @@ Country: Republic of Maldives
 Code version: 3.8.10
 Description: GUI frontend for a quiz game.
 Credits to: Bro Code
-Credits link: https://www.youtube.com/watch?v=yriw5Zh406s
+Credits to link: https://www.youtube.com/watch?v=yriw5Zh406s
 Note: Uncomment codes to execute and comment them when not in use.
 """
 
