@@ -147,8 +147,16 @@ def change_direction(new_direction):
 
 # This function will check for collisions.
 def check_collisions(snake):
-    # Placeholder.
-    pass
+    # Unpacking the head of the Snake.
+    x, y = snake.coordinates[0]
+
+    # Checks if the left or right border of canvas was crossed.
+    if x < 0 or x >= GAME_WIDTH:
+        # Game over if left and right border is crossed.
+        return True
+    if y < 0 or y >= GAME_HEIGHT:
+        # Game over if top or bottom border is crossed.
+        return True
 
 # This function will check if the user has lost the game.
 def game_over():
