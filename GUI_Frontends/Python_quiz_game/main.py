@@ -26,4 +26,9 @@ def validate_option():
     # Placeholder.
     pass
 
+# This function will help clear the screen.
+def clear_screen():
+    # Placeholder.
+    pass
+
 # Program end.
