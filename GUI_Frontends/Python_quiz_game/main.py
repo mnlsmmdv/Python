@@ -13,6 +13,7 @@ Note: Uncomment codes to execute and comment them when not in use.
 
 # Program start.
 
-
+# Importing libraries.
+from tkinter import *
 
 # Program end.
