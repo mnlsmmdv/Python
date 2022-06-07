@@ -16,4 +16,11 @@ Note: Uncomment codes to execute and comment them when not in use.
 # Importing libraries.
 from tkinter import *
 
+# This function will help press buttons.
+def press_button(letter):
+    # Placeholder.
+    pass
+
+
+
 # Program end.
