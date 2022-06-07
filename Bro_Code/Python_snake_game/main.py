@@ -120,7 +120,7 @@ def next_turn(snake, food):
 
 # This function will decide which direction to go.
 def change_direction(new_direction):
-    # Accesses the direction.
+    # Accesses the initial direction.
     global direction
 
     # Changes the directions.
