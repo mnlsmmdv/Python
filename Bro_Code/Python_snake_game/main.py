@@ -168,8 +168,10 @@ def check_collisions(snake):
 
 # This function will check if the user has lost the game.
 def game_over():
-    # Placeholder.
-    pass
+    # Clears objects from the canvas.
+    canvas.delete(ALL)
+    # Text to display that the game is over.
+    canvas.create_text(canvas.winfo_width() / 2, canvas.winfo_height() / 2, font=('consolas', 70), text="GAME OVER!", fill="red", tag="gameover")
 
 # GUI window settings.
 window = Tk()
