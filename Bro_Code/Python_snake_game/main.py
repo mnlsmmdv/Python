@@ -158,6 +158,14 @@ def check_collisions(snake):
         # Game over if top or bottom border is crossed.
         return True
 
+    # Checks if the Snake has touched it's tail or another body part.
+    for body_part in snake.coordinates[1:]:
+        # Game over if Snake has collided with a body part.
+        if x == body_part[0] and y == body_part[1]:
+            return True
+    # Returns false if this action has not happend.
+    return False
+
 # This function will check if the user has lost the game.
 def game_over():
     # Placeholder.
