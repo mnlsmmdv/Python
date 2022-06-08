@@ -31,6 +31,13 @@ def clear_screen():
     # Placeholder.
     pass
 
+# Splash GUI window settings.
+splash_screen = Tk()
+splash_screen.title("ކުއިޒް ގޭމް") # GUI window title.
+splash_screen.geometry("600x600") # GUI window dimensions.
+splash_screen.resizable(False, False) # Keeping constant dimension size.
+splash_screen.configure(bg="#2d3436") # Background colour.
+
 # Main GUI window settings.
 window = Tk()
 window.title("ކުއިޒް ގޭމް") # GUI window title.
