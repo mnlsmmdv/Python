@@ -36,6 +36,7 @@ splash_screen = Tk()
 splash_screen.title("ކުއިޒް ގޭމް") # GUI window title.
 splash_screen.geometry("300x200") # GUI window dimensions.
 splash_screen.resizable(False, False) # Keeping constant dimension size.
+splash_screen.overrideredirect(True) # Hides the GUI window title bar.
 splash_screen.configure(bg="#2d3436") # Background colour.
 
 # Settings to center the splash GUI window on initial run.
