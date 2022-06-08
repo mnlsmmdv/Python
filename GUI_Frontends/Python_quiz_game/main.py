@@ -31,7 +31,7 @@ def clear_screen():
     # Placeholder.
     pass
 
-# GUI window settings.
+# Main GUI window settings.
 window = Tk()
 window.title("ކުއިޒް ގޭމް") # GUI window title.
 window.geometry("600x600") # GUI window dimensions.
