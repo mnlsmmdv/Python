@@ -39,6 +39,10 @@ splash_screen.resizable(False, False) # Keeping constant dimension size.
 splash_screen.overrideredirect(True) # Hides the GUI window title bar.
 splash_screen.configure(bg="#2d3436") # Background colour.
 
+# Splash screen label.
+splash_screen_label = Label(splash_screen, text="Splash Screen", font=("ކުއިޒް ގޭމް", 20), bg="#b2bec3")
+splash_screen_label.pack() # Displaying label on window.
+
 # Settings to center the splash GUI window on initial run.
 splash_screen.update() # Refreshes the window.
 splash_width = splash_screen.winfo_width() # Gets the GUI window width.
