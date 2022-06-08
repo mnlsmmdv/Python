@@ -69,6 +69,6 @@ y = int((screen_height / 2) - (window_height / 2)) # Calculates the y-axis.
 window.geometry(f"{window_width}x{window_height}+{x}+{y}") # Sets the window size to the screen center.
 
 # Looping the window.
-window.mainloop()
+mainloop()
 
 # Program end.
