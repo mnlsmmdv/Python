@@ -47,6 +47,10 @@ quiz_label = StringVar()
 label = Label(window, textvariable=quiz_label, font=("faruma",20), bg="#b2bec3", fg="#2d3436", width=24, height=2)
 label.pack() # Adding the label to the window.
 
+# Window frame to house buttons.
+frame = Frame(window) # Adding frame to the window.
+frame.pack() # Displaying frame in the window.
+
 # Settings to center the GUI window on initial run.
 window.update() # Refreshes the window.
 window_width = window.winfo_width() # Gets the GUI window width.
