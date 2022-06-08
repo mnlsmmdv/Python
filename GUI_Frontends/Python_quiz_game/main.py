@@ -34,7 +34,7 @@ def clear_screen():
 # GUI window settings.
 window = Tk()
 window.title("ކުއިޒް ގޭމް") # GUI window title.
-window.geometry("640x480") # GUI window dimensions.
+window.geometry("600x600") # GUI window dimensions.
 window.resizable(False, False) # Keeping constant dimension size.
 window.configure(bg="#2d3436") # Background colour.
 
