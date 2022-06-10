@@ -33,14 +33,14 @@ def clear_screen():
 
 # Splash GUI window settings.
 splash_screen = Tk()
-splash_screen.title("ކުއިޒް ގޭމް") # GUI window title.
+splash_screen.title("Quiz Game") # GUI window title.
 splash_screen.geometry("300x200") # GUI window dimensions.
 splash_screen.resizable(False, False) # Keeping constant dimension size.
-splash_screen.overrideredirect(True) # Hides the GUI window title bar.
+#splash_screen.overrideredirect(True) # Hides the GUI window title bar.
 splash_screen.configure(bg="#2d3436") # Background colour.
 
 # Splash screen label.
-splash_screen_label = Label(splash_screen, text="Splash Screen", font=("ކުއިޒް ގޭމް", 20), bg="#b2bec3")
+splash_screen_label = Label(splash_screen, text="ކުއިޒް ގޭމް", font=("consolas", 20), bg="#b2bec3")
 splash_screen_label.pack() # Displaying label on window.
 
 # Settings to center the splash GUI window on initial run.
@@ -57,7 +57,7 @@ splash_screen.geometry(f"{splash_width}x{splash_height}+{x}+{y}") # Sets the win
 def main_window():
     # Main GUI window settings.
     window = Tk()
-    window.title("ކުއިޒް ގޭމް") # GUI window title.
+    window.title("Quiz Game") # GUI window title.
     window.geometry("600x600") # GUI window dimensions.
     window.resizable(False, False) # Keeping constant dimension size.
     window.configure(bg="#2d3436") # Background colour.
