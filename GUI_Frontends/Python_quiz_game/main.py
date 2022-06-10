@@ -40,7 +40,7 @@ splash_screen.resizable(False, False) # Keeping constant dimension size.
 splash_screen.configure(bg="#2d3436") # Background colour.
 
 # Splash screen label.
-splash_screen_label = Label(splash_screen, text="ކުއިޒް ގޭމް", font=("consolas", 20), bg="#b2bec3")
+splash_screen_label = Label(splash_screen, text="Splash Screen", font=("consolas", 20), bg="#b2bec3")
 splash_screen_label.pack() # Displaying label on window.
 
 # Settings to center the splash GUI window on initial run.
