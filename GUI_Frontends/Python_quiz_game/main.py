@@ -33,7 +33,7 @@ def clear_screen():
 
 # Splash GUI window settings.
 splash_screen = Tk()
-splash_screen.title("Quiz Game") # GUI window title.
+splash_screen.title("Quiz Game") # GUI window title.Learn Linux Tv
 splash_screen.geometry("300x200") # GUI window dimensions.
 splash_screen.resizable(False, False) # Keeping constant dimension size.
 #splash_screen.overrideredirect(True) # Hides the GUI window title bar.
